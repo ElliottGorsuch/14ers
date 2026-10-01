@@ -147,14 +147,33 @@ def export_public_manifest(root=ROOT):
     temporary = destination.with_suffix('.json.tmp')
     temporary.write_text(json.dumps(records, indent=2, allow_nan=False)+'\n')
     temporary.replace(destination)
-    return {'routes':len(records), 'plot_ready':sum(r['plot_ready'] for r in records),
+    baseline = read_csv(root/'outputs/research_route_manifest.csv') if (root/'outputs/research_route_manifest.csv').exists() else []
+    historical = {r['route_id']:r for r in baseline}
+    legacy_fields = list(baseline[0]) if baseline else []
+    fields = list(dict.fromkeys(legacy_fields + ['manifest_version','selection_number','required_summit','summit_order'] + list(records[0])))
+    csv_destination = root/'outputs/route_manifest.csv'
+    csv_temporary = csv_destination.with_suffix('.csv.tmp')
+    with csv_temporary.open('w', newline='') as handle:
+        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer.writeheader()
+        for record in records:
+            row = {**historical.get(record['route_id'], {}), **record}
+            row.update(manifest_version=catalog['catalog_version'],
+                       selection_number=int(record['route_id'].split('-')[1]),
+                       required_summit=record['primary_peak'], summit_order='|'.join(record['summits']))
+            row['summits'] = json.dumps(record['summits'])
+            for field, value in list(row.items()):
+                if isinstance(value, bool): row[field] = str(value).lower()
+            writer.writerow(row)
+    csv_temporary.replace(csv_destination)
+    return {'routes' :len(records), 'plot_ready':sum(r['plot_ready'] for r in records),
             'pending_ids':[r['route_id'] for r in records if not r['plot_ready']],
             'retired_ids':catalog['retired_ids']}
 
 
 def main():
     load_analysis_runtime()
-    source_paths = [ROOT/p for p in ('outputs/route_manifest.csv', 'outputs/project_config.json',
+    source_paths = [ROOT/p for p in ('outputs/research_route_manifest.csv', 'outputs/project_config.json',
                     'outputs/site_route_additions.json', 'private_data/routes_features.csv',
                     'private_data/phase5/evaluation.json')]
     source_hashes = {str(p.relative_to(ROOT)):sha(p) for p in source_paths}
