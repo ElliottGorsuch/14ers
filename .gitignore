@@ -1,0 +1,22 @@
+# Private source files and recording/session material
+private_data/
+data/raw/
+data/cache/
+work/
+cookies*
+*.cookies
+.env
+.env.*
+!.env.example
+
+# Local Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+node_modules/
+.DS_Store
+
+# Generated handoff copies; canonical sources remain tracked
+outputs/colorado_14er_kickoff/
+outputs/colorado_14er_kickoff.zip
