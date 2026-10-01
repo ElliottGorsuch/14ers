@@ -12,14 +12,14 @@ def sync():
     path=OUT/'01_ingestion_colab.ipynb'
     nb=json.loads(path.read_text())
     source=(OUT/'block1_scraper.py').read_text().split("\nif __name__ == '__main__':")[0]
-    manifest=(OUT/'route_manifest.csv').read_text()
+    manifest=(OUT/'research_route_manifest.csv').read_text()
     def get(cell): return ''.join(cell['source']) if isinstance(cell['source'],list) else cell['source']
     for cell in nb['cells']:
         text=get(cell)
         if cell['cell_type']=='code' and text.startswith('"""Colorado 14er ingestion'):
             text=source
         elif cell['cell_type']=='code' and text.startswith('MANIFEST_CSV ='):
-            tail=text[text.index('MANIFEST_PATH ='):]
+            tail=text[text.index('MANIFEST_PATH ='):].replace("'route_manifest.csv'", "'research_route_manifest.csv'")
             text='MANIFEST_CSV = '+repr(manifest)+'\n'+tail
         elif cell['cell_type']=='code' and text.startswith('CONTACT ='):
             text='''CONTACT = 'replace-with-your-research-contact-or-project-url'
@@ -130,7 +130,7 @@ display(pd.read_csv(Path(DATA_ROOT) / 'routes_features.csv', keep_default_na=Fal
     archive=OUT/'colorado_14er_kickoff.zip'
     temp=archive.with_suffix('.zip.tmp')
     with zipfile.ZipFile(temp,'w',zipfile.ZIP_DEFLATED) as z:
-        for name in ['01_ingestion_colab.ipynb','block1_scraper.py','route_manifest.csv',
+        for name in ['01_ingestion_colab.ipynb','block1_scraper.py','route_manifest.csv','research_route_manifest.csv',
                      'project_roadmap.md','project_config.json']:
             z.write(OUT/name,name)
         for name in ['scripts/validate_project.py','scripts/sync_deliverables.py','scripts/audit_phase2.py',
