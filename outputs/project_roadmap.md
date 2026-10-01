@@ -44,7 +44,7 @@ Phase 2 collection and snapshot integrity are complete. **Full Phase 2 itinerary
 ### Reproduce and validate
 
 ```bash
-python outputs/block1_scraper.py --manifest outputs/route_manifest.csv \
+python outputs/block1_scraper.py --manifest outputs/research_route_manifest.csv \
   --out private_data/raw --contact local-private-project --offline \
   --download-agreement-accepted --browser-download-dir private_data/browser_downloads
 python scripts/audit_phase2.py --data-root private_data/raw
@@ -195,9 +195,9 @@ python3 tests/test_block5.py
 
 **Active site catalog / public Route manifest updated October 1, 2026:** the feature table contains 109 IDs (97 retained baseline routes plus 12 requested additions), with 103 plot/rank-ready entries and six pending: `co14-103`, `co14-104`, `co14-106`, `co14-107`, `co14-109`, `co14-111`. Pending includes unresolved Democrat West Ridge identity; a requested row is not proof of a verified itinerary. Expanded PCA/UMAP/t-SNE and clusters were recomputed together; provisional scores use the saved linear model. Complete-itinerary acceptance and human validation remain pending.
 
-`outputs/site_route_manifest.json` is the public Base44 `Route` entity import, generated from the existing feature CSV and site catalog via `python3 scripts/update_site_catalog.py --manifest-only`. Its 109 IDs match the feature table exactly. Upsert by `route_id`; archive retired `co14-008`, `co14-054`, `co14-069`, preserving historical references. Cameron/Lincoln remain only in Decalibron `co14-066`. Link combo itineraries to every summit while retaining one entity per itinerary. Pending cards can be displayed; gate plots/ranks on their readiness flags. Derived feature/model files remain private. The historical 100-route manifest and comparison store remain frozen; migrate the live voting contract separately before enabling expanded-roster votes. The public import does not reset community ratings or votes.
+`outputs/route_manifest.csv` (version 2.0.0) is the canonical public Base44 `Route` entity import; `outputs/site_route_manifest.json` carries equivalent records. The previous 100-row CSV is preserved unchanged as `outputs/research_route_manifest.csv`. The frozen project config retains its historical filename/hash and governs only that baseline. The active public roster is generated from the existing feature CSV and site catalog via `python3 scripts/update_site_catalog.py --manifest-only`. Its 109 IDs match the feature table exactly. Upsert by `route_id`; archive retired `co14-008`, `co14-054`, `co14-069`, preserving historical references. Cameron/Lincoln remain only in Decalibron `co14-066`. Link combo itineraries to every summit while retaining one entity per itinerary. Pending cards can be displayed; gate plots/ranks on their readiness flags. Derived feature/model files remain private. The historical 100-route manifest and comparison store remain frozen; migrate the live voting contract separately before enabling expanded-roster votes. The public import does not reset community ratings or votes.
 
-**Base44 next step:** import the public Route manifest and join the private 109-row feature CSV by `route_id`; validate exact ID equality, unique IDs, six pending records and 103 plot/rank-ready records. Replace the expanded coordinate bundle together. Do not infer missing features or reuse older coordinates. Verify the deployed entity row count after upsert; this repository update does not itself change Base44's live database.
+**Base44 next step:** import the public Route manifest and join the private 109-row feature CSV by `route_id`; validate exact ID equality, unique IDs, six pending records and 103 plot/rank-ready records. Replace the expanded coordinate bundle together. Do not infer missing features or reuse older coordinates. Base44 currently reports a 100-row app cohort. Stage this public 109-row manifest with the private 109-row features before activating the expanded catalog; compare exact ID sets. Only 103 rankings are supported, so six remain null. Preserve community evidence and migrate that service contract explicitly. Verify the deployed entity row count after upsert; this repository update does not itself change Base44's live database.
 
 **Historical roommate-list reconciliation (before expansion):** the following 12 requests were absent from the 97-route export. They now have IDs `co14-101` through `co14-112`; the table below records the initial source-review notes, not current completeness. Current scope and identity decisions are in `outputs/site_route_additions.json` and the public site manifest.
 
@@ -270,7 +270,7 @@ Standalone equivalent:
 
 ```bash
 python -m pip install requests beautifulsoup4 pandas defusedxml
-python block1_scraper.py --manifest route_manifest.csv --out private_data/raw \
+python block1_scraper.py --manifest research_route_manifest.csv --out private_data/raw \
   --contact YOUR_RESEARCH_CONTACT \
   --source-permission-confirmed --download-agreement-accepted
 ```
