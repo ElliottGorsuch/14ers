@@ -62,7 +62,7 @@ The synthetic teacher uses explicit weights, including both longest-section vari
 
 **Phase 6 comparison-collection engineering is ready.** Final ranking acceptance still requires independent comparisons, complete-itinerary review and the two metadata cases. Route-group bootstrap intervals describe synthetic-test sensitivity; weight-scenario rank ranges are not confidence intervals.
 
-The final website requirement is recorded in `project_config.json → website_requirements` and roadmap Phase 7: PCA/UMAP/t-SNE, named feature-based clusters with stability checks, route hover/location cards, clicked-route similar neighbors and linked alternate comparisons. Cluster labels and deployment are future work; visual islands do not establish natural difficulty categories.
+The final website requirement is recorded in `project_config.json → website_requirements` and roadmap Phase 7: PCA/UMAP/t-SNE, named feature-based clusters with stability checks, route hover/location cards, clicked-route similar neighbors and linked alternate comparisons. The local site export now provides exploratory cluster labels; graph integration and deployment are future work; visual islands do not establish natural difficulty categories.
 
 ```bash
 python3 outputs/block4_ranker.py
@@ -85,6 +85,23 @@ python3 tests/test_block5.py
 ```
 
 The CLI initializes/audits the real store without opening a port or simulating human votes. Test responses exist only in temporary fixture databases. API endpoints and the deployed-host checklist are in the report; the full implementation plan is in `project_config.json → phase6`.
+
+## Site import export
+
+The feature table now contains **109 unique route IDs**, with 103 ready for plots and provisional ranks. Six entries (`co14-103`, `co14-104`, `co14-106`, `co14-107`, `co14-109`, `co14-111`) remain pending; unavailable values stay blank. The local `site_export/` folder holds the private 33-column feature CSV, expanded plot/cluster summaries, route catalog and provenance. Expanded coordinates were refitted together; do not mix them with older exports. Provisional scores project the saved Phase Five linear model; they are not human-validated community ratings.
+
+The public **[site_route_manifest.json](outputs/site_route_manifest.json)** is the Base44 `Route` entity import: a JSON array with exactly the same 109 IDs as the feature CSV. It supplies canonical names, primary peak, all summit associations, published class (null when unavailable), source links and explicit readiness/scope fields. It excludes GPX, recorded coordinates, model outputs, similarity distances, cookies and download receipts. The original `outputs/route_manifest.csv` remains the frozen 100-route research baseline.
+
+Upsert the public manifest into Base44 `Route` by unique `route_id`, then join the private feature import on that key. Import IDs as strings; never assume they are contiguous. Archive existing `co14-008`, `co14-054` and `co14-069` entity records; retain historical references and never reuse those IDs. Cameron and Lincoln occur only within Decalibron `co14-066`. Use `primary_peak` for the main card and `summits` for filters; one combo itinerary stays one entity. Show pending route cards, but only plot/rank records whose readiness flags are true. All `voting_ready` values remain false until the expanded voting-service roster is explicitly migrated. Preserve existing vote history and community ratings on upsert.
+
+Regenerate just this public identity manifest from the existing exports, without recomputing models:
+
+```bash
+python3 scripts/update_site_catalog.py --manifest-only
+python3 -m unittest discover -s tests -p 'test_site_manifest.py'
+```
+
+Running the exporter without `--manifest-only` rebuilds the expanded private catalog from acquired sources and saved baseline inputs. Both paths refresh the public manifest. The catalog includes requested summer itineraries; it does not claim to contain every possible 14er route. Tabeguache's site profile includes separate Shavano ascent and connector segments; the full return remains unverified. The site import is ready for building route cards and exploratory plots, with pending data shown honestly. Applying the manifest to a live Base44 entity remains an import step.
 
 ## Canonical files
 
