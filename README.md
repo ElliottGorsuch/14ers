@@ -4,7 +4,7 @@ A versioned cohort of **100 distinct official Colorado 14er routes**, preserving
 
 ## Current state — October 1, 2026
 
-Manifest **1.2.0** replaces Kiener's, the custom Chicago Basin combination, the problematic Princeton Southwest Ridge extra and six exact-source aliases. Princeton East Slopes remains #18. The four individual Chicago Basin summits remain and share an evaluation group for their approach. The nine replacements have official sources and supporting trip-report references in the [manifest](outputs/route_manifest.csv).
+Manifest **1.2.0** replaces Kiener's, the custom Chicago Basin combination, the problematic Princeton Southwest Ridge extra and six exact-source aliases. Princeton East Slopes remains #18. The four individual Chicago Basin summits remain and share an evaluation group for their approach. The nine replacements have official sources and supporting trip-report references in the [manifest](outputs/research_route_manifest.csv).
 
 **100/100 GPX files are acquired and independently verified**, with 100 distinct source routes and geometry hashes, no exact duplicates, and elevations at every track point. Private originals/receipts are in `private_data/browser_downloads/`; the current imported snapshot is in `private_data/raw/`. The archive also preserves three approach files and two retired participant candidates, for 105 originals.
 
@@ -90,7 +90,7 @@ The CLI initializes/audits the real store without opening a port or simulating h
 
 The feature table now contains **109 unique route IDs**, with 103 ready for plots and provisional ranks. Six entries (`co14-103`, `co14-104`, `co14-106`, `co14-107`, `co14-109`, `co14-111`) remain pending; unavailable values stay blank. The local `site_export/` folder holds the private 33-column feature CSV, expanded plot/cluster summaries, route catalog and provenance. Expanded coordinates were refitted together; do not mix them with older exports. Provisional scores project the saved Phase Five linear model; they are not human-validated community ratings.
 
-The public **[site_route_manifest.json](outputs/site_route_manifest.json)** is the Base44 `Route` entity import: a JSON array with exactly the same 109 IDs as the feature CSV. It supplies canonical names, primary peak, all summit associations, published class (null when unavailable), source links and explicit readiness/scope fields. It excludes GPX, recorded coordinates, model outputs, similarity distances, cookies and download receipts. The original `outputs/route_manifest.csv` remains the frozen 100-route research baseline.
+The canonical public **[route_manifest.csv](outputs/route_manifest.csv)** is the Base44 `Route` entity import, manifest version **2.0.0**. [site_route_manifest.json](outputs/site_route_manifest.json) is its equivalent JSON representation: an array with exactly the same 109 IDs as the feature CSV. It supplies canonical names, primary peak, all summit associations, published class (null when unavailable), source links and explicit readiness/scope fields. It excludes GPX, recorded coordinates, model outputs, similarity distances, cookies and download receipts. The previous 100-route CSV is preserved byte-for-byte as `outputs/research_route_manifest.csv`. The frozen `project_config.json` describes that research baseline, including its original filename and unchanged hash; it does not govern the active site roster. Research commands below explicitly select the renamed snapshot.
 
 Upsert the public manifest into Base44 `Route` by unique `route_id`, then join the private feature import on that key. Import IDs as strings; never assume they are contiguous. Archive existing `co14-008`, `co14-054` and `co14-069` entity records; retain historical references and never reuse those IDs. Cameron and Lincoln occur only within Decalibron `co14-066`. Use `primary_peak` for the main card and `summits` for filters; one combo itinerary stays one entity. Show pending route cards, but only plot/rank records whose readiness flags are true. All `voting_ready` values remain false until the expanded voting-service roster is explicitly migrated. Preserve existing vote history and community ratings on upsert.
 
@@ -101,11 +101,12 @@ python3 scripts/update_site_catalog.py --manifest-only
 python3 -m unittest discover -s tests -p 'test_site_manifest.py'
 ```
 
-Running the exporter without `--manifest-only` rebuilds the expanded private catalog from acquired sources and saved baseline inputs. Both paths refresh the public manifest. The catalog includes requested summer itineraries; it does not claim to contain every possible 14er route. Tabeguache's site profile includes separate Shavano ascent and connector segments; the full return remains unverified. The site import is ready for building route cards and exploratory plots, with pending data shown honestly. Applying the manifest to a live Base44 entity remains an import step.
+Running the exporter without `--manifest-only` rebuilds the expanded private catalog from acquired sources and saved baseline inputs. Both paths refresh the public manifest. The catalog includes requested summer itineraries; it does not claim to contain every possible 14er route. Tabeguache's site profile includes separate Shavano ascent and connector segments; the full return remains unverified. The site import is ready for building route cards and exploratory plots, with pending data shown honestly. Applying the manifest to a live Base44 entity remains an import step. Base44 currently still reports 100 Route/feature/ranking/community records: first stage the private 109-row feature CSV and this public manifest together, compare their exact ID sets, then activate one catalog version. Rankings contain only 103 supported records; pending ranks must remain null. Preserve community history and migrate its roster explicitly rather than fabricate ratings or require all four tables to have equal row counts.
 
 ## Canonical files
 
-- `outputs/route_manifest.csv`: frozen version 1.2.0 roster; original requested names are immutable.
+- `outputs/route_manifest.csv`: active 109-route public site roster, version 2.0.0.
+- `outputs/research_route_manifest.csv`: frozen version 1.2.0 roster; original requested names are immutable.
 - `outputs/project_config.json`: schema, frozen hash, conditions/itinerary policies and evidence state.
 - `outputs/block1_scraper.py`: self-contained ingestion implementation.
 - `outputs/block2_features.py`: Phase 3 feature computation, all-route sensitivity and overlap QA.
@@ -148,7 +149,7 @@ Python 3.10+ is the target; local fixture verification also passed on the availa
 Normal browser downloads have already been accepted and collected for the mapped routes. The following direct-HTTP path remains conditional on its documented usage permission and transport smoke test. Record its evidence in `project_config.json` before using that path. Supply only your own authorized cookie file if needed. First smoke-test ordinary, technical and combined routes:
 
 ```bash
-python outputs/block1_scraper.py --manifest outputs/route_manifest.csv \
+python outputs/block1_scraper.py --manifest outputs/research_route_manifest.csv \
   --out private_data/smoke --contact YOUR_RESEARCH_CONTACT \
   --source-permission-confirmed --download-agreement-accepted \
   --only-routes co14-001 co14-095 co14-097
@@ -163,7 +164,7 @@ Multiple published start variants are retained as candidates. Totals are selecte
 Original GPX files, minimal overview captures, the accepted agreement and hashed download receipts are under `private_data/browser_downloads/`. The standalone importer reuses the existing ingestion implementation, makes no network requests, validates receipt/file hashes and exact observed source URLs, and preserves the frozen review flags. It does not treat participant candidates or an approach component as a completed custom route.
 
 ```bash
-python outputs/block1_scraper.py --manifest outputs/route_manifest.csv \
+python outputs/block1_scraper.py --manifest outputs/research_route_manifest.csv \
   --out private_data/raw --contact local-private-project --offline \
   --download-agreement-accepted --browser-download-dir private_data/browser_downloads
 python scripts/audit_phase2.py --data-root private_data/raw
@@ -204,7 +205,7 @@ Each record must contain the following fields; the empty array above is a schema
 Kiener's and the custom Chicago Basin combination are excluded. Individual Chicago Basin routes must include Needleton approach/return; North Eolus connector totals must not be mislabeled as full-route totals. A GPX is not proof of snow-free climbing. Assembly is supplied and reviewed by the curator; the adapter does not stitch components or bridge gaps.
 
 ```bash
-python outputs/block1_scraper.py --manifest outputs/route_manifest.csv \
+python outputs/block1_scraper.py --manifest outputs/research_route_manifest.csv \
   --out private_data/raw --contact YOUR_RESEARCH_CONTACT \
   --offline --curated-file private_data/approved_export/approved_export.json
 python scripts/audit_phase2.py --data-root private_data/raw
