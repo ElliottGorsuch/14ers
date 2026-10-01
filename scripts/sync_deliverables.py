@@ -134,6 +134,8 @@ display(pd.read_csv(Path(DATA_ROOT) / 'routes_features.csv', keep_default_na=Fal
                      'project_roadmap.md','project_config.json']:
             z.write(OUT/name,name)
         for name in ['scripts/validate_project.py','scripts/sync_deliverables.py','scripts/audit_phase2.py',
+                     'scripts/update_site_catalog.py', 'outputs/site_route_additions.json',
+                     'outputs/site_route_manifest.json', 'tests/test_site_manifest.py',
                      'tests/test_block1.py','.gitignore','README.md']:
             z.write(ROOT/name,name)
         if (OUT/'phase1_review.json').exists():
