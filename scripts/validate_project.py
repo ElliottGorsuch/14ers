@@ -19,7 +19,7 @@ def validate(root=ROOT):
     root = Path(root)
     out = root / 'outputs'
     config = json.loads((out / 'project_config.json').read_text())
-    manifest = out / 'route_manifest.csv'
+    manifest = out / 'research_route_manifest.csv'
     raw = manifest.read_bytes()
     with manifest.open(encoding='utf-8', newline='') as f:
         reader = csv.DictReader(f)
@@ -149,7 +149,7 @@ def validate(root=ROOT):
     for i,cell in enumerate(cells):
         if not cell.startswith('%'): compile(cell,f'notebook_{i}','exec')
     with zipfile.ZipFile(out/'colorado_14er_kickoff.zip') as bundle:
-        for name in ['route_manifest.csv','block1_scraper.py','01_ingestion_colab.ipynb','project_roadmap.md','project_config.json']:
+        for name in ['route_manifest.csv','research_route_manifest.csv','block1_scraper.py','01_ingestion_colab.ipynb','project_roadmap.md','project_config.json']:
             check(bundle.read(name)==(out/name).read_bytes(), f'Bundle member {name} is stale')
         for name in ['README.md','scripts/audit_phase2.py','scripts/validate_project.py',
                      'scripts/sync_deliverables.py','tests/test_block1.py','.gitignore']:
@@ -172,10 +172,20 @@ def validate(root=ROOT):
               'Private raw data must not appear in the public bundle')
 
     access=config['source_access']
+    with (out/'route_manifest.csv').open(newline='') as handle:
+        active = list(csv.DictReader(handle))
+    identities = json.loads((out/'site_route_manifest.json').read_text())
+    check(len(active)==109 and len({r['route_id'] for r in active})==109, 'Active site roster must have 109 unique IDs')
+    check({r['manifest_version'] for r in active}=={'2.0.0'}, 'Active site manifest version mismatch')
+    check([r['route_id'] for r in active]==[r['route_id'] for r in identities], 'Public CSV/JSON identity mismatch')
+    check(not ({r['route_id'] for r in active} & {'co14-008','co14-054','co14-069'}), 'Retired routes remain active')
     permission_ready=access['permission_status']=='documented' and bool(access['permission_evidence'])
     smoke_ready=access['raw_http_smoke_test']['status']=='passed' and access['raw_http_smoke_test']['live_gpx_download_verified']
     return {
         'contract_checks_passed':not errors,
+        'validation_scope':'frozen_research_and_active_site',
+        'active_site_routes':len(active),
+        'active_site_manifest_version':'2.0.0',
         'phase1_engineering_status':'defined_and_validated' if not errors else 'validation_failed',
         'phase1_full_acceptance':not errors and permission_ready and smoke_ready and access['download_agreement_accepted'],
         'phase2_bulk_ingestion_started':access['bulk_ingestion_started'],
