@@ -63,6 +63,12 @@ class SiteManifestTests(unittest.TestCase):
         ids = [r['route_id'] for r in records]
         self.assertEqual(len(ids), 109)
         self.assertEqual(len(set(ids)), 109)
+        with (ROOT/'outputs/route_manifest.csv').open(newline='') as handle:
+            published = list(csv.DictReader(handle))
+        self.assertEqual([r['route_id'] for r in published], ids)
+        self.assertEqual({r['manifest_version'] for r in published}, {'2.0.0'})
+        self.assertEqual([r['canonical_name'] for r in published], [r['canonical_name'] for r in records])
+        self.assertEqual([json.loads(r['summits']) for r in published], [r['summits'] for r in records])
         self.assertFalse(set(ids) & {'co14-008','co14-054','co14-069'})
         self.assertEqual(sum(r['plot_ready'] for r in records), 103)
         self.assertEqual(sum(r['rank_ready'] for r in records), 103)
