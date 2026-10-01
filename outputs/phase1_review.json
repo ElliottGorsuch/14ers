@@ -1,0 +1,28 @@
+{
+  "contract_checks_passed": true,
+  "phase1_engineering_status": "defined_and_validated",
+  "phase1_full_acceptance": false,
+  "phase2_bulk_ingestion_started": true,
+  "manifest_version": "1.2.0",
+  "manifest_sha256": "cbd4dd4773a0f538073a5522110ac7a047f655a7b194e0d0831afb49ba7744b2",
+  "route_selections": 100,
+  "required_summits": 58,
+  "selection_groups": {
+    "standard_ranked_requested": 53,
+    "standard_named_requested": 5,
+    "alternate_requested": 42
+  },
+  "official_route_mappings": 100,
+  "curation_selections": [],
+  "related_itinerary_groups": [
+    "co14-032|co14-033|co14-039|co14-058",
+    "co14-057|co14-088"
+  ],
+  "dry_itinerary_verification_pending": 100,
+  "external_requirements": [
+    "Document source permission covering automated/derived/public use.",
+    "Browser GPX acquisition is verified; direct HTTP transport remains optional and historically blocked.",
+    "Verify all selected complete dry itineraries; resolve Culebra gain units and North Eolus full-route totals before final features."
+  ],
+  "errors": []
+}
