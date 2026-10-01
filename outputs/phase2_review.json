@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "manifest_version": "1.2.0",
+  "manifest_sha256": "cbd4dd4773a0f538073a5522110ac7a047f655a7b194e0d0831afb49ba7744b2",
+  "ingestion_version": "2.1.1",
+  "snapshot_integrity_passed": true,
+  "selection_count": 100,
+  "statuses": {
+    "downloaded": 100
+  },
+  "downloaded": 100,
+  "checksum_verified_files": 100,
+  "xml_verified_files": 100,
+  "distinct_source_routes": 100,
+  "distinct_geometry_files": 100,
+  "metadata_complete_count": 98,
+  "preliminary_training_eligible": 0,
+  "phase2_acceptance_complete": false,
+  "phase3_dataset_ready": false,
+  "phase3_engineering_can_start_with_fixtures": true,
+  "source_permission_status": "not_documented",
+  "raw_live_gpx_verified": true,
+  "direct_http_gpx_verified": false,
+  "browser_acquisition": {
+    "date": "2026-09-30",
+    "method": "ordinary browser route GPX controls; existing Chrome account for library search",
+    "metadata_route_codes": [
+      "elbe1",
+      "kitc4",
+      "bier5"
+    ],
+    "metadata_parser_verified_for_captured_overviews": true,
+    "gpx_controls_observed": true,
+    "download_agreement_status": "accepted_by_agent_after_explicit_user_action_time_approval",
+    "account_required": "official route downloads work signed out; GPX Library uses existing Chrome session",
+    "official_selection_count": 100,
+    "distinct_official_source_pages": 100,
+    "gpx_downloads_verified": true,
+    "official_distinct_gpx_files": 100,
+    "official_selection_files_imported": 100,
+    "additional_component_files": 3,
+    "additional_candidate_files": 2,
+    "total_downloaded_gpx_files": 105,
+    "full_selected_itinerary_verified": false,
+    "private_download_location": "private_data/browser_downloads",
+    "private_snapshot_location": "private_data/raw",
+    "elevation_coverage_all_downloaded": 1.0,
+    "acquisition_note": "Original source GPX kept immutable; ascent tracks and candidate tracks are not automatically certified as complete dry itineraries."
+  },
+  "curation_selection_ids": [],
+  "remaining_selection_count": 100,
+  "coverage_review_priorities": {
+    "start_and_same_path_return": 77,
+    "loop_or_traverse_return": 19,
+    "approach_and_return": 3,
+    "shared_approach_and_summit_connector": 1
+  },
+  "endpoint_gap_above_500m": 97,
+  "metadata_review_ids": [
+    "co14-041",
+    "co14-058"
+  ],
+  "phase3_additional_checks": [
+    "sampling/gaps",
+    "elevation noise",
+    "complete-itinerary distance/gain discrepancies",
+    "near-duplicate overlap",
+    "resampling/smoothing sensitivity"
+  ],
+  "errors": []
+}
