@@ -1,0 +1,752 @@
+{
+  "project": "Colorado 14er route difficulty",
+  "schema_version": "1.0.0",
+  "manifest_version": "1.2.0",
+  "decision_date": "2026-09-30",
+  "decision_timezone": "America/Denver",
+  "manifest_file": "route_manifest.csv",
+  "manifest_sha256": "cbd4dd4773a0f538073a5522110ac7a047f655a7b194e0d0831afb49ba7744b2",
+  "manifest_fields": [
+    "route_id",
+    "selection_number",
+    "manifest_version",
+    "requested_name",
+    "canonical_name",
+    "selection_group",
+    "required_summit",
+    "summit_order",
+    "is_replacement",
+    "conditions_scope",
+    "source_url",
+    "supporting_source_url",
+    "source_component_urls",
+    "source_review_status",
+    "source_review_date",
+    "gpx_url",
+    "match_names",
+    "itinerary_type",
+    "start_policy",
+    "start_name",
+    "descent_policy",
+    "itinerary_verified",
+    "dry_summer_verified",
+    "route_scope_status",
+    "yds_class_override",
+    "yds_override_provenance",
+    "related_itinerary_group",
+    "review_note"
+  ],
+  "selection_group_counts": {
+    "standard_ranked_requested": 53,
+    "standard_named_requested": 5,
+    "alternate_requested": 42
+  },
+  "required_summits": [
+    "Mt. Elbert",
+    "Mt. Massive",
+    "Mt. Harvard",
+    "Blanca Peak",
+    "La Plata Peak",
+    "Uncompahgre Peak",
+    "Crestone Peak",
+    "Mt. Lincoln",
+    "Grays Peak",
+    "Mt. Antero",
+    "Torreys Peak",
+    "Castle Peak",
+    "Quandary Peak",
+    "Mt. Blue Sky",
+    "Longs Peak",
+    "Mt. Wilson",
+    "Mt. Shavano",
+    "Mt. Princeton",
+    "Mt. Belford",
+    "Crestone Needle",
+    "Mt. Yale",
+    "Mt. Bross",
+    "Kit Carson Peak",
+    "Maroon Peak",
+    "Tabeguache Peak",
+    "Mt. Oxford",
+    "Mt. Sneffels",
+    "Mt. Democrat",
+    "Capitol Peak",
+    "Pikes Peak",
+    "Snowmass Mountain",
+    "Windom Peak",
+    "Mt. Eolus",
+    "Challenger Point",
+    "Mt. Columbia",
+    "Missouri Mountain",
+    "Humboldt Peak",
+    "Mt. Bierstadt",
+    "Sunlight Peak",
+    "Handies Peak",
+    "Culebra Peak",
+    "Mt. Lindsey",
+    "Ellingwood Point",
+    "Little Bear Peak",
+    "Mt. Sherman",
+    "Redcloud Peak",
+    "Pyramid Peak",
+    "Wilson Peak",
+    "Wetterhorn Peak",
+    "San Luis Peak",
+    "Mt. of the Holy Cross",
+    "Huron Peak",
+    "Sunshine Peak",
+    "Mt. Cameron",
+    "North Maroon Peak",
+    "El Diente Peak",
+    "Conundrum Peak",
+    "North Eolus"
+  ],
+  "approved_replacements": {
+    "85": "sher2",
+    "87": "miss2",
+    "95": "kitc4",
+    "94": "belf9",
+    "68": "bier3",
+    "69": "cnee5",
+    "76": "tabe3w",
+    "77": "lapl3",
+    "78": "gray3",
+    "84": "evan3",
+    "89": "gray8",
+    "90": "torr11",
+    "93": "kitc3"
+  },
+  "retained_corrected_identity": {
+    "97": "bier5"
+  },
+  "yds_encoding": {
+    "1": 1,
+    "2": 2,
+    "3": 4,
+    "4": 8,
+    "5": 16
+  },
+  "yds_encoding_formula": "2 ** (class_number - 1), for supported classes 1..5",
+  "yds_subgrade_policy": "Preserve text such as 5.4 as raw evidence. Encode its class bucket as 16; do not treat 5.10 as decimal 5.1 or invent within-class numerical spacing.",
+  "source_review_statuses": [
+    "official_identity_verified",
+    "participant_report_verified_requires_curation",
+    "component_identities_verified_requires_assembly"
+  ],
+  "conditions_scope": "dry_summer",
+  "conditions_policy": "Exclude snow/ice-dependent itineraries. Kiener removed. Dry-summer geometry still requires route review; ordinary summer routes may have seasonal snow.",
+  "duplicates": {
+    "allowed": false,
+    "policy": "100 distinct official routes and timestamp-independent geometry hashes required. Shared approach segments remain allowed and must share evaluation groups where appropriate.",
+    "evaluation_policy": "Use connected components of shared source/geometry/related itinerary links as split groups. Shared paths do not constitute independent training evidence.",
+    "rating_policy": "No exact itinerary aliases in selected roster; do not rate a route against itself.",
+    "pca_policy": "Inspect spatial-overlap sensitivity; no repeated source labels in the cohort."
+  },
+  "itinerary_policy": {
+    "unit": "One selection defines one complete walking/climbing itinerary, including approach and descent.",
+    "default_start": "Lowest summer start explicitly published for the matched route; never infer a GPX start or mix lower and upper source totals.",
+    "default_descent": "Reverse ascent unless an explicit published dry descent is specified.",
+    "chicago_basin": "Start/finish at Needleton. Include approach and return; exclude rail travel and elapsed time.",
+    "quandary_west_ridge": "Descend West Ridge; exclude Cristo Couloir snow descent.",
+    "missouri_west_ridge": "Rockdale 2WD start/finish, including road walk to Clohesy Lake.",
+    "tour_de_abyss": "Blue Sky Summit parking start/finish; Bierstadt then Blue Sky; include all walking return segments.",
+    "traverses": "Honor requested direction. Include approach and standard dry descent; summit connectors alone are incomplete tracks.",
+    "access_status": "Store independently of route difficulty. Do not infer legal summit permission from a source route label.",
+    "summit_order_definition": "Ordered summit visits across the complete itinerary, including planned summit crossings on descent. Intended summit targets remain in required_summit."
+  },
+  "source_access": {
+    "terms_url": "https://www.14ers.com/disclaim.php",
+    "permission_status": "not_documented",
+    "permission_evidence": "",
+    "download_agreement_accepted": true,
+    "authorized_session_status": "existing_user_Chrome_session_used_for_GPX_library",
+    "metadata_identity_check": {
+      "method": "web research",
+      "date": "2026-09-30",
+      "status": "official route identities plus supplemental reports verified",
+      "catalog_url": "https://www.14ers.com/php14ers/routeselector.php"
+    },
+    "raw_http_smoke_test": {
+      "status": "previous_run_http_403",
+      "date": "2026-09-30",
+      "environment": "prior kickoff workspace",
+      "urls": [
+        "https://www.14ers.com/robots.txt",
+        "https://www.14ers.com/routes.php",
+        "https://www.14ers.com/route.php?route=elbe1",
+        "https://www.14ers.com/routelist.php?peakid=10001"
+      ],
+      "repeated_in_this_phase": false,
+      "live_gpx_download_verified": false
+    },
+    "bulk_ingestion_started": true,
+    "public_data_publication_allowed": false,
+    "next_smoke_routes": [
+      "co14-001",
+      "co14-095",
+      "co14-097"
+    ],
+    "smoke_test_policy": "After source permission/access are available, verify robots, raw metadata, actual GPX links and GPX XML for an ordinary, technical and combined itinerary before bulk ingestion.",
+    "user_reported_permission_or_export_exists": true,
+    "user_report_date": "2026-09-30",
+    "user_report_details": "User authorized ordinary browser downloads and explicitly approved displayed GPX agreement on 2026-09-30; separate source-owner modeling/publication permission reference remains absent.",
+    "browser_download_review": {
+      "date": "2026-09-30",
+      "method": "ordinary browser route GPX controls; existing Chrome account for library search",
+      "metadata_route_codes": [
+        "elbe1",
+        "kitc4",
+        "bier5"
+      ],
+      "metadata_parser_verified_for_captured_overviews": true,
+      "gpx_controls_observed": true,
+      "download_agreement_status": "accepted_by_agent_after_explicit_user_action_time_approval",
+      "account_required": "official route downloads work signed out; GPX Library uses existing Chrome session",
+      "official_selection_count": 100,
+      "distinct_official_source_pages": 100,
+      "gpx_downloads_verified": true,
+      "official_distinct_gpx_files": 100,
+      "official_selection_files_imported": 100,
+      "additional_component_files": 3,
+      "additional_candidate_files": 2,
+      "total_downloaded_gpx_files": 105,
+      "full_selected_itinerary_verified": false,
+      "private_download_location": "private_data/browser_downloads",
+      "private_snapshot_location": "private_data/raw",
+      "elevation_coverage_all_downloaded": 1.0,
+      "acquisition_note": "Original source GPX kept immutable; ascent tracks and candidate tracks are not automatically certified as complete dry itineraries."
+    }
+  },
+  "data_hygiene": {
+    "original_names": "Immutable requested_name; corrected labels belong in canonical_name.",
+    "nulls": "Empty CSV cells mean unavailable, not zero. Booleans use true/false; IDs and URLs are text.",
+    "provenance": "Keep source URL/type/date, explicit overrides, response hashes and manifest/model versions.",
+    "repository": "Private GPX/cache/cookies excluded by .gitignore. No source bulk collection in Phase 1.",
+    "canonical_files": "Edit route_manifest.csv, project_config.json, block1_scraper.py and project_roadmap.md; regenerate notebook/bundle with scripts/sync_deliverables.py.",
+    "change_control": "Preserve selection IDs, increment manifest version for roster/scope changes, and update the reviewed SHA256. Validator fails on unreviewed edits.",
+    "raw_grade_overrides": "Keep observed yds_raw unchanged and record effective override plus its provenance separately."
+  },
+  "feature_contract": {
+    "yds_raw": "string, includes qualifiers/subgrades; source or independently reviewed evidence",
+    "yds_class": "integer 1..5 or missing",
+    "yds_encoded": "integer 1/2/4/8/16 or missing",
+    "risk_labels": [
+      "Low",
+      "Moderate",
+      "Considerable",
+      "High",
+      "Extreme"
+    ],
+    "risk_encoding": {
+      "Low": 0,
+      "Moderate": 1,
+      "Considerable": 2,
+      "High": 3,
+      "Extreme": 4
+    },
+    "source_distance_mi": "Published value tied to its named start and itinerary variant; not blindly the first number on the page.",
+    "source_gain_ft": "Published cumulative uphill gain tied to start and itinerary variant.",
+    "gpx_distance_mi": "Horizontal length of complete verified itinerary / 1609.344.",
+    "gpx_gain_ft": "Positive cleaned elevation changes in meters * 3.28084.",
+    "crux_density_extreme": "Horizontal-distance-weighted percent of validated profile with absolute percent grade >35; complete-itinerary value withheld until scope/QA passes.",
+    "crux_density_medium": "Horizontal-distance-weighted percent with 20 <= absolute percent grade <=35; mutually exclusive with extreme.",
+    "excluded_predictors": [
+      "speed",
+      "elapsed_time",
+      "recording_timestamps"
+    ],
+    "provenance_times_allowed": true
+  },
+  "phase1_exceptions": [],
+  "phase2": {
+    "ingestion_version": "2.1.1",
+    "engineering_status": "implemented_actual_browser_import_validated",
+    "collection_status": "100_distinct_official_tracks_acquired_scope_review_pending",
+    "acceptance_complete": false,
+    "readiness_report": "phase2_review.json",
+    "approved_export_schema_version": "1.0.0",
+    "live_smoke_route_ids": [
+      "co14-001",
+      "co14-095",
+      "co14-097"
+    ],
+    "phase3_readiness": "ready_for_raw_data_diagnostics_complete_itinerary_features_pending",
+    "review_date": "2026-09-30",
+    "metadata_complete_count": 98,
+    "downloaded_count": 100,
+    "distinct_geometry_count": 100,
+    "coverage_review_priorities": {
+      "start_and_same_path_return": 77,
+      "loop_or_traverse_return": 19,
+      "approach_and_return": 3,
+      "shared_approach_and_summit_connector": 1
+    },
+    "metadata_review_ids": [
+      "co14-041",
+      "co14-058"
+    ]
+  },
+  "manifest_history": [
+    {
+      "previous_version": "1.0.0",
+      "previous_sha256": "83c5c0dc0426e50a16f4c4fb1dae2082f17e039dfe081a9dd012141887b714e9",
+      "version": "1.1.0",
+      "sha256": "d6dff72c1024545da5548efb5a7242db3ea1c7424ebea65b1beee2c44a8e5a21",
+      "date": "2026-09-30",
+      "change": "#94 user-approved dry replacement: Belford Southwest Slopes belf9; stable ID and requested name retained."
+    },
+    {
+      "previous_version": "1.1.0",
+      "previous_sha256": "d6dff72c1024545da5548efb5a7242db3ea1c7424ebea65b1beee2c44a8e5a21",
+      "version": "1.2.0",
+      "sha256": "cbd4dd4773a0f538073a5522110ac7a047f655a7b194e0d0831afb49ba7744b2",
+      "date": "2026-09-30",
+      "change": "Nine alternate replacements: remove Kiener/Chicago combo/Princeton SW and six exact-source aliases; all 58 mandatory peaks retained; explicit multi-total source starts recorded."
+    }
+  ],
+  "cohort_selection": {
+    "target_count": 100,
+    "mandatory_coverage": "At least one route for each ranked Colorado 14er; retain original mandatory standard routes for all 53 ranked and five named/unranked peaks unless explicitly changed.",
+    "alternate_target_count": 42,
+    "popularity_target": "Retain current 100-selection roster. Use route-specific trip-report activity as the popularity indicator when considering additional/replacement routes.",
+    "popularity_status": "replacement_trip_report_references_recorded_counts_pending",
+    "population_label": "provisional_popularity_targeted_cohort",
+    "selection_evidence_required": "Record dated route-specific trip-report references/counts for candidate additions. Do not infer route popularity from peak-level total reports. Current roster is retained; no global measured top-100 claim.",
+    "shared_source_policy": "Exact source aliases replaced under latest user instruction; overlapping approaches allowed.",
+    "popularity_indicator": "route_specific_trip_report_activity",
+    "selection_decision": "user_2026-09-30_remove_Kiener_and_Chicago_combo_fix_Princeton_require_100_distinct"
+  },
+  "phase3": {
+    "feature_version": "3.1.0",
+    "parameters": {
+      "threshold_unit": "percent_grade",
+      "medium_grade_min_pct": 20.0,
+      "extreme_grade_min_pct": 35.0,
+      "resample_interval_m": 10.0,
+      "smoothing_window_m": 25.0,
+      "min_horizontal_step_m": 0.5,
+      "max_horizontal_step_m": 100.0,
+      "max_abs_grade_pct": 300.0,
+      "min_valid_distance_fraction": 0.95,
+      "max_density_sensitivity_pp": 5.0,
+      "max_gain_sensitivity_pct": 20.0,
+      "sensitivity_intervals_m": [
+        5.0,
+        10.0,
+        20.0
+      ],
+      "sensitivity_windows_m": [
+        0.0,
+        25.0,
+        50.0
+      ],
+      "overlap_grid_m": 50.0,
+      "overlap_fraction_threshold": 0.5,
+      "distance_discrepancy_fraction": 0.2,
+      "gain_discrepancy_fraction": 0.3
+    },
+    "threshold_decision": "Latest user request uses 20% and 35% grade; replaces earlier roadmap degree thresholds. 20% is about 11.31 degrees; 35% is about 19.29 degrees.",
+    "execution_plan": [
+      "Validate frozen manifest, ingestion snapshot, GPX/metadata provenance and observed encodings.",
+      "Compute segment-safe raw and resampled/smoothed recorded-track profiles, cumulative steep mileage and longest continuous steep runs.",
+      "Run all-route parameter sensitivity, coverage and source-discrepancy diagnostics; group approximate shared paths for evaluation.",
+      "Export one private feature table and one aggregate phase3 review; leave complete-itinerary geometry features missing until reviewed.",
+      "Update existing README/roadmap/config and embed Block 2 in the existing Colab notebook; synchronize bundle and validate."
+    ],
+    "feature_table": "private_data/routes_features.csv",
+    "readiness_report": "phase3_review.json",
+    "dictionary": {
+      "distance_mi": "Horizontal length of complete verified itinerary in miles.",
+      "gain_ft": "Sum positive smoothed elevation changes of complete verified itinerary, feet.",
+      "crux_density_medium": "Percent valid horizontal distance at 20\u201335% absolute grade, inclusive.",
+      "crux_density_extreme": "Percent valid horizontal distance above 35% absolute grade.",
+      "crux_medium_mi": "Total horizontal miles in medium band.",
+      "crux_extreme_mi": "Total horizontal miles above 35%.",
+      "steep_above20_mi": "Total horizontal miles at or above 20%, including extreme.",
+      "longest_medium_mi": "Longest uninterrupted horizontal run in medium band.",
+      "longest_extreme_mi": "Longest uninterrupted horizontal run above 35%.",
+      "longest_above20_mi": "Longest uninterrupted horizontal run at or above 20%.",
+      "yds_encoded": "Official/effective class 1/2/3/4/5 encoded as 1/2/4/8/16; retain raw qualifier/subgrade.",
+      "exposure_encoded": "Observed source label encoded Low=0, Moderate=1, Considerable=2, High=3, Extreme=4.",
+      "rockfall_encoded": "Same ordinal source-label mapping.",
+      "route_finding_encoded": "Same ordinal source-label mapping.",
+      "commitment_encoded": "Same ordinal source-label mapping.",
+      "source_track_*": "Provisional diagnostics on recorded geometry only; do not substitute for complete itinerary features.",
+      "raw_track_*": "Unsmoothed adjacent-point diagnostics after invalid edges/gaps are removed; recorded-track scope.",
+      "profile_qa_pass": "Sampling/gap, sensitivity, provenance and known-scope discrepancy checks pass. Does not verify complete dry itinerary.",
+      "feature_eligible": "Ingestion training_eligible AND profile QA passes.",
+      "evaluation_group": "Connected prior itinerary/shared-approach and approximate spatial-overlap groups; never predictor.",
+      "profile_density_medium_range_pp": "Range across 9 interval/window combinations, percentage points.",
+      "profile_gain_sensitivity_pct": "(maximum-minimum gain)/default gain *100 across sensitivity configurations.",
+      "profile_valid_distance_fraction": "Accepted edge horizontal distance / all recorded within-sequence distance; no inter-sequence bridges.",
+      "profile_density_extreme_range_pp": "Same sensitivity range for extreme density, in percentage points.",
+      "observed_segment_crux_density_medium": "Percent of accepted recorded horizontal segment length at 20\u201335% smoothed absolute grade. Available independently of route-wide coverage acceptance.",
+      "observed_segment_crux_density_extreme": "Percent of accepted recorded horizontal segment length above 35% smoothed absolute grade. Not imputed or a complete-route claim.",
+      "recorded_chord_crux_density_*_lower_pct": "Accepted-band mileage divided by total recorded chord distance, percent; unknown excluded chords assumed outside this band.",
+      "recorded_chord_crux_density_*_upper_pct": "Lower bound plus excluded chord fraction in percent; unknown excluded chords assumed entirely in this band. Each band upper is separate, not a simultaneous allocation. Bounds do not account for unrecorded approaches/descent or chord-to-terrain error."
+    },
+    "engineering_status": "implemented_all_100_recorded_tracks_processed",
+    "dataset_status": "complete_itinerary_verification_and_profile_QA_pending",
+    "acceptance_complete": false,
+    "recorded_profiles_computed": 100,
+    "class_and_risk_encodings_complete": 100,
+    "profile_qa_pass_count": 37,
+    "feature_eligible_count": 0,
+    "qa_flag_counts": {
+      "complete_dry_itinerary_unverified": 100,
+      "density_sensitive_to_parameters": 52,
+      "profile_edges_excluded": 30,
+      "gain_sensitive_to_parameters": 3,
+      "insufficient_valid_profile_coverage": 4,
+      "metadata_scope_pending": 2
+    },
+    "evaluation_group_count": 69,
+    "phase4_readiness": "exploratory_features_ready_full_itinerary_acceptance_pending",
+    "review_date": "2026-09-30",
+    "modeling_policy": "Use density or steep mileage according to the model comparison; avoid blindly including all correlated mileage/density/longest-run columns in PCA. Raw diagnostics and smoothed versions are not duplicate model inputs. No final complete-cohort PCA before coverage and profile QA are reviewed."
+  },
+  "phase4": {
+    "embedding_version": "4.1.0",
+    "scope": "local_exploration_recorded_tracks_not_complete_itinerary_ranking",
+    "plan": [
+      "Validate Phase 3 feature provenance and select explicit complete-case cohorts without imputing missing profiles.",
+      "Standardize compact features; fit PCA with correlation biplot, scree, loadings and bootstrap intervals.",
+      "Fit seeded UMAP and t-SNE; compare neighbor preservation and seed/hyperparameter sensitivity.",
+      "Compare numeric-QA subset, all usable recorded profiles and ratings-only full roster; test encoding sensitivity.",
+      "Build one offline interactive plot page, one preview and one JSON reproducibility artifact; deliver a full read-up and update existing handoffs."
+    ],
+    "profile_features": [
+      "source_track_distance_mi",
+      "source_track_gain_ft",
+      "source_track_crux_density_medium",
+      "source_track_crux_density_extreme",
+      "yds_encoded",
+      "exposure_encoded",
+      "rockfall_encoded",
+      "route_finding_encoded",
+      "commitment_encoded",
+      "source_track_longest_medium_mi",
+      "source_track_longest_extreme_mi"
+    ],
+    "ratings_features": [
+      "yds_encoded",
+      "exposure_encoded",
+      "rockfall_encoded",
+      "route_finding_encoded",
+      "commitment_encoded"
+    ],
+    "cohorts": [
+      "usable_profiles_96",
+      "numeric_qa_37",
+      "ratings_only_100",
+      "observed_segments_100"
+    ],
+    "parameters": {
+      "random_seed": 42,
+      "sensitivity_seed": 43,
+      "neighbor_metric_k": 5,
+      "umap_n_neighbors": 15,
+      "umap_min_dist": 0.1,
+      "umap_variants": [
+        [
+          5,
+          0.1
+        ],
+        [
+          30,
+          0.1
+        ],
+        [
+          15,
+          0.5
+        ]
+      ],
+      "tsne_perplexity": 10.0,
+      "tsne_perplexity_variants": [
+        5.0,
+        20.0,
+        30.0
+      ],
+      "tsne_max_iter": 1500,
+      "pca_bootstrap_replicates": 200
+    },
+    "runtime_pins": {
+      "plotly": "5.24.1",
+      "umap-learn": "0.5.7",
+      "numba": "0.60.0",
+      "llvmlite": "0.43.0",
+      "pynndescent": "0.5.13",
+      "tenacity": "9.0.0",
+      "numpy": "1.26.4",
+      "scipy": "1.13.1",
+      "scikit-learn": "1.6.1"
+    },
+    "artifact_directory": "private_data/phase4",
+    "report_file": "phase4_report.md",
+    "engineering_status": "local_exploration_complete",
+    "complete_itinerary_acceptance": false,
+    "observed_features": [
+      "source_track_distance_mi",
+      "source_track_gain_ft",
+      "observed_segment_crux_density_medium",
+      "observed_segment_crux_density_extreme",
+      "yds_encoded",
+      "exposure_encoded",
+      "rockfall_encoded",
+      "route_finding_encoded",
+      "commitment_encoded",
+      "source_track_longest_medium_mi",
+      "source_track_longest_extreme_mi"
+    ],
+    "leading_cohort": "usable_profiles_96",
+    "highlight_route_ids": [
+      "co14-029",
+      "co14-013",
+      "co14-061",
+      "co14-005",
+      "co14-072",
+      "co14-077"
+    ],
+    "phase5_readiness": "ready_for_provisional_baseline_engineering_final_acceptance_pending",
+    "four_profile_research": {
+      "review_date": "2026-10-01",
+      "finding": "All four official GPX tracks exist; 100m edge exclusions leave valid recorded fractions below 95%. Keep strict route-wide densities missing; expose accepted-segment observations with separate chord-distance bounds. Do not densify gaps or replace routes to manufacture completeness.",
+      "sources": [
+        {
+          "route_id": "co14-035",
+          "url": "https://www.14ers.com/route.php?route=colu2",
+          "finding": "Current official West Slopes description is authoritative; older scree-line tracks require reroute matching."
+        },
+        {
+          "route_id": "co14-086",
+          "url": "https://www.14ers.com/route.php?route=huro4",
+          "finding": "Lulu Gulch North Ridge identity retained; participant alternatives need matching start and descent."
+        },
+        {
+          "route_id": "co14-086",
+          "url": "https://www.14ers.com/php14ers/tripreport.php?trip=19587",
+          "finding": "Candidate from linked participant forum; not downloaded or verified."
+        },
+        {
+          "route_id": "co14-092",
+          "url": "https://www.14ers.com/route.php?route=harv4",
+          "finding": "Official Harvard-to-Columbia traverse retained; reverse-direction reports are not identical itineraries."
+        },
+        {
+          "route_id": "co14-096",
+          "url": "https://www.14ers.com/route.php?route=snow2",
+          "finding": "West Slope retained."
+        },
+        {
+          "route_id": "co14-096",
+          "url": "https://www.14ers.com/php14ers/tripreport.php?trip=20795",
+          "finding": "S-Ridge ascent/West Slope descent GPX candidate mixes itineraries; unsuitable as direct West Slope replacement."
+        },
+        {
+          "route_id": "co14-035",
+          "url": "https://www.14ers.org/mount-columbia-project-summary/",
+          "finding": "CFI reconstruction context confirms need to distinguish old alignments; does not verify GPX geometry."
+        }
+      ]
+    }
+  },
+  "phase5": {
+    "engineering_readiness": "implemented_and_locally_validated",
+    "final_ranking_acceptance": false,
+    "feature_table": "private_data/routes_features.csv",
+    "primary_cohort": "usable_profiles_96",
+    "sensitivity_cohort": "observed_segments_100",
+    "input_features": [
+      "source_track_distance_mi",
+      "source_track_gain_ft",
+      "source_track_crux_density_medium",
+      "source_track_crux_density_extreme",
+      "yds_encoded",
+      "exposure_encoded",
+      "rockfall_encoded",
+      "route_finding_encoded",
+      "commitment_encoded",
+      "source_track_longest_medium_mi",
+      "source_track_longest_extreme_mi"
+    ],
+    "alternate_input_features": [
+      "source_track_distance_mi",
+      "source_track_gain_ft",
+      "observed_segment_crux_density_medium",
+      "observed_segment_crux_density_extreme",
+      "yds_encoded",
+      "exposure_encoded",
+      "rockfall_encoded",
+      "route_finding_encoded",
+      "commitment_encoded",
+      "source_track_longest_medium_mi",
+      "source_track_longest_extreme_mi"
+    ],
+    "execution_plan": [
+      "Validate frozen feature/source/config provenance and record final website cluster/hover/neighbor requirements.",
+      "Define explicit eleven-feature synthetic teacher and original-nine, technical and endurance weight sensitivity scenarios.",
+      "Fit L2 linear Bradley\u2013Terry and genuine shared eight-unit NumPy RankNet with dropout, Adam and validation early stopping.",
+      "Split shared-path route groups before preprocessing or pairing; run three seeds, nine/eleven-feature ablations and strict-96/qualified-100 cohorts.",
+      "Save full-cohort display models, all 100 provisional rankings, scenario ranges, group-bootstrap diagnostics and reproducible parameters.",
+      "Deliver a written report/model card and static plots; synchronize existing handoffs and distinguish synthetic imitation from human/full-itinerary acceptance."
+    ],
+    "excluded_predictors": [
+      "route_id",
+      "canonical_name",
+      "source_url",
+      "timestamps",
+      "speed",
+      "evaluation_group",
+      "teacher_score",
+      "Elo_label"
+    ],
+    "complete_itinerary_eligible_count": 0,
+    "human_validation_available": false,
+    "model_version": "5.0.0",
+    "parameters": {
+      "split_seeds": [
+        42,
+        43,
+        44
+      ],
+      "test_group_fraction": 0.2,
+      "validation_group_fraction_of_remaining": 0.2,
+      "bt_l2": 0.02,
+      "ranknet_hidden": 8,
+      "ranknet_l2": 0.002,
+      "ranknet_dropout": 0.1,
+      "ranknet_learning_rate": 0.01,
+      "ranknet_max_epochs": 600,
+      "ranknet_patience": 50,
+      "teacher_temperature": 1.0,
+      "non_tie_probability_margin": 0.1,
+      "bootstrap_group_replicates": 200
+    },
+    "teacher_weights": {
+      "class": 0.35,
+      "extreme_density": 0.125,
+      "medium_density": 0.075,
+      "risk_mean": 0.15,
+      "distance": 0.1,
+      "gain": 0.1,
+      "longest_medium": 0.05,
+      "longest_extreme": 0.05
+    },
+    "teacher_sensitivity": {
+      "original_nine": {
+        "class": 0.4,
+        "extreme_density": 0.15,
+        "medium_density": 0.1,
+        "risk_mean": 0.15,
+        "distance": 0.1,
+        "gain": 0.1,
+        "longest_medium": 0,
+        "longest_extreme": 0
+      },
+      "technical": {
+        "class": 0.45,
+        "extreme_density": 0.15,
+        "medium_density": 0.05,
+        "risk_mean": 0.2,
+        "distance": 0.05,
+        "gain": 0.05,
+        "longest_medium": 0.025,
+        "longest_extreme": 0.025
+      },
+      "endurance": {
+        "class": 0.2,
+        "extreme_density": 0.1,
+        "medium_density": 0.1,
+        "risk_mean": 0.1,
+        "distance": 0.2,
+        "gain": 0.2,
+        "longest_medium": 0.05,
+        "longest_extreme": 0.05
+      }
+    },
+    "ranknet_implementation": "NumPy shared tanh MLP with pairwise sigmoid cross-entropy, Adam, dropout/L2, validation early stopping and finite-difference gradient tests; no new framework installation.",
+    "pair_semantics": "P(A harder than B)=sigmoid(score_A-score_B); soft labels generated from explicit teacher only.",
+    "artifact_directory": "private_data/phase5",
+    "report_file": "phase5_report.md",
+    "default_baseline": "BT_linear",
+    "phase6_readiness": "comparison_collection_engineering_ready_no_human_validation_yet"
+  },
+  "website_requirements": {
+    "recorded_date": "2026-10-01",
+    "status": "recorded_for_phase7_not_deployed",
+    "requirements": [
+      "Publish PCA, UMAP and t-SNE as interactive website graphs with consistent route IDs.",
+      "Define and name exploratory clusters from standardized input features; record algorithm/parameters, cluster summaries and stability before showing cluster boundaries.",
+      "Hover cards identify route, peak/region, climbing class, feature values, QA/itinerary scope and source link.",
+      "Show geographic route location separately from feature-space embedding axes; do not imply embedding coordinates are map coordinates.",
+      "Click a route to highlight similar routes from standardized input space, explain shared features and compare alternates.",
+      "Link graphs, clusters, provisional ranking and route detail views; provide filters and keyboard/touch equivalents to hover."
+    ],
+    "cluster_policy": "Feature-space similarity groups are exploratory, not difficulty grades or confirmed natural categories. No cluster labels are inferred solely from visible UMAP/t-SNE islands."
+  },
+  "phase6": {
+    "community_version": "6.0.0",
+    "engineering_status": "local_backend_implemented_live_deployment_pending",
+    "database": "private_data/phase6/community.sqlite",
+    "report_file": "phase6_report.md",
+    "readiness_file": "phase6_review.json",
+    "parameters": {
+      "elo_initial": 1500,
+      "elo_k": 24,
+      "bt_l2": 1.0,
+      "evaluation_pair_fraction": 0.2,
+      "evaluation_assignment_probability": 0.2,
+      "training_uniform_mixture": 0.2,
+      "assignment_ttl_seconds": 1800,
+      "assignment_limit_per_hour": 60,
+      "vote_limit_per_hour": 30,
+      "sampling_seed": 20261001,
+      "bootstrap_voter_replicates": 100
+    },
+    "execution_plan": [
+      "Freeze roster/features and create an append-only SQLite assignment/event store with transactional Elo.",
+      "Expose fail-closed authenticated WSGI comparison endpoints; pseudonymize subjects, bind responses to server assignments and enforce idempotency/rate limits.",
+      "Reserve a frozen random evaluation pair pool, exclude it from rating training and active sampling, randomize display side and record selection probabilities.",
+      "Implement reproducible Elo replay and regularized sum-zero batch Bradley\u2013Terry; exclude ties/skips/non-dry/non-experienced/evaluation events from binary fits.",
+      "Select training pairs through random coverage plus component bridges, vote coverage, provisional-model disagreement and diversity; keep repeat-pair history.",
+      "Validate vote ownership, retries, tampering, transactional rollback, evaluation isolation, rating direction, connectivity and voter-bootstrap behavior.",
+      "Deliver API/entity contract, empty honest community snapshot, frozen-pool evidence, full phase map and deployment next steps."
+    ],
+    "human_vote_count": 0,
+    "live_backend_deployed": false,
+    "global_community_ranking_ready": false,
+    "tie_policy": "Elo uses y=.5 for qualified ties; batch binary BT excludes ties. Skips do not update either rating.",
+    "auth_policy": "Inject server-validated session authentication into WSGI; default rejects writes. HMAC pseudonymization key must remain private. Client voter IDs and route identities are never trusted.",
+    "evaluation_policy": "Random fixed pair holdout is never used for Elo/BT training or active acquisition; log evaluation responses separately. This measures outcomes on known routes, not generalization to unseen routes.",
+    "github_status": {
+      "check_date": "2026-10-01",
+      "configured_account": "ElliottGorsuch",
+      "authentication_verified": true,
+      "project_remote_configured": false,
+      "finding": "Authenticated Chrome browser verified. CLI API transport remains unavailable; no local Git remote is configured.",
+      "browser_authentication": "Signed-in Chrome repository page verified on 2026-10-01",
+      "repository_request": "User selected existing public ElliottGorsuch/14ers for code and documentation only",
+      "repository_url": "https://github.com/ElliottGorsuch/14ers",
+      "publication_scope": "Canonical code, configuration, route roster, aggregate audits and documentation only; no private source tracks, derived per-route features/models, votes or credentials."
+    }
+  },
+  "phase7": {
+    "hosting_choice": "Base44",
+    "repository_request": {
+      "requested_by_user": true,
+      "proposed_name": "14ers",
+      "visibility": "public",
+      "status": "existing_repository_selected",
+      "created_url": "https://github.com/ElliottGorsuch/14ers"
+    },
+    "integration_plan": [
+      "Publish canonical code/config/docs/tests to the user-selected existing ElliottGorsuch/14ers repository through the authenticated browser; exclude all private data and generated handoff copies.",
+      "Create or select the Base44 app; use native verified session auth and backend-held secrets.",
+      "Port the tested comparison API contracts to Base44 Deno functions or connect a separately hosted Python service; the Python WSGI/SQLite implementation is not directly deployable as a Base44 function.",
+      "Verify the chosen live datastore provides atomic vote/idempotency/rating semantics before accepting community votes; rerun ownership/concurrency/replay tests on the deployed adapter.",
+      "Load permitted derived graph/ranking data and implement the recorded clusters, hover/location/neighbor UX."
+    ],
+    "deployment_status": "not_deployed",
+    "base44_runtime_reference": "https://docs.base44.com/sdk-getting-started/client"
+  }
+}
