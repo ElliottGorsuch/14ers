@@ -20,3 +20,6 @@ node_modules/
 # Generated handoff copies; canonical sources remain tracked
 outputs/colorado_14er_kickoff/
 outputs/colorado_14er_kickoff.zip
+
+# Site import data is a local derived export, excluded from the public code repository
+site_export/
