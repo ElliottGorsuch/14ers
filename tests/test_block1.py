@@ -53,14 +53,14 @@ class Tests(unittest.TestCase):
                      'metadata_sha256':m.hashlib.sha256(PAGE).hexdigest()}
             m.write_json(folder/'download_ledger.json',[receipt])
             with patch.object(m.Client,'check_robots',side_effect=AssertionError('offline network')):
-                summary=m.run('outputs/route_manifest.csv',base/'raw','fixture',offline=True,
+                summary=m.run('outputs/research_route_manifest.csv',base/'raw','fixture',offline=True,
                               browser_download_dir=folder,download_agreement_accepted=True)
             self.assertEqual(summary['downloaded'],1)
             self.assertEqual(summary['training_eligible'],0)
             self.assertEqual(summary['requested'],100)
             (folder/'elbe1.gpx').write_bytes(GPX+b' ')
             with self.assertRaises(m.IngestionError):
-                m.run('outputs/route_manifest.csv',base/'other','fixture',offline=True,browser_download_dir=folder)
+                m.run('outputs/research_route_manifest.csv',base/'other','fixture',offline=True,browser_download_dir=folder)
 
     def curated_fixture(self, row):
         record = {k: row[k] for k in ('route_id','summit_order','start_policy','descent_policy')}
@@ -116,13 +116,13 @@ class Tests(unittest.TestCase):
         audit2_spec.loader.exec_module(audit2)
         with tempfile.TemporaryDirectory() as d:
             base=Path(d)
-            rows=m.load_manifest('outputs/route_manifest.csv')
+            rows=m.load_manifest('outputs/research_route_manifest.csv')
             (base/'fixture.gpx').write_bytes(GPX)
-            doc={'schema_version':'1.0.0', 'manifest_sha256':m.hashlib.sha256(Path('outputs/route_manifest.csv').read_bytes()).hexdigest(),
+            doc={'schema_version':'1.0.0', 'manifest_sha256':m.hashlib.sha256(Path('outputs/research_route_manifest.csv').read_bytes()).hexdigest(),
                  'permission_evidence':'Synthetic local test permission', 'records':[self.curated_fixture(rows[68])]}
             export=base/'approved.json';m.write_json(export,doc)
             with patch.object(m.Client,'check_robots',side_effect=AssertionError('offline network')):
-                report=m.run('outputs/route_manifest.csv',base/'raw','fixture',curated_file=export,offline=True)
+                report=m.run('outputs/research_route_manifest.csv',base/'raw','fixture',curated_file=export,offline=True)
             self.assertEqual(report['downloaded'],1)
             self.assertEqual(report['training_eligible'],1)
             result=audit2.audit(base/'raw')
@@ -134,7 +134,7 @@ class Tests(unittest.TestCase):
     def test_curated_rejects_missing_evidence_wrong_hash_and_path(self):
         with tempfile.TemporaryDirectory() as d:
             base=Path(d);(base/'fixture.gpx').write_bytes(GPX)
-            row=m.load_manifest('outputs/route_manifest.csv')[68]
+            row=m.load_manifest('outputs/research_route_manifest.csv')[68]
             record=self.curated_fixture(row)
             doc={'permission_evidence':'Synthetic test'}
             for changes in ({'gpx_sha256':'bad'}, {'gpx_file':'../fixture.gpx'},
@@ -148,7 +148,7 @@ class Tests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as d, patch.object(m.Client,'check_robots'), \
                 patch.object(m,'discover',side_effect=AssertionError('Full index crawl')), \
                 patch.object(m.Client,'fetch',side_effect=[PAGE,GPX]) as fetch:
-            report=m.run('outputs/route_manifest.csv',d,'fixture',True,True,only_routes=['co14-001'])
+            report=m.run('outputs/research_route_manifest.csv',d,'fixture',True,True,only_routes=['co14-001'])
             self.assertEqual(fetch.call_count,2)
             self.assertEqual(report['statuses'],{'not_selected':99,'downloaded':1})
             self.assertEqual(report['training_eligible'],0)
@@ -160,12 +160,12 @@ class Tests(unittest.TestCase):
         self.assertIsNone(selected['source_gain_ft'])
 
     def test_manifest_exact(self):
-        rows = m.load_manifest('outputs/route_manifest.csv')
+        rows = m.load_manifest('outputs/research_route_manifest.csv')
         self.assertEqual(len(rows), 100)
         self.assertIn('Tour de Abyss', rows[96]['canonical_name'])
 
     def test_phase1_replacements_and_originals(self):
-        rows=m.load_manifest('outputs/route_manifest.csv')
+        rows=m.load_manifest('outputs/research_route_manifest.csv')
         self.assertEqual(rows[84]['requested_name'],'Mt. Sherman - East Ridge')
         self.assertEqual(rows[84]['source_url'],m.BASE+'route.php?route=sher2')
         self.assertEqual(rows[86]['requested_name'],'Missouri Mountain - North Face')
@@ -187,14 +187,14 @@ class Tests(unittest.TestCase):
     def test_unreviewed_manifest_edit_is_detected(self):
         with tempfile.TemporaryDirectory() as d:
             shutil.copytree('outputs',Path(d)/'outputs')
-            p=Path(d)/'outputs/route_manifest.csv'
+            p=Path(d)/'outputs/research_route_manifest.csv'
             p.write_text(p.read_text().replace('Rockdale 2WD','Upper gate',1))
             report=audit.validate(d)
             self.assertFalse(report['contract_checks_passed'])
             self.assertTrue(any('freeze' in e for e in report['errors']))
 
     def test_transitive_related_source_groups(self):
-        rows=m.load_manifest('outputs/route_manifest.csv')
+        rows=m.load_manifest('outputs/research_route_manifest.csv')
         for r in rows:
             r.update(status='pending',source_url='',related_itinerary_group='')
         rows[0]['related_itinerary_group']='co14-001|co14-002'
@@ -260,7 +260,7 @@ class Tests(unittest.TestCase):
 
     def test_run_reports_all_100_when_blocked(self):
         with tempfile.TemporaryDirectory() as d, patch.object(m.Client,'check_robots',side_effect=m.AccessBlocked('HTTP 403')):
-            report = m.run('outputs/route_manifest.csv',d,'test@example.org',True,True)
+            report = m.run('outputs/research_route_manifest.csv',d,'test@example.org',True,True)
             self.assertEqual(report['statuses'], {'blocked_or_not_attempted':100})
             self.assertFalse(report['complete_100_unique_dry_routes'])
             self.assertEqual(len(m.pd.read_csv(Path(d)/'route_status.csv')),100)
@@ -268,7 +268,7 @@ class Tests(unittest.TestCase):
     def test_fixture_end_to_end_and_duplicates(self):
         source = m.parse_route(PAGE,m.BASE+'route.php?route=elbe1')
         with tempfile.TemporaryDirectory() as d:
-            rows = m.load_manifest('outputs/route_manifest.csv')
+            rows = m.load_manifest('outputs/research_route_manifest.csv')
             for r in rows:
                 r['source_url'] = ''
                 r['canonical_name'] = r['requested_name']
