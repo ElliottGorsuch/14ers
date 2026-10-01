@@ -87,7 +87,7 @@ The held-out lane evaluates comparisons among known routes, not generalization t
 
 ## GitHub connection
 
-Authenticated Chrome GitHub access is verified on October 1, 2026. CLI API transport remains unavailable; no local Git remote is configured.
+Authenticated Chrome GitHub access is verified on October 1, 2026. All 26 canonical source/config/roster/audit/documentation/test files were committed through the browser. CLI API transport remains unavailable; local Git remote configuration is blocked by read-only .git permissions.
 
 The user selected the existing public [ElliottGorsuch/14ers repository](https://github.com/ElliottGorsuch/14ers) for canonical code and documentation only, and Base44 hosting. Private tracks, cookies, derived per-route features/models and community records remain local.
 
@@ -97,7 +97,7 @@ Base44 native backend functions use Deno and its request-derived client/session 
 
 ## Next steps to finish live Phase Six and proceed to Phase Seven
 
-1. Publish canonical code/docs to the selected GitHub repository; preserve private-data exclusions.
+1. GitHub code/docs publication is complete; preserve private-data exclusions and verify Base44 GitHub synchronization.
 2. Implement the selected Base44 backend adapter or hosted Python bridge and attach a real authenticated session resolver, a private HMAC secret, HTTPS and deployment-level rate/concurrency controls.
 3. Wire comparison cards to the assignment/response endpoints, including both-routes experience, conditions, tie/skip, accessible side order and retry handling.
 4. Pilot with real completed-both dry-summer comparisons; inspect duplicates, coverage, component bridges, condition exclusions and voter concentration.
