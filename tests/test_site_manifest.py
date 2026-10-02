@@ -58,6 +58,20 @@ class SiteManifestTests(unittest.TestCase):
                 with self.assertRaises(ValueError): exporter.export_public_manifest(root)
                 self.assertFalse((root/'outputs/site_route_manifest.json').exists())
 
+    def test_reference_projection_preserves_frozen_scale_and_rejects_missing_inputs(self):
+        row = {f: '4' for f in exporter.MODEL_COLUMNS}
+        for f in exporter.risks_fields(): row[f] = 'High'
+        model = dict(scaler_mean=[2]*11, scaler_scale=[2]*11,
+                     BT_linear=dict(weights=[1]*11))
+        # Seven numeric features each contribute 1; four High=3 risks each 0.5.
+        self.assertEqual(exporter.reference_score(row, model, {'High':3}), 9)
+        row['gpx_gain_ft'] = ''
+        with self.assertRaises(ValueError):
+            exporter.reference_score(row, model, {'High':3})
+        row['gpx_gain_ft'] = 'nan'
+        with self.assertRaises(ValueError):
+            exporter.reference_score(row, model, {'High':3})
+
     def test_published_manifest_contract(self):
         records = json.loads((ROOT/'outputs/site_route_manifest.json').read_text())
         ids = [r['route_id'] for r in records]
@@ -71,7 +85,7 @@ class SiteManifestTests(unittest.TestCase):
         self.assertEqual([json.loads(r['summits']) for r in published], [r['summits'] for r in records])
         self.assertFalse(set(ids) & {'co14-008','co14-054','co14-069'})
         self.assertEqual(sum(r['plot_ready'] for r in records), 103)
-        self.assertEqual(sum(r['rank_ready'] for r in records), 103)
+        self.assertEqual(sum(r['rank_ready'] for r in records), 108)
         self.assertFalse(any(r['voting_ready'] for r in records))
         for peak in ['Mt. Cameron','Mt. Lincoln']:
             self.assertEqual([r['route_id'] for r in records if peak in r['summits']], ['co14-066'])
