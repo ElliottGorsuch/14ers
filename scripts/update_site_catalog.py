@@ -227,6 +227,7 @@ def main():
         row = {h:'' for h in HEADERS}
         row.update(route_id=rid,feature_version=geometry.FEATURE_VERSION)
         flags = ['metadata_scope_pending','complete_dry_itinerary_unverified']
+        flags.extend(route.get('curation_quality_flags', []))
         entry = {k:route[k] for k in ('route_id','canonical_name','primary_peak','summits','source_url','source_kind')}
         entry.update(identity_status='pending' if route['source_kind']=='unverified_request' else 'verified',
                      geometry_scope='unavailable',complete_itinerary_verified=False,
