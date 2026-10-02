@@ -120,6 +120,12 @@ All six have `rank_ready=false` in the site catalog and public manifest, with em
 
 `complete_itinerary_verified=false` / `complete_dry_itinerary_unverified` is a broader scope caveat shared by ranked records; it is not the distinguishing gate for this recorded-profile cohort. Class 5 itself does not exclude Cables. The 103 already-ranked rows and the entire feature CSV remain unchanged, including feature version **3.1.0**, the 33-column schema, ranks, scores and coordinates. Filling a missing input with zero, a rating from another route or an unverified grade would produce a different modeling assumption, not a supported prediction from this export.
 
+### Official metadata curation review
+
+On October 1, 2026, the [official route selector](https://www.14ers.com/php14ers/routeselector.php) and peak route listings were reviewed for `co14-106`, `co14-109`, `co14-111` and `co14-107`. No exact official route-description page was found for Columbia East Ridge via Three Elk Creek, Princeton Southwest Ridge via Grouse Canyon, Snowmass S Ridge, or the unresolved Democrat West Ridge. Columbia Southeast Ridge, Princeton East Slopes, Snowmass East Slopes/West Slope and Democrat East/South Slope describe different itineraries; their class/risk labels were not transferred. Snowmass's peak FAQ mentions Class 3 scrambling on the S Ridge, but it does not supply a matching route-description rating block. The user's “14ers.com” source-domain confirmation does not identify Democrat's exact itinerary.
+
+Only those four CSV rows' `quality_flags` were changed: `official_route_metadata_reviewed_2026_10_01`, `exact_official_route_page_not_found`, and additionally `identity_review_unresolved` for Democrat. Their class/risk inputs remain blank; there was no numeric metadata curation or score backfill. All other 105 CSV rows, including all 103 ranked rows, were verified byte-for-byte unchanged. The prior ranking-gate review above left the entire CSV unchanged; this subsequent review changes only these QA flags. The schema and feature version 3.1.0 remain unchanged. `outputs/site_route_additions.json` records the checked source URLs and curation decisions, which the exporter preserves on rebuild.
+
 ## Canonical files
 
 - `outputs/route_manifest.csv`: active 109-route public site roster, version 2.0.0.
