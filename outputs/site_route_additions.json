@@ -1,20 +1,245 @@
 {
   "catalog_version": "2.0.0",
   "decision_date": "2026-10-01",
-  "retired_ids": ["co14-008", "co14-054", "co14-069"],
-  "primary_peak_overrides": {"co14-063": "Mt. Blue Sky", "co14-065": "Torreys Peak", "co14-082": "North Maroon Peak", "co14-097": "Mt. Blue Sky"},
+  "retired_ids": [
+    "co14-008",
+    "co14-054",
+    "co14-069"
+  ],
+  "primary_peak_overrides": {
+    "co14-063": "Mt. Blue Sky",
+    "co14-065": "Torreys Peak",
+    "co14-082": "North Maroon Peak",
+    "co14-097": "Mt. Blue Sky"
+  },
   "routes": [
-    {"route_id":"co14-101","canonical_name":"Huron Peak - Southwest Slopes","primary_peak":"Huron Peak","summits":["Huron Peak"],"source_url":"https://www.14ers.com/route.php?route=huro2","code":"huro2","source_kind":"official_overview","source_distance_mi":13.25,"source_gain_ft":3900,"metric_scope":"Round trip from 2WD Winfield; GPX starts at upper Lake Ann trailhead."},
-    {"route_id":"co14-102","canonical_name":"Little Bear Peak - West Ridge Indirect","primary_peak":"Little Bear Peak","summits":["Little Bear Peak"],"source_url":"https://www.14ers.com/route.php?route=litt8","code":"litt8","source_kind":"official_overview","source_distance_mi":14,"source_gain_ft":6200,"metric_scope":"Round trip from 8000-ft Lake Como road start; GPX is upper route component."},
-    {"route_id":"co14-103","canonical_name":"Little Bear Peak - Southwest Ridge","primary_peak":"Little Bear Peak","summits":["South Little Bear","Little Bear Peak"],"source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=8565","supporting_source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=19951","code":"trip8565","source_kind":"trip_report","yds_raw":"Class 4","yds_class":4,"source_distance_mi":9.23,"source_gain_ft":8000,"metric_scope":"June 2010 reported reverse-ridge itinerary and Class 4 climbing; reported gain is retained as published, not accepted as validated. No official four-risk ratings. Report 19951 track is snowy June Hourglass descent; report 21821 stops at South Little Bear; neither is substituted."},
-    {"route_id":"co14-104","canonical_name":"Longs Peak - Cables ascent / Keyhole descent","primary_peak":"Longs Peak","summits":["Longs Peak"],"source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=20661","supporting_source_url":"https://www.mountainproject.com/route/105754720/cable-route","code":"trip20661","source_kind":"trip_report","yds_raw":"Class 5.4","yds_class":5,"metric_scope":"August 2020 recorded loop; multiple GPX segments remain separate, no gap interpolation. Dry rock grade 5.4 is sourced from Mountain Project, not invented official 14ers.com risk labels."},
-    {"route_id":"co14-105","canonical_name":"Belford, Oxford and Missouri","primary_peak":"Missouri Mountain","summits":["Mt. Belford","Mt. Oxford","Missouri Mountain"],"source_url":"https://www.14ers.com/route.php?route=miss4","code":"miss4","source_kind":"official_overview","source_distance_mi":15,"source_gain_ft":7600,"metric_scope":"Complete official three-peak combination from Missouri Gulch."},
-    {"route_id":"co14-106","canonical_name":"Mt. Columbia - East Ridge via Three Elk Creek","primary_peak":"Mt. Columbia","summits":["Mt. Columbia"],"source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=22127","source_kind":"trip_report","source_distance_mi":15.2,"source_gain_ft":5422,"metric_scope":"Reported July 2023 Harvard Lakes / Three Elk Creek ascent and reverse descent; planned West Slopes loop was not executed. GPX not yet matched."},
-    {"route_id":"co14-107","canonical_name":"Mt. Democrat - West Ridge (identity pending)","primary_peak":"Mt. Democrat","summits":["Mt. Democrat"],"source_url":"","supporting_source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=20531","source_kind":"unverified_request","metric_scope":"User request retained for review; exact itinerary and claimed Class 4 remain unverified. Not a verified Buckskin traverse substitution."},
-    {"route_id":"co14-108","canonical_name":"Mt. Lindsey - Northwest Ridge","primary_peak":"Mt. Lindsey","summits":["Mt. Lindsey"],"source_url":"https://www.14ers.com/route.php?route=lind2","code":"lind2","source_kind":"official_overview","source_distance_mi":8.25,"source_gain_ft":3500,"metric_scope":"Official Class 3 bypass; optional direct Class 4 variant is not silently substituted."},
-    {"route_id":"co14-109","canonical_name":"Mt. Princeton - Southwest Ridge via Grouse Canyon","primary_peak":"Mt. Princeton","summits":["Mt. Princeton"],"source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=3363","supporting_source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=21185","source_kind":"trip_report","source_distance_mi":6.6,"source_gain_ft":5097,"metric_scope":"July 2007 report totals; exact matching ascent and descent GPX pending, no borrowed winter track or emergency-descent totals."},
-    {"route_id":"co14-110","canonical_name":"Mt. Wilson - North Slopes from Navajo Basin trailhead","primary_peak":"Mt. Wilson","summits":["Mt. Wilson"],"source_url":"https://www.14ers.com/route.php?route=mwil2","code":"mwil2","source_kind":"official_overview","source_distance_mi":16,"source_gain_ft":5100,"metric_scope":"Full Navajo Basin trailhead published totals; not shorter Navajo Lake-only or Rock of Ages totals."},
-    {"route_id":"co14-111","canonical_name":"Snowmass Mountain - S Ridge","primary_peak":"Snowmass Mountain","summits":["Snowmass Mountain"],"source_url":"https://www.14ers.com/php14ers/tripreport.php?trip=23538","source_kind":"trip_report","source_distance_mi":9.32,"source_gain_ft":4450,"metric_scope":"July 2026 S Ridge ascent and S Ridge descent from Lead King Basin; do not substitute an S Ridge / West Slopes or North Snowmass loop."},
-    {"route_id":"co14-112","canonical_name":"Sunshine Peak - Northwest Face","primary_peak":"Sunshine Peak","summits":["Sunshine Peak"],"source_url":"https://www.14ers.com/route.php?route=suns3","code":"suns3","source_kind":"official_overview","source_distance_mi":8.5,"source_gain_ft":3800,"metric_scope":"Official Northwest Face itinerary; East Ridge winter variant remains deferred."}
+    {
+      "route_id": "co14-101",
+      "canonical_name": "Huron Peak - Southwest Slopes",
+      "primary_peak": "Huron Peak",
+      "summits": [
+        "Huron Peak"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=huro2",
+      "code": "huro2",
+      "source_kind": "official_overview",
+      "source_distance_mi": 13.25,
+      "source_gain_ft": 3900,
+      "metric_scope": "Round trip from 2WD Winfield; GPX starts at upper Lake Ann trailhead."
+    },
+    {
+      "route_id": "co14-102",
+      "canonical_name": "Little Bear Peak - West Ridge Indirect",
+      "primary_peak": "Little Bear Peak",
+      "summits": [
+        "Little Bear Peak"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=litt8",
+      "code": "litt8",
+      "source_kind": "official_overview",
+      "source_distance_mi": 14,
+      "source_gain_ft": 6200,
+      "metric_scope": "Round trip from 8000-ft Lake Como road start; GPX is upper route component."
+    },
+    {
+      "route_id": "co14-103",
+      "canonical_name": "Little Bear Peak - Southwest Ridge",
+      "primary_peak": "Little Bear Peak",
+      "summits": [
+        "South Little Bear",
+        "Little Bear Peak"
+      ],
+      "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=8565",
+      "supporting_source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=19951",
+      "code": "trip8565",
+      "source_kind": "trip_report",
+      "yds_raw": "Class 4",
+      "yds_class": 4,
+      "source_distance_mi": 9.23,
+      "source_gain_ft": 8000,
+      "metric_scope": "June 2010 reported reverse-ridge itinerary and Class 4 climbing; reported gain is retained as published, not accepted as validated. No official four-risk ratings. Report 19951 track is snowy June Hourglass descent; report 21821 stops at South Little Bear; neither is substituted."
+    },
+    {
+      "route_id": "co14-104",
+      "canonical_name": "Longs Peak - Cables ascent / Keyhole descent",
+      "primary_peak": "Longs Peak",
+      "summits": [
+        "Longs Peak"
+      ],
+      "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=20661",
+      "supporting_source_url": "https://www.mountainproject.com/route/105754720/cable-route",
+      "code": "trip20661",
+      "source_kind": "trip_report",
+      "yds_raw": "Class 5.4",
+      "yds_class": 5,
+      "metric_scope": "August 2020 recorded loop; multiple GPX segments remain separate, no gap interpolation. Dry rock grade 5.4 is sourced from Mountain Project, not invented official 14ers.com risk labels."
+    },
+    {
+      "route_id": "co14-105",
+      "canonical_name": "Belford, Oxford and Missouri",
+      "primary_peak": "Missouri Mountain",
+      "summits": [
+        "Mt. Belford",
+        "Mt. Oxford",
+        "Missouri Mountain"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=miss4",
+      "code": "miss4",
+      "source_kind": "official_overview",
+      "source_distance_mi": 15,
+      "source_gain_ft": 7600,
+      "metric_scope": "Complete official three-peak combination from Missouri Gulch."
+    },
+    {
+      "route_id": "co14-106",
+      "canonical_name": "Mt. Columbia - East Ridge via Three Elk Creek",
+      "primary_peak": "Mt. Columbia",
+      "summits": [
+        "Mt. Columbia"
+      ],
+      "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=22127",
+      "source_kind": "trip_report",
+      "source_distance_mi": 15.2,
+      "source_gain_ft": 5422,
+      "metric_scope": "Reported July 2023 Harvard Lakes / Three Elk Creek ascent and reverse descent; planned West Slopes loop was not executed. GPX not yet matched.",
+      "curation_quality_flags": [
+        "official_route_metadata_reviewed_2026_10_01",
+        "exact_official_route_page_not_found"
+      ],
+      "official_metadata_review": {
+        "date": "2026-10-01",
+        "reviewed_sources": [
+          "https://www.14ers.com/php14ers/routeselector.php",
+          "https://www.14ers.com/peaks/10035/mount-columbia"
+        ],
+        "exact_route_page_found": false,
+        "fields_populated": [],
+        "decision": "No exact official route-description match found; no transfer of ratings from another itinerary. Identity remains unresolved for co14-107."
+      }
+    },
+    {
+      "route_id": "co14-107",
+      "canonical_name": "Mt. Democrat - West Ridge (identity pending)",
+      "primary_peak": "Mt. Democrat",
+      "summits": [
+        "Mt. Democrat"
+      ],
+      "source_url": "",
+      "supporting_source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=20531",
+      "source_kind": "unverified_request",
+      "metric_scope": "User request retained for review; exact itinerary and claimed Class 4 remain unverified. Not a verified Buckskin traverse substitution.",
+      "curation_quality_flags": [
+        "official_route_metadata_reviewed_2026_10_01",
+        "exact_official_route_page_not_found",
+        "identity_review_unresolved"
+      ],
+      "official_metadata_review": {
+        "date": "2026-10-01",
+        "reviewed_sources": [
+          "https://www.14ers.com/php14ers/routeselector.php",
+          "https://www.14ers.com/peaks/10028/mount-democrat"
+        ],
+        "exact_route_page_found": false,
+        "fields_populated": [],
+        "decision": "No exact official route-description match found; no transfer of ratings from another itinerary. Identity remains unresolved for co14-107."
+      }
+    },
+    {
+      "route_id": "co14-108",
+      "canonical_name": "Mt. Lindsey - Northwest Ridge",
+      "primary_peak": "Mt. Lindsey",
+      "summits": [
+        "Mt. Lindsey"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=lind2",
+      "code": "lind2",
+      "source_kind": "official_overview",
+      "source_distance_mi": 8.25,
+      "source_gain_ft": 3500,
+      "metric_scope": "Official Class 3 bypass; optional direct Class 4 variant is not silently substituted."
+    },
+    {
+      "route_id": "co14-109",
+      "canonical_name": "Mt. Princeton - Southwest Ridge via Grouse Canyon",
+      "primary_peak": "Mt. Princeton",
+      "summits": [
+        "Mt. Princeton"
+      ],
+      "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=3363",
+      "supporting_source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=21185",
+      "source_kind": "trip_report",
+      "source_distance_mi": 6.6,
+      "source_gain_ft": 5097,
+      "metric_scope": "July 2007 report totals; exact matching ascent and descent GPX pending, no borrowed winter track or emergency-descent totals.",
+      "curation_quality_flags": [
+        "official_route_metadata_reviewed_2026_10_01",
+        "exact_official_route_page_not_found"
+      ],
+      "official_metadata_review": {
+        "date": "2026-10-01",
+        "reviewed_sources": [
+          "https://www.14ers.com/php14ers/routeselector.php",
+          "https://www.14ers.com/peaks/10020/mount-princeton"
+        ],
+        "exact_route_page_found": false,
+        "fields_populated": [],
+        "decision": "No exact official route-description match found; no transfer of ratings from another itinerary. Identity remains unresolved for co14-107."
+      }
+    },
+    {
+      "route_id": "co14-110",
+      "canonical_name": "Mt. Wilson - North Slopes from Navajo Basin trailhead",
+      "primary_peak": "Mt. Wilson",
+      "summits": [
+        "Mt. Wilson"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=mwil2",
+      "code": "mwil2",
+      "source_kind": "official_overview",
+      "source_distance_mi": 16,
+      "source_gain_ft": 5100,
+      "metric_scope": "Full Navajo Basin trailhead published totals; not shorter Navajo Lake-only or Rock of Ages totals."
+    },
+    {
+      "route_id": "co14-111",
+      "canonical_name": "Snowmass Mountain - S Ridge",
+      "primary_peak": "Snowmass Mountain",
+      "summits": [
+        "Snowmass Mountain"
+      ],
+      "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=23538",
+      "source_kind": "trip_report",
+      "source_distance_mi": 9.32,
+      "source_gain_ft": 4450,
+      "metric_scope": "July 2026 S Ridge ascent and S Ridge descent from Lead King Basin; do not substitute an S Ridge / West Slopes or North Snowmass loop.",
+      "curation_quality_flags": [
+        "official_route_metadata_reviewed_2026_10_01",
+        "exact_official_route_page_not_found"
+      ],
+      "official_metadata_review": {
+        "date": "2026-10-01",
+        "reviewed_sources": [
+          "https://www.14ers.com/php14ers/routeselector.php",
+          "https://www.14ers.com/peaks/10031/snowmass-mountain"
+        ],
+        "exact_route_page_found": false,
+        "fields_populated": [],
+        "decision": "No exact official route-description match found; no transfer of ratings from another itinerary. Identity remains unresolved for co14-107. Snowmass peak FAQ mentions Class 3 S-Ridge scrambling but is not an exact route-description rating block."
+      }
+    },
+    {
+      "route_id": "co14-112",
+      "canonical_name": "Sunshine Peak - Northwest Face",
+      "primary_peak": "Sunshine Peak",
+      "summits": [
+        "Sunshine Peak"
+      ],
+      "source_url": "https://www.14ers.com/route.php?route=suns3",
+      "code": "suns3",
+      "source_kind": "official_overview",
+      "source_distance_mi": 8.5,
+      "source_gain_ft": 3800,
+      "metric_scope": "Official Northwest Face itinerary; East Ridge winter variant remains deferred."
+    }
   ]
 }
