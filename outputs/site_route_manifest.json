@@ -16,7 +16,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -37,7 +37,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -58,7 +58,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -79,7 +79,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -100,7 +100,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -121,7 +121,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -142,7 +142,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -163,7 +163,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -184,7 +184,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -205,7 +205,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -226,7 +226,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -247,7 +247,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -268,7 +268,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -289,7 +289,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -310,7 +310,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -331,7 +331,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -352,7 +352,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -373,7 +373,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -394,7 +394,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -415,7 +415,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -436,7 +436,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -458,7 +458,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -479,7 +479,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -501,7 +501,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": "Both recorded ascent components included; 3.04 m join is not interpolated and return is not fabricated."
   },
@@ -523,7 +523,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -544,7 +544,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -565,7 +565,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -586,7 +586,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -607,7 +607,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -628,7 +628,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -649,7 +649,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -670,7 +670,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -691,7 +691,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -712,7 +712,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -733,7 +733,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -754,7 +754,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -775,7 +775,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -796,7 +796,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -817,7 +817,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -838,7 +838,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -859,7 +859,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -880,7 +880,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -901,7 +901,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -922,7 +922,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -943,7 +943,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -964,7 +964,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -985,7 +985,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1006,7 +1006,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1027,7 +1027,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -1048,7 +1048,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1069,7 +1069,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1091,7 +1091,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1112,7 +1112,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -1133,7 +1133,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1154,7 +1154,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1175,7 +1175,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1196,7 +1196,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -1217,7 +1217,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1238,7 +1238,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1259,7 +1259,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1281,7 +1281,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1302,7 +1302,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1324,7 +1324,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -1348,7 +1348,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1369,7 +1369,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1390,7 +1390,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1411,7 +1411,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1432,7 +1432,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1453,7 +1453,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1474,7 +1474,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1495,7 +1495,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1516,7 +1516,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1537,7 +1537,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1558,7 +1558,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1579,7 +1579,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1601,7 +1601,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 5,
     "scope_note": ""
   },
@@ -1623,7 +1623,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 5,
     "scope_note": ""
   },
@@ -1645,7 +1645,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -1667,7 +1667,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 5,
     "scope_note": ""
   },
@@ -1689,7 +1689,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1710,7 +1710,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1731,7 +1731,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -1752,7 +1752,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1773,7 +1773,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1795,7 +1795,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1816,7 +1816,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1838,7 +1838,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1859,7 +1859,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1881,7 +1881,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1902,7 +1902,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1923,7 +1923,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -1945,7 +1945,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": ""
   },
@@ -1966,7 +1966,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -1988,7 +1988,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": ""
   },
@@ -2009,7 +2009,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -2030,7 +2030,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 1,
     "scope_note": ""
   },
@@ -2051,7 +2051,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": ""
   },
@@ -2072,7 +2072,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": "Round trip from 2WD Winfield; GPX starts at upper Lake Ann trailhead."
   },
@@ -2093,7 +2093,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": "Round trip from 8000-ft Lake Como road start; GPX is upper route component."
   },
@@ -2108,16 +2108,16 @@
     "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=8565",
     "source_kind": "trip_report",
     "identity_status": "verified",
-    "catalog_status": "pending_measurements",
-    "geometry_scope": "unavailable",
+    "catalog_status": "curated_profile_rank_ready_plot_pending",
+    "geometry_scope": "recorded_ascent_only",
     "complete_itinerary_verified": false,
     "plot_ready": false,
-    "rank_ready": false,
+    "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
-    "scope_note": "June 2010 reported reverse-ridge itinerary and Class 4 climbing; reported gain is retained as published, not accepted as validated. No official four-risk ratings. Report 19951 track is snowy June Hourglass descent; report 21821 stops at South Little Bear; neither is substituted."
+    "scope_note": "Analyst ordinal estimates: narrow highly exposed knife edges, loose talus, forest bushwhacking/ledge choices, long remote ridge with difficult retreat. Grade 4 was already sourced. Profile uses only the recorded SW ascent, excluding the Hourglass descent, from a snowy June recording; it is a seasonal geometry proxy, not an observed dry-summer itinerary."
   },
   {
     "route_id": "co14-104",
@@ -2129,16 +2129,16 @@
     "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=20661",
     "source_kind": "trip_report",
     "identity_status": "verified",
-    "catalog_status": "pending_measurements",
+    "catalog_status": "curated_profile_rank_ready_plot_pending",
     "geometry_scope": "recorded_source_track",
     "complete_itinerary_verified": false,
     "plot_ready": false,
-    "rank_ready": false,
+    "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 5,
-    "scope_note": "August 2020 recorded loop; multiple GPX segments remain separate, no gap interpolation. Dry rock grade 5.4 is sourced from Mountain Project, not invented official 14ers.com risk labels."
+    "scope_note": "Analyst ordinal estimates for documented Cables/Keyhole loop: technical 5.4 pitch and exposed Keyhole sections, loose crowded Trough, nontrivial unmarked upper face, long technical alpine Grade III commitment. These are not official 14ers.com risk labels. Existing acquired August loop profile is retained without recomputation."
   },
   {
     "route_id": "co14-105",
@@ -2159,7 +2159,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": "Complete official three-peak combination from Missouri Gulch."
   },
@@ -2173,16 +2173,16 @@
     "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=22127",
     "source_kind": "trip_report",
     "identity_status": "verified",
-    "catalog_status": "pending_measurements",
-    "geometry_scope": "unavailable",
+    "catalog_status": "curated_profile_rank_ready_plot_pending",
+    "geometry_scope": "recorded_ascent_only",
     "complete_itinerary_verified": false,
     "plot_ready": false,
-    "rank_ready": false,
+    "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
-    "yds_class": null,
-    "scope_note": "Reported July 2023 Harvard Lakes / Three Elk Creek ascent and reverse descent; planned West Slopes loop was not executed. GPX not yet matched."
+    "feature_version": "3.1.1",
+    "yds_class": 2,
+    "scope_note": "Class 2 and ordinal risks are analyst estimates from grassy ridge, mostly stable talus, steep access slopes, creek crossings, disappearing trail and bushwhacking described in the summer reports. Geometry uses the 2013 Three Elk trailhead East Ridge ascent only; the emergency descent is excluded. It does not include the 2023 Harvard Lakes starting variant. Recorded summit elevation is anomalously low despite coordinates within 15 m of the published summit; no elevation correction is invented."
   },
   {
     "route_id": "co14-107",
@@ -2201,7 +2201,7 @@
     "rank_ready": false,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": null,
     "scope_note": "User request retained for review; exact itinerary and claimed Class 4 remain unverified. Not a verified Buckskin traverse substitution."
   },
@@ -2222,7 +2222,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 3,
     "scope_note": "Official Class 3 bypass; optional direct Class 4 variant is not silently substituted."
   },
@@ -2236,16 +2236,16 @@
     "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=3363",
     "source_kind": "trip_report",
     "identity_status": "verified",
-    "catalog_status": "pending_measurements",
-    "geometry_scope": "unavailable",
+    "catalog_status": "curated_profile_rank_ready_plot_pending",
+    "geometry_scope": "recorded_source_track",
     "complete_itinerary_verified": false,
     "plot_ready": false,
-    "rank_ready": false,
+    "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
-    "yds_class": null,
-    "scope_note": "July 2007 report totals; exact matching ascent and descent GPX pending, no borrowed winter track or emergency-descent totals."
+    "feature_version": "3.1.1",
+    "yds_class": 3,
+    "scope_note": "Grade 3 selects the short direct ridge pitch explicitly climbed in report 3363 rather than silently taking the Class 2+ bypass. Ordinal risks are analyst estimates from exposed short ridge pitch, loose scree/talus, unmarked trail junctions/bushwhacking and sustained 5000+ ft ascent. GPX upload Princeton - Grouse Canyon by butcher213, climbed July 3, 2021, reaches summit and returns to starting area. Retain separate segments; published 2007 totals are a separate observation."
   },
   {
     "route_id": "co14-110",
@@ -2264,7 +2264,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 4,
     "scope_note": "Full Navajo Basin trailhead published totals; not shorter Navajo Lake-only or Rock of Ages totals."
   },
@@ -2278,16 +2278,16 @@
     "source_url": "https://www.14ers.com/php14ers/tripreport.php?trip=23538",
     "source_kind": "trip_report",
     "identity_status": "verified",
-    "catalog_status": "pending_measurements",
-    "geometry_scope": "unavailable",
+    "catalog_status": "curated_profile_rank_ready_plot_pending",
+    "geometry_scope": "recorded_ascent_only",
     "complete_itinerary_verified": false,
     "plot_ready": false,
-    "rank_ready": false,
+    "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
-    "yds_class": null,
-    "scope_note": "July 2026 S Ridge ascent and S Ridge descent from Lead King Basin; do not substitute an S Ridge / West Slopes or North Snowmass loop."
+    "feature_version": "3.1.1",
+    "yds_class": 3,
+    "scope_note": "Grade 3 is supported by the official peak FAQ and S-ridge report; ordinal ratings are analyst estimates from airy Class 3 ridge, loose approach/gully contrasting with more solid ridge rock, ambiguous crux/return navigation and remote Lead King Basin access. GPX upload Snowmass S Ridge by josephnephi, climbed June 18, 2022; only ascent to summit is used. Recording starts near Geneva Lake; Lead King trailhead approach and return are absent. Seasonal conditions of this uploaded recording are unverified."
   },
   {
     "route_id": "co14-112",
@@ -2306,7 +2306,7 @@
     "rank_ready": true,
     "voting_ready": false,
     "catalog_version": "2.0.0",
-    "feature_version": "3.1.0",
+    "feature_version": "3.1.1",
     "yds_class": 2,
     "scope_note": "Official Northwest Face itinerary; East Ridge winter variant remains deferred."
   }
