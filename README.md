@@ -119,6 +119,12 @@ The saved Phase Five scaler and weights project these five complete vectors. **N
 
 `co14-107` remains `identity_status=pending`, `rank_ready=false`, with blank class, risks, geometry and prediction. The official route selector does not identify the requested Democrat West Ridge; other ridges were not substituted. Full dry-itinerary verification remains false across the exploratory cohort. Missing published totals in the frozen baseline are retained; they are not ranking inputs. The unchanged 103-route embedding/cluster bundle has six plot-pending rows, including all five new predictions and Democrat. Gate `rank_ready` and `plot_ready` independently when importing into Base44.
 
+## Licensed site photographs
+
+[Photo catalog](assets/photo_manifest.json) supplies **61 JPEG photographs**, associations for all **60 summit names**, and a hero/gallery mapping for each of the **109 active route IDs**. [Photo credits](assets/PHOTO_CREDITS.md) records each photographer, source page, individual license and preview changes. The 19 MB image collection lives in `assets/photos/`. All files were acquired through the Commons file-page download controls and decoded successfully; each catalog entry records dimensions, size and SHA256.
+
+Join `routes` by `route_id`, then resolve `hero_image_id` and `gallery_image_ids` against `photos`. Serve the relative `path` and display the photographer with linked source and license. Preserve image-specific CC BY/CC BY-SA terms separately from app code. Eight cards have dedicated terrain details or viewpoints; most use a shared peak overview. North Eolus and the auxiliary South Little Bear association use explicitly labeled massif context. The Little Bear Southwest Ridge view shows winter conditions. Historical photos are not current conditions or complete-itinerary evidence. Democrat West Ridge remains identity-pending even though its card can show Democrat's peak photo. No 14ers.com or unlicensed trip-report photographs were copied; the feature CSV and rankings are unchanged.
+
 ## Canonical files
 
 - `outputs/route_manifest.csv`: active 109-route public site roster, version 2.0.0.

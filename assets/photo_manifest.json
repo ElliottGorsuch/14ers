@@ -1,0 +1,3158 @@
+{
+  "schema_version": "1.0.0",
+  "reviewed_date": "2026-10-02",
+  "catalog_version": "2.0.0",
+  "counts": {
+    "images": 61,
+    "peak_associations": 60,
+    "route_associations": 109,
+    "route_cards_with_dedicated_details": 8
+  },
+  "integration": {
+    "route_key": "route_id",
+    "hero_key": "hero_image_id",
+    "asset_key": "image_id",
+    "show_credit": "Display author, linked source page and linked license alongside each image or in an accessible photo-credit panel.",
+    "share_alike": "For CC BY-SA images, retain the stated license for image adaptations and indicate changes; the image license is separate from the app code.",
+    "source_policy": "Only individually reviewed Commons public-domain / CC0 / CC BY / CC BY-SA photographs; no 14ers.com photographs copied.",
+    "route_scope": "Peak-photo coverage is complete. Route-specific coverage is partial and explicitly labeled; photos do not resolve itinerary identity."
+  },
+  "photos": [
+    {
+      "image_id": "mount-elbert",
+      "path": "assets/photos/mount-elbert.jpg",
+      "title": "Mt. Elbert.jpg",
+      "caption": "Mount Elbert seen from Turquoise Lake.",
+      "alt_text": "Mount Elbert seen from Turquoise Lake.",
+      "depicted_peaks": [
+        "Mt. Elbert"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mt._Elbert.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mt._Elbert.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Mt._Elbert.jpg",
+      "author": "Hogs555",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Mt. Elbert.jpg — Hogs555, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1096,
+      "height": 802,
+      "bytes": 257220,
+      "sha256": "8730c8d292ab4538773c87599a80e614c45b619f64015a44b06b86e9559b2d75",
+      "photo_date": "Taken on 27 September 2014, 23:08:33",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-massive",
+      "path": "assets/photos/mount-massive.jpg",
+      "title": "Mount Massive.jpg",
+      "caption": "Mt. Massive — peak overview.",
+      "alt_text": "Mt. Massive — peak overview.",
+      "depicted_peaks": [
+        "Mt. Massive"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Massive.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Mount_Massive.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Mount_Massive.jpg/1280px-Mount_Massive.jpg",
+      "author": "Rick Kimpel, Jr.",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Mount_Massive.jpg#Licensing",
+      "attribution": "Mount Massive.jpg — Rick Kimpel, Jr., Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 239989,
+      "sha256": "f04a3111055aeb76999ab7cc9517c94a057bbcac631f4effc6ac0aaf693cd7c0",
+      "photo_date": "1 June 2006, 12:53:58",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-harvard",
+      "path": "assets/photos/mount-harvard.jpg",
+      "title": "Harvard from Boulder Field.jpg",
+      "caption": "Mt. Harvard — peak overview.",
+      "alt_text": "Mt. Harvard — peak overview.",
+      "depicted_peaks": [
+        "Mt. Harvard"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Harvard_from_Boulder_Field.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Harvard_from_Boulder_Field.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Harvard_from_Boulder_Field.jpg",
+      "author": "KnowledgeIsPower9281",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Harvard from Boulder Field.jpg — KnowledgeIsPower9281, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1024,
+      "height": 767,
+      "bytes": 336433,
+      "sha256": "83c82335e1fa016e745d8ce2916264e88c55606c4905b140cb30d55cc6f63d78",
+      "photo_date": "27 July 2024",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "blanca-peak",
+      "path": "assets/photos/blanca-peak.jpg",
+      "title": "MtBlancaEast.jpg",
+      "caption": "Blanca Peak and Ellingwood Point seen from Mount Lindsey.",
+      "alt_text": "Blanca Peak and Ellingwood Point seen from Mount Lindsey.",
+      "depicted_peaks": [
+        "Blanca Peak",
+        "Ellingwood Point"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:MtBlancaEast.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/MtBlancaEast.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/MtBlancaEast.jpg/1280px-MtBlancaEast.jpg",
+      "author": "Meniscus / Meniscus~commonswiki (source attributes uploader; author assumed)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "MtBlancaEast.jpg — Meniscus / Meniscus~commonswiki (source attributes uploader; author assumed), CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 335303,
+      "sha256": "fede4e09a5e6d0ec1efab257eedd7a253680be876525a02ddd7938ad79e12372",
+      "photo_date": "28 August 2005 (according to Exif data)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "la-plata-peak",
+      "path": "assets/photos/la-plata-peak.jpg",
+      "title": "2007-06-24-plata-eve-close2.jpg",
+      "caption": "La Plata Peak seen from Highway 82.",
+      "alt_text": "La Plata Peak seen from Highway 82.",
+      "depicted_peaks": [
+        "La Plata Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:2007-06-24-plata-eve-close2.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/2007-06-24-plata-eve-close2.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/2007-06-24-plata-eve-close2.jpg",
+      "author": "Robertbody at English Wikipedia",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "attribution": "2007-06-24-plata-eve-close2.jpg — Robertbody at English Wikipedia, CC BY 3.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 750,
+      "height": 500,
+      "bytes": 135739,
+      "sha256": "a0e2511027ef845a920f7896610d39250895bb360f3856ee46fc6bedd474c2d4",
+      "photo_date": "9 June 2008 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "uncompahgre-peak",
+      "path": "assets/photos/uncompahgre-peak.jpg",
+      "title": "Uncompahgre peak.jpg",
+      "caption": "Uncompahgre Peak — peak overview.",
+      "alt_text": "Uncompahgre Peak — peak overview.",
+      "depicted_peaks": [
+        "Uncompahgre Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Uncompahgre_peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Uncompahgre_peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Uncompahgre_peak.jpg/1280px-Uncompahgre_peak.jpg",
+      "author": "Gregstoner88",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Uncompahgre peak.jpg — Gregstoner88, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 236671,
+      "sha256": "f0bd0566aff998bd2120cb9f1bad88bddd82e4f18736a699fadc4228780133bb",
+      "photo_date": "Taken on 23 June 2007",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "crestone-peak",
+      "path": "assets/photos/crestone-peak.jpg",
+      "title": "Crestone peak 2.jpg",
+      "caption": "Crestone Peak — peak overview.",
+      "alt_text": "Crestone Peak — peak overview.",
+      "depicted_peaks": [
+        "Crestone Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Crestone_peak_2.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/96/Crestone_peak_2.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Crestone_peak_2.jpg/1280px-Crestone_peak_2.jpg",
+      "author": "Adam Ginsburg",
+      "license": "CC BY-SA 2.5",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.5/deed.en",
+      "attribution": "Crestone peak 2.jpg — Adam Ginsburg, CC BY-SA 2.5, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 380926,
+      "sha256": "ff63307b0e5015cb2f2553deae106aafee0a5dba0ff52e14b153c5798888c771",
+      "photo_date": "24 July 2005",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-lincoln",
+      "path": "assets/photos/mount-lincoln.jpg",
+      "title": "Mount Lincoln Colorado July 2016.jpg",
+      "caption": "Mt. Lincoln — peak overview.",
+      "alt_text": "Mt. Lincoln — peak overview.",
+      "depicted_peaks": [
+        "Mt. Lincoln"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Lincoln_Colorado_July_2016.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Mount_Lincoln_Colorado_July_2016.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Mount_Lincoln_Colorado_July_2016.jpg/1280px-Mount_Lincoln_Colorado_July_2016.jpg",
+      "author": "Thomson200",
+      "license": "CC0 1.0",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "attribution": "Mount Lincoln Colorado July 2016.jpg — Thomson200, CC0 1.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 825,
+      "bytes": 361490,
+      "sha256": "c21ac9504e75aed64c2ed4e5362bdbaa53ab66356c712ffb1446164abf588470",
+      "photo_date": "9 July 2016, 13:33:21",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "castle-peak",
+      "path": "assets/photos/castle-peak.jpg",
+      "title": "Castle Peak CO Full.JPG",
+      "caption": "Castle Peak — peak overview.",
+      "alt_text": "Castle Peak — peak overview.",
+      "depicted_peaks": [
+        "Castle Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Castle_Peak_CO_Full.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/Castle_Peak_CO_Full.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Castle_Peak_CO_Full.JPG/1280px-Castle_Peak_CO_Full.JPG",
+      "author": "Dbunde",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Castle_Peak_CO_Full.JPG#Licensing",
+      "attribution": "Castle Peak CO Full.JPG — Dbunde, Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 871,
+      "bytes": 417337,
+      "sha256": "1fcff080cfc8aac8f696af6ebf76bc0be01ea05c4eaa9d9d6df8374f4eda1355",
+      "photo_date": "31 July 2009",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "grays-peak",
+      "path": "assets/photos/grays-peak.jpg",
+      "title": "Grays and Torreys Peaks 2006-08-06.jpg",
+      "caption": "Grays Peak — peak overview.",
+      "alt_text": "Grays Peak — peak overview.",
+      "depicted_peaks": [
+        "Grays Peak",
+        "Torreys Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grays_and_Torreys_Peaks_2006-08-06.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grays_and_Torreys_Peaks_2006-08-06.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Grays_and_Torreys_Peaks_2006-08-06.jpg",
+      "author": "Daidipya",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Grays and Torreys Peaks 2006-08-06.jpg — Daidipya, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1024,
+      "height": 768,
+      "bytes": 463935,
+      "sha256": "6df8ad646f07d0885a5651815423528e283accdf6329c628fdcb655d60a25cb9",
+      "photo_date": "6 August 2006, 21:09",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-antero",
+      "path": "assets/photos/mount-antero.jpg",
+      "title": "Mount Antero, taken from along U.S. 285, near the town of Nathrop.jpg",
+      "caption": "Mt. Antero — peak overview.",
+      "alt_text": "Mt. Antero — peak overview.",
+      "depicted_peaks": [
+        "Mt. Antero"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Antero,_taken_from_along_U.S._285,_near_the_town_of_Nathrop.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Mount_Antero%2C_taken_from_along_U.S._285%2C_near_the_town_of_Nathrop.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Mount_Antero%2C_taken_from_along_U.S._285%2C_near_the_town_of_Nathrop.jpg/1280px-Mount_Antero%2C_taken_from_along_U.S._285%2C_near_the_town_of_Nathrop.jpg",
+      "author": "David Herrera from Albuquerque, NM, Bernalillo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Mount Antero, taken from along U.S. 285, near the town of Nathrop.jpg — David Herrera from Albuquerque, NM, Bernalillo, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 240629,
+      "sha256": "c2c8671b887204ad36a1dd3ec094a9313a50a3e62d1769b8190983189c896dab",
+      "photo_date": "11 May 2009, 09:41",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "torreys-peak",
+      "path": "assets/photos/torreys-peak.jpg",
+      "title": "Torreys.JPG",
+      "caption": "Torreys Peak — peak overview.",
+      "alt_text": "Torreys Peak — peak overview.",
+      "depicted_peaks": [
+        "Torreys Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Torreys.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/Torreys.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Torreys.JPG/1280px-Torreys.JPG",
+      "author": "Hogs555",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Torreys.JPG — Hogs555, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 819,
+      "bytes": 220174,
+      "sha256": "83a964bb3c81a56185582a55cf70b4937c81a1ee2892f6778496937b0477421b",
+      "photo_date": "28 April 2012",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "quandary-peak",
+      "path": "assets/photos/quandary-peak.jpg",
+      "title": "QuandaryPeak.JPG",
+      "caption": "Quandary Peak — peak overview.",
+      "alt_text": "Quandary Peak — peak overview.",
+      "depicted_peaks": [
+        "Quandary Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:QuandaryPeak.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/QuandaryPeak.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/QuandaryPeak.JPG/960px-QuandaryPeak.JPG",
+      "author": "Stargazer7121",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:QuandaryPeak.JPG#Licensing",
+      "attribution": "QuandaryPeak.JPG — Stargazer7121, Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 960,
+      "height": 1280,
+      "bytes": 206994,
+      "sha256": "6c940fbb31ff07a67536bf87b36b747b48c903d88cfe3020b0dfc30cf703843b",
+      "photo_date": "28 June 2009",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-blue-sky",
+      "path": "assets/photos/mount-blue-sky.jpg",
+      "title": "Mevans.JPG",
+      "caption": "Mount Blue Sky viewed from the south.",
+      "alt_text": "Mount Blue Sky viewed from the south.",
+      "depicted_peaks": [
+        "Mt. Blue Sky"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mevans.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Mevans.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Mevans.JPG/1280px-Mevans.JPG",
+      "author": "Hogs555",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Mevans.JPG — Hogs555, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 815,
+      "bytes": 168977,
+      "sha256": "0bca516ac93a9f75d52afa860687ff11bd2ea463aaa6c2dba1a8669d4cb7ce8d",
+      "photo_date": "15 January 2012",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "longs-peak",
+      "path": "assets/photos/longs-peak.jpg",
+      "title": "Fall05-LongsPeakCU JPG RSZ md.jpg",
+      "caption": "East face of Longs Peak, including the Diamond. This is a peak overview, not the Keyhole ascent.",
+      "alt_text": "East face of Longs Peak, including the Diamond. This is a peak overview, not the Keyhole ascent.",
+      "depicted_peaks": [
+        "Longs Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Fall05-LongsPeakCU_JPG_RSZ_md.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Fall05-LongsPeakCU_JPG_RSZ_md.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Fall05-LongsPeakCU_JPG_RSZ_md.jpg/1280px-Fall05-LongsPeakCU_JPG_RSZ_md.jpg",
+      "author": "Original uploader was ProfPete (Pete Seel) at en.wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Fall05-LongsPeakCU JPG RSZ md.jpg — Original uploader was ProfPete (Pete Seel) at en.wikipedia, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 958,
+      "bytes": 245807,
+      "sha256": "139b0650aa4fe53194fff51d506500845b2810aa220ddc909f8b89e984a14569",
+      "photo_date": "10 February 2008 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-wilson",
+      "path": "assets/photos/mount-wilson.jpg",
+      "title": "Mount Wilson, Colorado (7235114320).jpg",
+      "caption": "Mount Wilson area in Colorado, as identified by the source photograph.",
+      "alt_text": "Mount Wilson area in Colorado, as identified by the source photograph.",
+      "depicted_peaks": [
+        "Mt. Wilson"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Wilson,_Colorado_(7235114320).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Mount_Wilson%2C_Colorado_%287235114320%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Mount_Wilson%2C_Colorado_%287235114320%29.jpg/1280px-Mount_Wilson%2C_Colorado_%287235114320%29.jpg",
+      "author": "Ken Lund from Reno, Nevada, USA",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "attribution": "Mount Wilson, Colorado (7235114320).jpg — Ken Lund from Reno, Nevada, USA, CC BY-SA 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 244733,
+      "sha256": "9353248c2ab049cf9b5338529e91882ce1e851e3767088b85b486ae6ba491fb3",
+      "photo_date": "15 May 2012, 22:00",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-shavano",
+      "path": "assets/photos/mount-shavano.jpg",
+      "title": "Esprit Point and Mount Shavano.jpg",
+      "caption": "Mount Shavano and Esprit Point viewed from the southeast.",
+      "alt_text": "Mount Shavano and Esprit Point viewed from the southeast.",
+      "depicted_peaks": [
+        "Mt. Shavano"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Esprit_Point_and_Mount_Shavano.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Esprit_Point_and_Mount_Shavano.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Esprit_Point_and_Mount_Shavano.jpg/1280px-Esprit_Point_and_Mount_Shavano.jpg",
+      "author": "David Herrera from Albuquerque, NM, Bernalillo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Esprit Point and Mount Shavano.jpg — David Herrera from Albuquerque, NM, Bernalillo, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 191665,
+      "sha256": "4b0d958077610b8f631e9f16804bcb98d1bf6a66906b5d99804cce1bd7cda125",
+      "photo_date": "11 May 2009, 09:14",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-princeton",
+      "path": "assets/photos/mount-princeton.jpg",
+      "title": "Mtprinceton.JPG",
+      "caption": "Mt. Princeton — peak overview.",
+      "alt_text": "Mt. Princeton — peak overview.",
+      "depicted_peaks": [
+        "Mt. Princeton"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mtprinceton.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mtprinceton.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Mtprinceton.JPG/1280px-Mtprinceton.JPG",
+      "author": "Hogs555",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Mtprinceton.JPG — Hogs555, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 833,
+      "bytes": 196733,
+      "sha256": "2ce923d4b96ac2b457685b5a1e78a2b5a686083a9b9b400530629bf37f277d6c",
+      "photo_date": "30 June 2013, 12:24:42",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-belford",
+      "path": "assets/photos/mount-belford.jpg",
+      "title": "Mt. belford north approach.jpg",
+      "caption": "Mt. Belford — peak overview.",
+      "alt_text": "Mt. Belford — peak overview.",
+      "depicted_peaks": [
+        "Mt. Belford"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mt._belford_north_approach.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Mt._belford_north_approach.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Mt._belford_north_approach.jpg/1280px-Mt._belford_north_approach.jpg",
+      "author": "Simpsora",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "attribution": "Mt. belford north approach.jpg — Simpsora, CC BY 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 464128,
+      "sha256": "f399921654060fcb4b17f28569ea32c2865f8fc8da4324483fb44a7dbafd3f3b",
+      "photo_date": "17 July 2010",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "crestone-needle",
+      "path": "assets/photos/crestone-needle.jpg",
+      "title": "Crestone needle and lower south colony lake 2008.JPG",
+      "caption": "Crestone Needle above South Colony Lake.",
+      "alt_text": "Crestone Needle above South Colony Lake.",
+      "depicted_peaks": [
+        "Crestone Needle"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Crestone_needle_and_lower_south_colony_lake_2008.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crestone_needle_and_lower_south_colony_lake_2008.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Crestone_needle_and_lower_south_colony_lake_2008.JPG/960px-Crestone_needle_and_lower_south_colony_lake_2008.JPG",
+      "author": "Meniscus",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Crestone_needle_and_lower_south_colony_lake_2008.JPG#Licensing",
+      "attribution": "Crestone needle and lower south colony lake 2008.JPG — Meniscus, Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 960,
+      "height": 1280,
+      "bytes": 497482,
+      "sha256": "98f5b885aa32e8e0264dd9941540d6163220877bab40468580392a16d4be1461",
+      "photo_date": "5 September 2008",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-yale",
+      "path": "assets/photos/mount-yale.jpg",
+      "title": "Mount Yale from Horn Fork Basin.jpg",
+      "caption": "Mt. Yale — peak overview.",
+      "alt_text": "Mt. Yale — peak overview.",
+      "depicted_peaks": [
+        "Mt. Yale"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Yale_from_Horn_Fork_Basin.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mount_Yale_from_Horn_Fork_Basin.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Mount_Yale_from_Horn_Fork_Basin.jpg/1280px-Mount_Yale_from_Horn_Fork_Basin.jpg",
+      "author": "KnowledgeIsPower9281",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Mount Yale from Horn Fork Basin.jpg — KnowledgeIsPower9281, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 197866,
+      "sha256": "1da6e80e58dbd3836b04ab0906ccb4f3948352f5d19d38344a4d31949b988ef5",
+      "photo_date": "27 July 2024",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-bross",
+      "path": "assets/photos/mount-bross.jpg",
+      "title": "Mt Bross.jpg",
+      "caption": "Mt. Bross — peak overview.",
+      "alt_text": "Mt. Bross — peak overview.",
+      "depicted_peaks": [
+        "Mt. Bross"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mt_Bross.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Mt_Bross.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Mt_Bross.jpg/1280px-Mt_Bross.jpg",
+      "author": "Matt Vincent at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Mt Bross.jpg — Matt Vincent at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 297595,
+      "sha256": "977a78bad31fd1d39d66fc2f00dd5c32666b1db501da807e4a24bda32279530f",
+      "photo_date": "15 August 2004",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "kit-carson-mountain",
+      "path": "assets/photos/kit-carson-mountain.jpg",
+      "title": "Kitcarsonmtn.jpg",
+      "caption": "The Crestones viewed from Mount Adams, including Kit Carson and Challenger Point.",
+      "alt_text": "The Crestones viewed from Mount Adams, including Kit Carson and Challenger Point.",
+      "depicted_peaks": [
+        "Crestone Needle",
+        "Crestone Peak",
+        "Kit Carson Peak",
+        "Challenger Point"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Kitcarsonmtn.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kitcarsonmtn.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/9/93/Kitcarsonmtn.jpg",
+      "author": "Mike Downey (uploaded by Leahcim506)",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Kitcarsonmtn.jpg#Licensing",
+      "attribution": "Kitcarsonmtn.jpg — Mike Downey (uploaded by Leahcim506), Public domain, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 817,
+      "height": 414,
+      "bytes": 120894,
+      "sha256": "66be4b686f0b9052452e2e31f4f9ec37122039277bd8b99c1bf7218c015aa7b9",
+      "photo_date": "25 May 2006 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "maroon-peak",
+      "path": "assets/photos/maroon-peak.jpg",
+      "title": "Maroon Bells (11553)a.jpg",
+      "caption": "Maroon Bells: Maroon Peak and North Maroon Peak.",
+      "alt_text": "Maroon Bells: Maroon Peak and North Maroon Peak.",
+      "depicted_peaks": [
+        "Maroon Peak",
+        "North Maroon Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Maroon_Bells_(11553)a.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Maroon_Bells_%2811553%29a.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Maroon_Bells_%2811553%29a.jpg/1280px-Maroon_Bells_%2811553%29a.jpg",
+      "author": "Rhododendrites",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Maroon Bells (11553)a.jpg — Rhododendrites, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 739,
+      "bytes": 396686,
+      "sha256": "5becf236700c1bb8ef58ea2b3aefcd3eaa155b61d0ad0f76ae2c9a9fdb4efb3c",
+      "photo_date": "1 August 2017, 12:24:42",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "tabeguache-peak",
+      "path": "assets/photos/tabeguache-peak.jpg",
+      "title": "Tabeguache Peak, Sawatch Range, Chaffee County, Colorado, USA 01.jpg",
+      "caption": "Tabeguache Peak viewed from the west",
+      "alt_text": "Tabeguache Peak viewed from the west",
+      "depicted_peaks": [
+        "Tabeguache Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Tabeguache_Peak,_Sawatch_Range,_Chaffee_County,_Colorado,_USA_01.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Tabeguache_Peak%2C_Sawatch_Range%2C_Chaffee_County%2C_Colorado%2C_USA_01.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Tabeguache_Peak%2C_Sawatch_Range%2C_Chaffee_County%2C_Colorado%2C_USA_01.jpg/1280px-Tabeguache_Peak%2C_Sawatch_Range%2C_Chaffee_County%2C_Colorado%2C_USA_01.jpg",
+      "author": "John Sowell",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Tabeguache Peak, Sawatch Range, Chaffee County, Colorado, USA 01.jpg — John Sowell, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 319930,
+      "sha256": "c24c66fa5545058f68fde9c1055e737b972d8bc8eb9f7c085a621fd0b3c086e5",
+      "photo_date": "27 July 2016, 15:09:54",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-oxford",
+      "path": "assets/photos/mount-oxford.jpg",
+      "title": "Mount Oxford (Colorado) - 2006-07-16.jpg",
+      "caption": "Mt. Oxford — peak overview.",
+      "alt_text": "Mt. Oxford — peak overview.",
+      "depicted_peaks": [
+        "Mt. Oxford"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Oxford_(Colorado)_-_2006-07-16.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mount_Oxford_%28Colorado%29_-_2006-07-16.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mount_Oxford_%28Colorado%29_-_2006-07-16.jpg",
+      "author": "jokermanj",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Mount Oxford (Colorado) - 2006-07-16.jpg — jokermanj, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1024,
+      "height": 768,
+      "bytes": 77390,
+      "sha256": "957b4e7d48d09eac4a70b90dff8a7e4c42938cb4cf56b680788d15dbfe07892f",
+      "photo_date": "16 July 2006, 12:18",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-sneffels",
+      "path": "assets/photos/mount-sneffels.jpg",
+      "title": "MtSneffelsMarch2008.jpg",
+      "caption": "View of Mount Sneffels from the north",
+      "alt_text": "View of Mount Sneffels from the north",
+      "depicted_peaks": [
+        "Mt. Sneffels"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:MtSneffelsMarch2008.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/MtSneffelsMarch2008.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/MtSneffelsMarch2008.jpg",
+      "author": "de Bivort 21:57, 8 April 2008 (UTC)",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "MtSneffelsMarch2008.jpg — de Bivort 21:57, 8 April 2008 (UTC), CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 972,
+      "height": 911,
+      "bytes": 719451,
+      "sha256": "f8b1aef9ef1aecdfccccaec5dc2ed46a9a2e8bb0842c98a0bde172014bfe3594",
+      "photo_date": "March 2008",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-democrat",
+      "path": "assets/photos/mount-democrat.jpg",
+      "title": "Mt Democrat.jpg",
+      "caption": "Mount Democrat as seen from Mount Bross",
+      "alt_text": "Mount Democrat as seen from Mount Bross",
+      "depicted_peaks": [
+        "Mt. Democrat"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mt_Democrat.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Mt_Democrat.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Mt_Democrat.jpg/960px-Mt_Democrat.jpg",
+      "author": "Mofussy at English Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Mt Democrat.jpg — Mofussy at English Wikipedia, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 960,
+      "height": 1280,
+      "bytes": 316069,
+      "sha256": "05c54afc5109a458fdd2c70901cecd0a7e9d1f1ec904fac5a30d3bbae0e20e7e",
+      "photo_date": "15 August 2004",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "capitol-peak",
+      "path": "assets/photos/capitol-peak.jpg",
+      "title": "Capitol Peak CO.jpg",
+      "caption": "Capitol Peak, from Capitol Lake",
+      "alt_text": "Capitol Peak, from Capitol Lake",
+      "depicted_peaks": [
+        "Capitol Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Capitol_Peak_CO.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Capitol_Peak_CO.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Capitol_Peak_CO.jpg/1280px-Capitol_Peak_CO.jpg",
+      "author": "Xpda",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "attribution": "Capitol Peak CO.jpg — Xpda, CC BY 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 372117,
+      "sha256": "a0309fe1c9314e92161a22a172580578ffd509ca91b8fe9b274d936d0510f41c",
+      "photo_date": "28 August 2007",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "pikes-peak",
+      "path": "assets/photos/pikes-peak.jpg",
+      "title": "Beautiful Image of Pikes Peak (IMG 0136).jpg",
+      "caption": "Pikes Peak, 23 September 2025",
+      "alt_text": "Pikes Peak, 23 September 2025",
+      "depicted_peaks": [
+        "Pikes Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Beautiful_Image_of_Pikes_Peak_(IMG_0136).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/Beautiful_Image_of_Pikes_Peak_%28IMG_0136%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Beautiful_Image_of_Pikes_Peak_%28IMG_0136%29.jpg/1280px-Beautiful_Image_of_Pikes_Peak_%28IMG_0136%29.jpg",
+      "author": "Tokeamour",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Beautiful Image of Pikes Peak (IMG 0136).jpg — Tokeamour, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 110716,
+      "sha256": "de34a6b1caaccc9bc09bb4bcc0455305068363cebc3156affe84a2893cdbe5d5",
+      "photo_date": "23 September 2025, 11:40:18",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "snowmass-mountain",
+      "path": "assets/photos/snowmass-mountain.jpg",
+      "title": "Hagerman Peak and Snowmass Mountain.jpg",
+      "caption": "Snowmass Mountain at far right, with Hagerman Peak on the left.",
+      "alt_text": "Snowmass Mountain at far right, with Hagerman Peak on the left.",
+      "depicted_peaks": [
+        "Snowmass Mountain"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Hagerman_Peak_and_Snowmass_Mountain.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Hagerman_Peak_and_Snowmass_Mountain.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Hagerman_Peak_and_Snowmass_Mountain.jpg/1280px-Hagerman_Peak_and_Snowmass_Mountain.jpg",
+      "author": "Nelsestu at English Wikipedia",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Hagerman_Peak_and_Snowmass_Mountain.jpg#Licensing",
+      "attribution": "Hagerman Peak and Snowmass Mountain.jpg — Nelsestu at English Wikipedia, Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 851,
+      "bytes": 313064,
+      "sha256": "b559d8e64fdddf05ea117bbeff40bd3ea0b5a5eb7ba26a49b4ad4eb180957529",
+      "photo_date": "8 July 2007, 06:25:40",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "windom-peak",
+      "path": "assets/photos/windom-peak.jpg",
+      "title": "Windom Peak and Unnamed above Chicago Basin.jpg",
+      "caption": "Windom Peak and neighboring summits above Chicago Basin.",
+      "alt_text": "Windom Peak and neighboring summits above Chicago Basin.",
+      "depicted_peaks": [
+        "Windom Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg/1280px-Windom_Peak_and_Unnamed_above_Chicago_Basin.jpg",
+      "author": "Jeremiah LaRocco",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "attribution": "Windom Peak and Unnamed above Chicago Basin.jpg — Jeremiah LaRocco, CC BY-SA 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 247276,
+      "sha256": "9d0a5663922e07412326fcee187b29c531c9a89cf96fa7e826a83801fb462fe7",
+      "photo_date": "28 August 2009, 22:20",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-eolus",
+      "path": "assets/photos/mount-eolus.jpg",
+      "title": "Mount Eolus.jpg",
+      "caption": "Mount Eolus",
+      "alt_text": "Mount Eolus",
+      "depicted_peaks": [
+        "Mt. Eolus"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Eolus.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mount_Eolus.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Mount_Eolus.jpg",
+      "author": "Evil.Satellite at English Wikipedia",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Mount_Eolus.jpg#Licensing",
+      "attribution": "Mount Eolus.jpg — Evil.Satellite at English Wikipedia, Public domain, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 768,
+      "height": 1024,
+      "bytes": 497561,
+      "sha256": "b21a25e2236a247fc3a728c784af8bbe91a16701085e6b7021f50a520d7fbe1a",
+      "photo_date": "19 January 2007 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "challenger-point",
+      "path": "assets/photos/challenger-point.jpg",
+      "title": "Challenger Point from Kit Carson.JPG",
+      "caption": "Challenger Point seen from nearby Kit Carson Mountain.",
+      "alt_text": "Challenger Point seen from nearby Kit Carson Mountain.",
+      "depicted_peaks": [
+        "Challenger Point"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Challenger_Point_from_Kit_Carson.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/02/Challenger_Point_from_Kit_Carson.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Challenger_Point_from_Kit_Carson.JPG/1280px-Challenger_Point_from_Kit_Carson.JPG",
+      "author": "Fredlyfish4",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Challenger Point from Kit Carson.JPG — Fredlyfish4, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 446624,
+      "sha256": "f6fc279d8aea05d0f78b3585fbb915b4cfe45b137b1fec69c062b9867f9f1863",
+      "photo_date": "30 August 2013, 10:08:34",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-columbia",
+      "path": "assets/photos/mount-columbia.jpg",
+      "title": "Mount Columbia from along US-24, a few miles N NW of Buena Vista.jpg",
+      "caption": "Mount Columbia viewed from Highway 24 near Buena Vista.",
+      "alt_text": "Mount Columbia viewed from Highway 24 near Buena Vista.",
+      "depicted_peaks": [
+        "Mt. Columbia"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Columbia_from_along_US-24,_a_few_miles_N_NW_of_Buena_Vista.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/Mount_Columbia_from_along_US-24%2C_a_few_miles_N_NW_of_Buena_Vista.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Mount_Columbia_from_along_US-24%2C_a_few_miles_N_NW_of_Buena_Vista.jpg/1280px-Mount_Columbia_from_along_US-24%2C_a_few_miles_N_NW_of_Buena_Vista.jpg",
+      "author": "David Herrera from Albuquerque, NM, Bernalillo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Mount Columbia from along US-24, a few miles N NW of Buena Vista.jpg — David Herrera from Albuquerque, NM, Bernalillo, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 657,
+      "bytes": 178428,
+      "sha256": "179650d8e22b6d8e9fd965812e37f23faf3583b934aa75799fbcd65cb7aab233",
+      "photo_date": "11 May 2009, 10:55",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "missouri-mountain",
+      "path": "assets/photos/missouri-mountain.jpg",
+      "title": "Missouri Mountain (Colorado) - 2006-07-16.jpg",
+      "caption": "Missouri Mountain — peak overview.",
+      "alt_text": "Missouri Mountain — peak overview.",
+      "depicted_peaks": [
+        "Missouri Mountain"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Missouri_Mountain_(Colorado)_-_2006-07-16.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Missouri_Mountain_%28Colorado%29_-_2006-07-16.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Missouri_Mountain_%28Colorado%29_-_2006-07-16.jpg",
+      "author": "jokermanj",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Missouri Mountain (Colorado) - 2006-07-16.jpg — jokermanj, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1024,
+      "height": 768,
+      "bytes": 113829,
+      "sha256": "6f505b7235002ff1babb91f3058de22b523e02cfe1f2bbca661608d7ca5ce3ed",
+      "photo_date": "16 July 2006, 10:31",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "humboldt-peak",
+      "path": "assets/photos/humboldt-peak.jpg",
+      "title": "Humboldt Peak from near south colony lakes trailhead.jpg",
+      "caption": "Humboldt Peak, south aspect",
+      "alt_text": "Humboldt Peak, south aspect",
+      "depicted_peaks": [
+        "Humboldt Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg/1280px-Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg",
+      "author": "Meniscus at English Wikipedia",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Humboldt_Peak_from_near_south_colony_lakes_trailhead.jpg#Licensing",
+      "attribution": "Humboldt Peak from near south colony lakes trailhead.jpg — Meniscus at English Wikipedia, Public domain, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 494270,
+      "sha256": "3e9f9f744bed652116cc7b3c6075e9f58d96a71459c8cafa5fe8ededd1731130",
+      "photo_date": "8 November 2008 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-bierstadt",
+      "path": "assets/photos/mount-bierstadt.jpg",
+      "title": "2007-07-08-biers-reflectio2.jpg",
+      "caption": "Reflections of Mount Bierstadt (right) and The Sawtooth (left)",
+      "alt_text": "Reflections of Mount Bierstadt (right) and The Sawtooth (left)",
+      "depicted_peaks": [
+        "Mt. Bierstadt"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:2007-07-08-biers-reflectio2.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2007-07-08-biers-reflectio2.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/0/05/2007-07-08-biers-reflectio2.jpg",
+      "author": "Robertbody at English Wikipedia",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "attribution": "2007-07-08-biers-reflectio2.jpg — Robertbody at English Wikipedia, CC BY 3.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 750,
+      "height": 500,
+      "bytes": 131339,
+      "sha256": "d00b1d068044fe4c22b3f1caca40968b4e419e401aff12f3d0b5a849d5a952ef",
+      "photo_date": "Unknown date 8 June 2008 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "sunlight-peak",
+      "path": "assets/photos/sunlight-peak.jpg",
+      "title": "Sunlight Peak.jpg",
+      "caption": "Sunlight Peak from Twin Lakes",
+      "alt_text": "Sunlight Peak from Twin Lakes",
+      "depicted_peaks": [
+        "Sunlight Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sunlight_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sunlight_Peak.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sunlight_Peak.jpg",
+      "author": "Evil.Satellite at English Wikipedia",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:Sunlight_Peak.jpg#Licensing",
+      "attribution": "Sunlight Peak.jpg — Evil.Satellite at English Wikipedia, Public domain, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1024,
+      "height": 738,
+      "bytes": 502422,
+      "sha256": "08abf3624441850d3d18411c500e75f522ad60763d29e1dd056fa5a3f4a4a5d5",
+      "photo_date": "19 January 2007 (original upload date)",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "handies-peak",
+      "path": "assets/photos/handies-peak.jpg",
+      "title": "Handies Peak Colorado.jpg",
+      "caption": "The peak in 2018.",
+      "alt_text": "The peak in 2018.",
+      "depicted_peaks": [
+        "Handies Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Handies_Peak_Colorado.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Handies_Peak_Colorado.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Handies_Peak_Colorado.jpg/1280px-Handies_Peak_Colorado.jpg",
+      "author": "Mitchtobin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Handies Peak Colorado.jpg — Mitchtobin, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 442525,
+      "sha256": "9c41d44f51619148c6e0d9ad275091157b4c0ebcf2a90605a79029f693fc1cb8",
+      "photo_date": "29 September 2018",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "culebra-peak",
+      "path": "assets/photos/culebra-peak.jpg",
+      "title": "Culebra Peak.jpg",
+      "caption": "Culebra Peak viewed from south of San Luis.",
+      "alt_text": "Culebra Peak viewed from south of San Luis.",
+      "depicted_peaks": [
+        "Culebra Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Culebra_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Culebra_Peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Culebra_Peak.jpg/1280px-Culebra_Peak.jpg",
+      "author": "David Herrera from Albuquerque, NM, Bernalillo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Culebra Peak.jpg — David Herrera from Albuquerque, NM, Bernalillo, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 282352,
+      "sha256": "0a9730eff450241dc58f75f4b18f3b79ef0effa9ff6ddb00b001bfad374dea2d",
+      "photo_date": "9 March 2005, 16:17",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-lindsey",
+      "path": "assets/photos/mount-lindsey.jpg",
+      "title": "Mount Lindsey and Iron Nipple.jpg",
+      "caption": "Mount Lindsey and Iron Nipple viewed from the valley.",
+      "alt_text": "Mount Lindsey and Iron Nipple viewed from the valley.",
+      "depicted_peaks": [
+        "Mt. Lindsey"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Lindsey_and_Iron_Nipple.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mount_Lindsey_and_Iron_Nipple.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Mount_Lindsey_and_Iron_Nipple.jpg/1280px-Mount_Lindsey_and_Iron_Nipple.jpg",
+      "author": "David Herrera from Albuquerque, NM, Bernalillo",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Mount Lindsey and Iron Nipple.jpg — David Herrera from Albuquerque, NM, Bernalillo, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 320586,
+      "sha256": "6c485e28a9f5578d91881521785d010c1be6d661a1509f6bed9ddcc3f774f0ec",
+      "photo_date": "9 March 2005, 15:17",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "little-bear-peak",
+      "path": "assets/photos/little-bear-peak.jpg",
+      "title": "Little Bear Peak from southwest ridge, Feb 2012.JPG",
+      "caption": "Little Bear Peak from its Southwest Ridge in February 2012; winter conditions.",
+      "alt_text": "Little Bear Peak from its Southwest Ridge in February 2012; winter conditions.",
+      "depicted_peaks": [
+        "Little Bear Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Little_Bear_Peak_from_southwest_ridge,_Feb_2012.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Little_Bear_Peak_from_southwest_ridge%2C_Feb_2012.JPG",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Little_Bear_Peak_from_southwest_ridge%2C_Feb_2012.JPG/1280px-Little_Bear_Peak_from_southwest_ridge%2C_Feb_2012.JPG",
+      "author": "Stargazer7121",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Little Bear Peak from southwest ridge, Feb 2012.JPG — Stargazer7121, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 265401,
+      "sha256": "42cdc1a360b4921eb73794b2b01fa5e5c94c3ae4c77a964cacfa3da696716d5b",
+      "photo_date": "26 February 2012",
+      "conditions_note": "Winter photograph; not evidence of dry-route conditions.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-sherman",
+      "path": "assets/photos/mount-sherman.jpg",
+      "title": "MountSherman.JPG",
+      "caption": "Mt. Sherman — peak overview.",
+      "alt_text": "Mt. Sherman — peak overview.",
+      "depicted_peaks": [
+        "Mt. Sherman"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:MountSherman.JPG",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/MountSherman.JPG",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/4/41/MountSherman.JPG",
+      "author": "Stargazer7121",
+      "license": "Public domain",
+      "license_url": "https://commons.wikimedia.org/wiki/File:MountSherman.JPG#Licensing",
+      "attribution": "MountSherman.JPG — Stargazer7121, Public domain, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 600,
+      "height": 450,
+      "bytes": 111492,
+      "sha256": "7c1e88c25494ed98211a031a01c1ff1289e5e040940c0afebcedb30b7df21712",
+      "photo_date": "17 July 2009",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "redcloud-peak",
+      "path": "assets/photos/redcloud-peak.jpg",
+      "title": "Sanjuan14ers-8.jpg",
+      "caption": "The hiking trail to the peak's summit.",
+      "alt_text": "The hiking trail to the peak's summit.",
+      "depicted_peaks": [
+        "Redcloud Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sanjuan14ers-8.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Sanjuan14ers-8.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Sanjuan14ers-8.jpg/1280px-Sanjuan14ers-8.jpg",
+      "author": "Mitchtobin",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Sanjuan14ers-8.jpg — Mitchtobin, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 457342,
+      "sha256": "f26e848c5a6f2b04e325efbe0ab1ebe16410d71a5dd324026933ee0c4fee4057",
+      "photo_date": "28 September 2018",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "pyramid-peak",
+      "path": "assets/photos/pyramid-peak.jpg",
+      "title": "Pyramid Peak.jpg",
+      "caption": "Pyramid Peak as seen from Maroon Peak in 2009",
+      "alt_text": "Pyramid Peak as seen from Maroon Peak in 2009",
+      "depicted_peaks": [
+        "Pyramid Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Pyramid_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Pyramid_Peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Pyramid_Peak.jpg/1280px-Pyramid_Peak.jpg",
+      "author": "EE One",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Pyramid Peak.jpg — EE One, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 261185,
+      "sha256": "769c3bb773386ed612c93db1443b1525f1fd6b4a0d0a4f56de0f911843490e82",
+      "photo_date": "19 July 2009",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "wilson-peak",
+      "path": "assets/photos/wilson-peak.jpg",
+      "title": "Wilson Peak near Telluride.jpg",
+      "caption": "North aspect",
+      "alt_text": "North aspect",
+      "depicted_peaks": [
+        "Wilson Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wilson_Peak_near_Telluride.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Wilson_Peak_near_Telluride.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Wilson_Peak_near_Telluride.jpg/1280px-Wilson_Peak_near_Telluride.jpg",
+      "author": "Scott Ellis",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "attribution": "Wilson Peak near Telluride.jpg — Scott Ellis, CC BY-SA 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 740,
+      "bytes": 263354,
+      "sha256": "2ed609b9ac2e414ea09c5fbe719d43a5117341a2554314548bae39be0550c733",
+      "photo_date": "24 September 2004, 13:30:41",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "san-luis-peak",
+      "path": "assets/photos/san-luis-peak.jpg",
+      "title": "San Luis Peak, San Juan Mountains, Saguache County, Colorado, USA 03.jpg",
+      "caption": "San Luis Peak viewed from the west",
+      "alt_text": "San Luis Peak viewed from the west",
+      "depicted_peaks": [
+        "San Luis Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:San_Luis_Peak,_San_Juan_Mountains,_Saguache_County,_Colorado,_USA_03.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/40/San_Luis_Peak%2C_San_Juan_Mountains%2C_Saguache_County%2C_Colorado%2C_USA_03.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/San_Luis_Peak%2C_San_Juan_Mountains%2C_Saguache_County%2C_Colorado%2C_USA_03.jpg/1280px-San_Luis_Peak%2C_San_Juan_Mountains%2C_Saguache_County%2C_Colorado%2C_USA_03.jpg",
+      "author": "John Sowell",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "San Luis Peak, San Juan Mountains, Saguache County, Colorado, USA 03.jpg — John Sowell, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 334041,
+      "sha256": "ef7a8e138d39c3c5d92f4b41432c2df53f41f6f5f8b0d89dc6f2e2a1a17b7031",
+      "photo_date": "28 June 2018, 16:08:30",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "wetterhorn-peak",
+      "path": "assets/photos/wetterhorn-peak.jpg",
+      "title": "Wetterhorn peak.jpg",
+      "caption": "Wetterhorn Peak — peak overview.",
+      "alt_text": "Wetterhorn Peak — peak overview.",
+      "depicted_peaks": [
+        "Wetterhorn Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Wetterhorn_peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Wetterhorn_peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Wetterhorn_peak.jpg/1280px-Wetterhorn_peak.jpg",
+      "author": "Unknown author",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Wetterhorn peak.jpg — Unknown author, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 210267,
+      "sha256": "fda5915e714ace55104c886e7088486eb511a376b225b8d2b81d6237741ca522",
+      "photo_date": "28 June 2007",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-of-the-holy-cross",
+      "path": "assets/photos/mount-of-the-holy-cross.jpg",
+      "title": "Mount of the Holy Cross, 2009.jpg",
+      "caption": "Mount of the Holy Cross, 2009",
+      "alt_text": "Mount of the Holy Cross, 2009",
+      "depicted_peaks": [
+        "Mt. of the Holy Cross"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_of_the_Holy_Cross,_2009.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Mount_of_the_Holy_Cross%2C_2009.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Mount_of_the_Holy_Cross%2C_2009.jpg/1280px-Mount_of_the_Holy_Cross%2C_2009.jpg",
+      "author": "Jeremiah LaRocco",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "attribution": "Mount of the Holy Cross, 2009.jpg — Jeremiah LaRocco, CC BY-SA 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 320631,
+      "sha256": "d099ea28f5fafb8750c50d2b5d74cd317985087f0399a081429788c3cf6c4edb",
+      "photo_date": "24 July 2009, 20:37",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "huron-peak",
+      "path": "assets/photos/huron-peak.jpg",
+      "title": "Huron Peak (48458753091).jpg",
+      "caption": "Near the summit of Huron Peak",
+      "alt_text": "Near the summit of Huron Peak",
+      "depicted_peaks": [
+        "Huron Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Huron_Peak_(48458753091).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/47/Huron_Peak_%2848458753091%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Huron_Peak_%2848458753091%29.jpg/1280px-Huron_Peak_%2848458753091%29.jpg",
+      "author": "Craig Talbert",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Huron Peak (48458753091).jpg — Craig Talbert, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 960,
+      "bytes": 540279,
+      "sha256": "06381b5ccac5609748812ffd944fdbddfec63d8a319548816a4e5237b36ee9b2",
+      "photo_date": "2 August 2019, 07:42",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "sunshine-peak",
+      "path": "assets/photos/sunshine-peak.jpg",
+      "title": "Red Cloud Peak WSA (9470419585).jpg",
+      "caption": "Sunshine Peak in the upper right, seen from Redcloud Peak.",
+      "alt_text": "Sunshine Peak in the upper right, seen from Redcloud Peak.",
+      "depicted_peaks": [
+        "Sunshine Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Red_Cloud_Peak_WSA_(9470419585).jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Red_Cloud_Peak_WSA_%289470419585%29.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Red_Cloud_Peak_WSA_%289470419585%29.jpg/1280px-Red_Cloud_Peak_WSA_%289470419585%29.jpg",
+      "author": "Bob Wick; Bureau of Land Management",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Red Cloud Peak WSA (9470419585).jpg — Bob Wick; Bureau of Land Management, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 479815,
+      "sha256": "8564f533fe4fac7bc819605949d99f7ba273ffe69349b4b890d941a0c4d62093",
+      "photo_date": "23 July 2011, 10:11",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "conundrum-peak",
+      "path": "assets/photos/conundrum-peak.jpg",
+      "title": "Alpenglow on Conundrum.jpg",
+      "caption": "Conundrum Peak — peak overview.",
+      "alt_text": "Conundrum Peak — peak overview.",
+      "depicted_peaks": [
+        "Conundrum Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Alpenglow_on_Conundrum.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Alpenglow_on_Conundrum.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Alpenglow_on_Conundrum.jpg/1280px-Alpenglow_on_Conundrum.jpg",
+      "author": "Kylie Stewart",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Alpenglow on Conundrum.jpg — Kylie Stewart, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 824,
+      "bytes": 437961,
+      "sha256": "c644da54e40cf6177036aaa4190416092f2ba978be7a83cc099dd4c4c308c14b",
+      "photo_date": "11 September 2022, 06:47:45",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "el-diente-peak",
+      "path": "assets/photos/el-diente-peak.jpg",
+      "title": "El Diente Peak.jpg",
+      "caption": "El Diente Peak — peak overview.",
+      "alt_text": "El Diente Peak — peak overview.",
+      "depicted_peaks": [
+        "El Diente Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:El_Diente_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/El_Diente_Peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/El_Diente_Peak.jpg/960px-El_Diente_Peak.jpg",
+      "author": "MostlyDeserts",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "El Diente Peak.jpg — MostlyDeserts, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 960,
+      "height": 1280,
+      "bytes": 488955,
+      "sha256": "35d82f45fa8b51f8f32c6a6acd6fc317e8ca35a6efebd24ce693817e213117b9",
+      "photo_date": "30 May 2012",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "mount-cameron",
+      "path": "assets/photos/mount-cameron.jpg",
+      "title": "Mount Cameron from west.jpg",
+      "caption": "Mt. Cameron — peak overview.",
+      "alt_text": "Mt. Cameron — peak overview.",
+      "depicted_peaks": [
+        "Mt. Cameron"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Mount_Cameron_from_west.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mount_Cameron_from_west.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Mount_Cameron_from_west.jpg/1280px-Mount_Cameron_from_west.jpg",
+      "author": "Jeremiah LaRocco",
+      "license": "CC BY-SA 2.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/2.0/deed.en",
+      "attribution": "Mount Cameron from west.jpg — Jeremiah LaRocco, CC BY-SA 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 1011,
+      "bytes": 440147,
+      "sha256": "026895e82df64855587f6a49f69cd71c6b544f563e7a25df3b21963bcaa395a2",
+      "photo_date": "6 June 2010, 08:07:22",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "north-eolus",
+      "path": "assets/photos/north-eolus.jpg",
+      "title": "Alpenglow on the Eolus Peaks.jpg",
+      "caption": "Eolus massif seen from Sunlight Peak. Group context for North Eolus; exact subpeak identification is not verified.",
+      "alt_text": "Eolus massif seen from Sunlight Peak. Group context for North Eolus; exact subpeak identification is not verified.",
+      "depicted_peaks": [
+        "Mt. Eolus"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Alpenglow_on_the_Eolus_Peaks.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Alpenglow_on_the_Eolus_Peaks.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Alpenglow_on_the_Eolus_Peaks.jpg/1280px-Alpenglow_on_the_Eolus_Peaks.jpg",
+      "author": "Kylie Stewart",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Alpenglow on the Eolus Peaks.jpg — Kylie Stewart, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 452,
+      "bytes": 173103,
+      "sha256": "1c3874ab337023cb56d5e123d72c15a950586a68ff98e5271f1257c21a6fbfcb",
+      "photo_date": "6 August 2022, 06:09:13",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "eolus-connecting-ridge",
+      "path": "assets/photos/eolus-connecting-ridge.jpg",
+      "title": "The ridge from N. Eolus over to Eolus.jpg",
+      "caption": "The ridge connecting North Eolus and Mount Eolus, viewed from North Eolus.",
+      "alt_text": "The ridge connecting North Eolus and Mount Eolus, viewed from North Eolus.",
+      "depicted_peaks": [
+        "Mt. Eolus"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:The_ridge_from_N._Eolus_over_to_Eolus.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/The_ridge_from_N._Eolus_over_to_Eolus.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/The_ridge_from_N._Eolus_over_to_Eolus.jpg/1280px-The_ridge_from_N._Eolus_over_to_Eolus.jpg",
+      "author": "Robert Tadlock from Westminster",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "The ridge from N. Eolus over to Eolus.jpg — Robert Tadlock from Westminster, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 342155,
+      "sha256": "4363e7d23d0ef08ea6c9d7a0e9133b970f4cc182d179fc8ce964be9d8814d7f0",
+      "photo_date": "28 August 2009, 22:59",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "capitol-knife-edge",
+      "path": "assets/photos/capitol-knife-edge.jpg",
+      "title": "Knife Edge of Capitol Peak.jpg",
+      "caption": "Climbers on Capitol Peak’s Knife Edge.",
+      "alt_text": "Climbers on Capitol Peak’s Knife Edge.",
+      "depicted_peaks": [
+        "Capitol Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Knife_Edge_of_Capitol_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Knife_Edge_of_Capitol_Peak.jpg",
+      "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/81/Knife_Edge_of_Capitol_Peak.jpg",
+      "author": "Greg Willis",
+      "license": "CC BY-SA 3.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+      "attribution": "Knife Edge of Capitol Peak.jpg — Greg Willis, CC BY-SA 3.0, via Wikimedia Commons.",
+      "modifications": "None; source file copied unchanged.",
+      "width": 1200,
+      "height": 777,
+      "bytes": 412279,
+      "sha256": "6d87dea1d20011644f90ed83eb296a5685e12c3175536b4fe2f9e5873affd16b",
+      "photo_date": "Taken on 13 September 2019",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "grizzly-peak-d",
+      "path": "assets/photos/grizzly-peak-d.jpg",
+      "title": "Grizzly Peak, Clear Creek County, CO.jpg",
+      "caption": "Grizzly Peak in the Loveland Pass / Clear Creek–Summit County area.",
+      "alt_text": "Grizzly Peak in the Loveland Pass / Clear Creek–Summit County area.",
+      "depicted_peaks": [
+        "Grizzly Peak D"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Grizzly_Peak,_Clear_Creek_County,_CO.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Grizzly_Peak%2C_Clear_Creek_County%2C_CO.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Grizzly_Peak%2C_Clear_Creek_County%2C_CO.jpg/1280px-Grizzly_Peak%2C_Clear_Creek_County%2C_CO.jpg",
+      "author": "Ben Mason from Denver",
+      "license": "CC BY 2.0",
+      "license_url": "https://creativecommons.org/licenses/by/2.0/deed.en",
+      "attribution": "Grizzly Peak, Clear Creek County, CO.jpg — Ben Mason from Denver, CC BY 2.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 851,
+      "bytes": 169116,
+      "sha256": "f12b659e308295631f69c42454e599c79e07746e3d3d693659a998b8dd33bcaf",
+      "photo_date": "22 August 2009, 10:12",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "longs-keyhole",
+      "path": "assets/photos/longs-keyhole.jpg",
+      "title": "Early morning view of the keyhole on Longs Peak.jpg",
+      "caption": "The Keyhole rock feature on Longs Peak in early morning.",
+      "alt_text": "The Keyhole rock feature on Longs Peak in early morning.",
+      "depicted_peaks": [
+        "Longs Peak"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Early_morning_view_of_the_keyhole_on_Longs_Peak.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Early_morning_view_of_the_keyhole_on_Longs_Peak.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Early_morning_view_of_the_keyhole_on_Longs_Peak.jpg/1280px-Early_morning_view_of_the_keyhole_on_Longs_Peak.jpg",
+      "author": "Rakin23",
+      "license": "CC BY-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.en",
+      "attribution": "Early morning view of the keyhole on Longs Peak.jpg — Rakin23, CC BY-SA 4.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 251741,
+      "sha256": "a9e390444146260423ea3e272bd6b3be82a0bdd686a17d377cb2863fbab3d199",
+      "photo_date": "30 July 2023, 05:04:47",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    },
+    {
+      "image_id": "sawtooth",
+      "path": "assets/photos/sawtooth.jpg",
+      "title": "Sawtooth and Mount Beirstadt - panoramio.jpg",
+      "caption": "The Sawtooth and Mount Bierstadt viewed across the basin.",
+      "alt_text": "The Sawtooth and Mount Bierstadt viewed across the basin.",
+      "depicted_peaks": [
+        "Mt. Bierstadt"
+      ],
+      "source_page": "https://commons.wikimedia.org/wiki/File:Sawtooth_and_Mount_Beirstadt_-_panoramio.jpg",
+      "original_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sawtooth_and_Mount_Beirstadt_-_panoramio.jpg",
+      "download_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Sawtooth_and_Mount_Beirstadt_-_panoramio.jpg/1280px-Sawtooth_and_Mount_Beirstadt_-_panoramio.jpg",
+      "author": "Thomson M",
+      "license": "CC BY 3.0",
+      "license_url": "https://creativecommons.org/licenses/by/3.0/deed.en",
+      "attribution": "Sawtooth and Mount Beirstadt - panoramio.jpg — Thomson M, CC BY 3.0, via Wikimedia Commons.",
+      "modifications": "Wikimedia-generated resized preview; no local edits.",
+      "width": 1280,
+      "height": 853,
+      "bytes": 373466,
+      "sha256": "dbecacf9d5a903dab9f8e2ffb8e987d6f6cb3e13e727e2acce318872fd4da4df",
+      "photo_date": "Taken on 9 July 2016",
+      "conditions_note": "Historical photograph; not current route-condition evidence.",
+      "reviewed_date": "2026-10-02"
+    }
+  ],
+  "peaks": [
+    {
+      "peak": "Blanca Peak",
+      "image_id": "blanca-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Capitol Peak",
+      "image_id": "capitol-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Castle Peak",
+      "image_id": "castle-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Challenger Point",
+      "image_id": "challenger-point",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Conundrum Peak",
+      "image_id": "conundrum-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Crestone Needle",
+      "image_id": "crestone-needle",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Crestone Peak",
+      "image_id": "crestone-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Culebra Peak",
+      "image_id": "culebra-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "El Diente Peak",
+      "image_id": "el-diente-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Ellingwood Point",
+      "image_id": "blanca-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Grays Peak",
+      "image_id": "grays-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Grizzly Peak D",
+      "image_id": "grizzly-peak-d",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Handies Peak",
+      "image_id": "handies-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Humboldt Peak",
+      "image_id": "humboldt-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Huron Peak",
+      "image_id": "huron-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Kit Carson Peak",
+      "image_id": "kit-carson-mountain",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "La Plata Peak",
+      "image_id": "la-plata-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Little Bear Peak",
+      "image_id": "little-bear-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Longs Peak",
+      "image_id": "longs-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Maroon Peak",
+      "image_id": "maroon-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Missouri Mountain",
+      "image_id": "missouri-mountain",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Antero",
+      "image_id": "mount-antero",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Belford",
+      "image_id": "mount-belford",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Bierstadt",
+      "image_id": "mount-bierstadt",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Blue Sky",
+      "image_id": "mount-blue-sky",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Bross",
+      "image_id": "mount-bross",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Cameron",
+      "image_id": "mount-cameron",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Columbia",
+      "image_id": "mount-columbia",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Democrat",
+      "image_id": "mount-democrat",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Elbert",
+      "image_id": "mount-elbert",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Eolus",
+      "image_id": "mount-eolus",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Harvard",
+      "image_id": "mount-harvard",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Lincoln",
+      "image_id": "mount-lincoln",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Lindsey",
+      "image_id": "mount-lindsey",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Massive",
+      "image_id": "mount-massive",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Oxford",
+      "image_id": "mount-oxford",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Princeton",
+      "image_id": "mount-princeton",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Shavano",
+      "image_id": "mount-shavano",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Sherman",
+      "image_id": "mount-sherman",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Sneffels",
+      "image_id": "mount-sneffels",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Wilson",
+      "image_id": "mount-wilson",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. Yale",
+      "image_id": "mount-yale",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Mt. of the Holy Cross",
+      "image_id": "mount-of-the-holy-cross",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "North Eolus",
+      "image_id": "north-eolus",
+      "match_type": "peak_group_context",
+      "note": "Exact subpeak identity is not verified; use only as neighboring massif context."
+    },
+    {
+      "peak": "North Maroon Peak",
+      "image_id": "maroon-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Pikes Peak",
+      "image_id": "pikes-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Pyramid Peak",
+      "image_id": "pyramid-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Quandary Peak",
+      "image_id": "quandary-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Redcloud Peak",
+      "image_id": "redcloud-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "San Luis Peak",
+      "image_id": "san-luis-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Snowmass Mountain",
+      "image_id": "snowmass-mountain",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "South Little Bear",
+      "image_id": "little-bear-peak",
+      "match_type": "peak_group_context",
+      "note": "Exact subpeak identity is not verified; use only as neighboring massif context."
+    },
+    {
+      "peak": "Sunlight Peak",
+      "image_id": "sunlight-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Sunshine Peak",
+      "image_id": "sunshine-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Tabeguache Peak",
+      "image_id": "tabeguache-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Torreys Peak",
+      "image_id": "torreys-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Uncompahgre Peak",
+      "image_id": "uncompahgre-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Wetterhorn Peak",
+      "image_id": "wetterhorn-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Wilson Peak",
+      "image_id": "wilson-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    },
+    {
+      "peak": "Windom Peak",
+      "image_id": "windom-peak",
+      "match_type": "peak_overview",
+      "note": "Peak illustration; no claim of depicting a specific itinerary."
+    }
+  ],
+  "routes": [
+    {
+      "route_id": "co14-001",
+      "hero_image_id": "mount-elbert",
+      "gallery_image_ids": [
+        "mount-elbert"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-002",
+      "hero_image_id": "mount-massive",
+      "gallery_image_ids": [
+        "mount-massive"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-003",
+      "hero_image_id": "mount-harvard",
+      "gallery_image_ids": [
+        "mount-harvard"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-004",
+      "hero_image_id": "blanca-peak",
+      "gallery_image_ids": [
+        "blanca-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-005",
+      "hero_image_id": "la-plata-peak",
+      "gallery_image_ids": [
+        "la-plata-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-006",
+      "hero_image_id": "uncompahgre-peak",
+      "gallery_image_ids": [
+        "uncompahgre-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-007",
+      "hero_image_id": "crestone-peak",
+      "gallery_image_ids": [
+        "crestone-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-009",
+      "hero_image_id": "grays-peak",
+      "gallery_image_ids": [
+        "grays-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-010",
+      "hero_image_id": "mount-antero",
+      "gallery_image_ids": [
+        "mount-antero"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-011",
+      "hero_image_id": "torreys-peak",
+      "gallery_image_ids": [
+        "torreys-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-012",
+      "hero_image_id": "castle-peak",
+      "gallery_image_ids": [
+        "castle-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-013",
+      "hero_image_id": "quandary-peak",
+      "gallery_image_ids": [
+        "quandary-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-014",
+      "hero_image_id": "mount-blue-sky",
+      "gallery_image_ids": [
+        "mount-blue-sky"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-015",
+      "hero_image_id": "longs-keyhole",
+      "gallery_image_ids": [
+        "longs-keyhole",
+        "longs-peak"
+      ],
+      "match_type": "route_feature",
+      "route_specific_image_ids": [
+        "longs-keyhole"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-016",
+      "hero_image_id": "mount-wilson",
+      "gallery_image_ids": [
+        "mount-wilson"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-017",
+      "hero_image_id": "mount-shavano",
+      "gallery_image_ids": [
+        "mount-shavano"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-018",
+      "hero_image_id": "mount-princeton",
+      "gallery_image_ids": [
+        "mount-princeton"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-019",
+      "hero_image_id": "mount-belford",
+      "gallery_image_ids": [
+        "mount-belford"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-020",
+      "hero_image_id": "crestone-needle",
+      "gallery_image_ids": [
+        "crestone-needle"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-021",
+      "hero_image_id": "mount-yale",
+      "gallery_image_ids": [
+        "mount-yale"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-022",
+      "hero_image_id": "mount-bross",
+      "gallery_image_ids": [
+        "mount-bross"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-023",
+      "hero_image_id": "kit-carson-mountain",
+      "gallery_image_ids": [
+        "kit-carson-mountain",
+        "challenger-point"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-024",
+      "hero_image_id": "maroon-peak",
+      "gallery_image_ids": [
+        "maroon-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-025",
+      "hero_image_id": "tabeguache-peak",
+      "gallery_image_ids": [
+        "tabeguache-peak",
+        "mount-shavano"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-026",
+      "hero_image_id": "mount-oxford",
+      "gallery_image_ids": [
+        "mount-oxford",
+        "mount-belford"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-027",
+      "hero_image_id": "mount-sneffels",
+      "gallery_image_ids": [
+        "mount-sneffels"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-028",
+      "hero_image_id": "mount-democrat",
+      "gallery_image_ids": [
+        "mount-democrat"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-029",
+      "hero_image_id": "capitol-knife-edge",
+      "gallery_image_ids": [
+        "capitol-knife-edge",
+        "capitol-peak"
+      ],
+      "match_type": "route_feature",
+      "route_specific_image_ids": [
+        "capitol-knife-edge"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-030",
+      "hero_image_id": "pikes-peak",
+      "gallery_image_ids": [
+        "pikes-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-031",
+      "hero_image_id": "snowmass-mountain",
+      "gallery_image_ids": [
+        "snowmass-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-032",
+      "hero_image_id": "windom-peak",
+      "gallery_image_ids": [
+        "windom-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-033",
+      "hero_image_id": "mount-eolus",
+      "gallery_image_ids": [
+        "mount-eolus",
+        "eolus-connecting-ridge"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [
+        "eolus-connecting-ridge"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-034",
+      "hero_image_id": "challenger-point",
+      "gallery_image_ids": [
+        "challenger-point"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-035",
+      "hero_image_id": "mount-columbia",
+      "gallery_image_ids": [
+        "mount-columbia"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-036",
+      "hero_image_id": "missouri-mountain",
+      "gallery_image_ids": [
+        "missouri-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-037",
+      "hero_image_id": "humboldt-peak",
+      "gallery_image_ids": [
+        "humboldt-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-038",
+      "hero_image_id": "mount-bierstadt",
+      "gallery_image_ids": [
+        "mount-bierstadt"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-039",
+      "hero_image_id": "sunlight-peak",
+      "gallery_image_ids": [
+        "sunlight-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-040",
+      "hero_image_id": "handies-peak",
+      "gallery_image_ids": [
+        "handies-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-041",
+      "hero_image_id": "culebra-peak",
+      "gallery_image_ids": [
+        "culebra-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-042",
+      "hero_image_id": "mount-lindsey",
+      "gallery_image_ids": [
+        "mount-lindsey"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-043",
+      "hero_image_id": "blanca-peak",
+      "gallery_image_ids": [
+        "blanca-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-044",
+      "hero_image_id": "little-bear-peak",
+      "gallery_image_ids": [
+        "little-bear-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-045",
+      "hero_image_id": "mount-sherman",
+      "gallery_image_ids": [
+        "mount-sherman"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-046",
+      "hero_image_id": "redcloud-peak",
+      "gallery_image_ids": [
+        "redcloud-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-047",
+      "hero_image_id": "pyramid-peak",
+      "gallery_image_ids": [
+        "pyramid-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-048",
+      "hero_image_id": "wilson-peak",
+      "gallery_image_ids": [
+        "wilson-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-049",
+      "hero_image_id": "wetterhorn-peak",
+      "gallery_image_ids": [
+        "wetterhorn-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-050",
+      "hero_image_id": "san-luis-peak",
+      "gallery_image_ids": [
+        "san-luis-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-051",
+      "hero_image_id": "mount-of-the-holy-cross",
+      "gallery_image_ids": [
+        "mount-of-the-holy-cross"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-052",
+      "hero_image_id": "huron-peak",
+      "gallery_image_ids": [
+        "huron-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-053",
+      "hero_image_id": "sunshine-peak",
+      "gallery_image_ids": [
+        "sunshine-peak",
+        "redcloud-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-055",
+      "hero_image_id": "maroon-peak",
+      "gallery_image_ids": [
+        "maroon-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-056",
+      "hero_image_id": "el-diente-peak",
+      "gallery_image_ids": [
+        "el-diente-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-057",
+      "hero_image_id": "conundrum-peak",
+      "gallery_image_ids": [
+        "conundrum-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-058",
+      "hero_image_id": "north-eolus",
+      "gallery_image_ids": [
+        "north-eolus",
+        "eolus-connecting-ridge"
+      ],
+      "match_type": "peak_group_context",
+      "route_specific_image_ids": [
+        "eolus-connecting-ridge"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-059",
+      "hero_image_id": "mount-elbert",
+      "gallery_image_ids": [
+        "mount-elbert"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-060",
+      "hero_image_id": "mount-elbert",
+      "gallery_image_ids": [
+        "mount-elbert"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-061",
+      "hero_image_id": "quandary-peak",
+      "gallery_image_ids": [
+        "quandary-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-062",
+      "hero_image_id": "torreys-peak",
+      "gallery_image_ids": [
+        "torreys-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-063",
+      "hero_image_id": "sawtooth",
+      "gallery_image_ids": [
+        "sawtooth",
+        "mount-bierstadt",
+        "mount-blue-sky"
+      ],
+      "match_type": "route_feature",
+      "route_specific_image_ids": [
+        "sawtooth"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-064",
+      "hero_image_id": "mount-massive",
+      "gallery_image_ids": [
+        "mount-massive"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-065",
+      "hero_image_id": "torreys-peak",
+      "gallery_image_ids": [
+        "torreys-peak",
+        "grays-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-066",
+      "hero_image_id": "mount-bross",
+      "gallery_image_ids": [
+        "mount-bross",
+        "mount-democrat",
+        "mount-cameron",
+        "mount-lincoln"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-067",
+      "hero_image_id": "longs-peak",
+      "gallery_image_ids": [
+        "longs-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-068",
+      "hero_image_id": "mount-bierstadt",
+      "gallery_image_ids": [
+        "mount-bierstadt"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-070",
+      "hero_image_id": "mount-sneffels",
+      "gallery_image_ids": [
+        "mount-sneffels"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-071",
+      "hero_image_id": "mount-yale",
+      "gallery_image_ids": [
+        "mount-yale"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-072",
+      "hero_image_id": "la-plata-peak",
+      "gallery_image_ids": [
+        "la-plata-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-073",
+      "hero_image_id": "pikes-peak",
+      "gallery_image_ids": [
+        "pikes-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-074",
+      "hero_image_id": "mount-of-the-holy-cross",
+      "gallery_image_ids": [
+        "mount-of-the-holy-cross"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-075",
+      "hero_image_id": "handies-peak",
+      "gallery_image_ids": [
+        "handies-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-076",
+      "hero_image_id": "tabeguache-peak",
+      "gallery_image_ids": [
+        "tabeguache-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-077",
+      "hero_image_id": "la-plata-peak",
+      "gallery_image_ids": [
+        "la-plata-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-078",
+      "hero_image_id": "grays-peak",
+      "gallery_image_ids": [
+        "grays-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-079",
+      "hero_image_id": "crestone-needle",
+      "gallery_image_ids": [
+        "crestone-needle",
+        "crestone-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-080",
+      "hero_image_id": "blanca-peak",
+      "gallery_image_ids": [
+        "blanca-peak",
+        "little-bear-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-081",
+      "hero_image_id": "mount-wilson",
+      "gallery_image_ids": [
+        "mount-wilson",
+        "el-diente-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-082",
+      "hero_image_id": "maroon-peak",
+      "gallery_image_ids": [
+        "maroon-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-083",
+      "hero_image_id": "blanca-peak",
+      "gallery_image_ids": [
+        "blanca-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-084",
+      "hero_image_id": "mount-blue-sky",
+      "gallery_image_ids": [
+        "mount-blue-sky"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-085",
+      "hero_image_id": "mount-sherman",
+      "gallery_image_ids": [
+        "mount-sherman"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-086",
+      "hero_image_id": "huron-peak",
+      "gallery_image_ids": [
+        "huron-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-087",
+      "hero_image_id": "missouri-mountain",
+      "gallery_image_ids": [
+        "missouri-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-088",
+      "hero_image_id": "conundrum-peak",
+      "gallery_image_ids": [
+        "conundrum-peak",
+        "castle-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-089",
+      "hero_image_id": "grays-peak",
+      "gallery_image_ids": [
+        "grays-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-090",
+      "hero_image_id": "torreys-peak",
+      "gallery_image_ids": [
+        "torreys-peak",
+        "grizzly-peak-d"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-091",
+      "hero_image_id": "mount-columbia",
+      "gallery_image_ids": [
+        "mount-columbia"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-092",
+      "hero_image_id": "mount-columbia",
+      "gallery_image_ids": [
+        "mount-columbia",
+        "mount-harvard"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-093",
+      "hero_image_id": "kit-carson-mountain",
+      "gallery_image_ids": [
+        "kit-carson-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-094",
+      "hero_image_id": "mount-belford",
+      "gallery_image_ids": [
+        "mount-belford"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-095",
+      "hero_image_id": "challenger-point",
+      "gallery_image_ids": [
+        "challenger-point",
+        "kit-carson-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-096",
+      "hero_image_id": "snowmass-mountain",
+      "gallery_image_ids": [
+        "snowmass-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-097",
+      "hero_image_id": "sawtooth",
+      "gallery_image_ids": [
+        "sawtooth",
+        "mount-bierstadt",
+        "mount-blue-sky"
+      ],
+      "match_type": "route_feature",
+      "route_specific_image_ids": [
+        "sawtooth"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-098",
+      "hero_image_id": "mount-blue-sky",
+      "gallery_image_ids": [
+        "mount-blue-sky"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-099",
+      "hero_image_id": "san-luis-peak",
+      "gallery_image_ids": [
+        "san-luis-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-100",
+      "hero_image_id": "mount-antero",
+      "gallery_image_ids": [
+        "mount-antero"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-101",
+      "hero_image_id": "huron-peak",
+      "gallery_image_ids": [
+        "huron-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-102",
+      "hero_image_id": "little-bear-peak",
+      "gallery_image_ids": [
+        "little-bear-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-103",
+      "hero_image_id": "little-bear-peak",
+      "gallery_image_ids": [
+        "little-bear-peak"
+      ],
+      "match_type": "route_view_winter",
+      "route_specific_image_ids": [
+        "little-bear-peak"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-104",
+      "hero_image_id": "longs-keyhole",
+      "gallery_image_ids": [
+        "longs-keyhole",
+        "longs-peak"
+      ],
+      "match_type": "route_feature",
+      "route_specific_image_ids": [
+        "longs-keyhole"
+      ],
+      "identity_status": "verified",
+      "caption_note": "Photo shows a route feature or viewpoint, not a complete route or current conditions."
+    },
+    {
+      "route_id": "co14-105",
+      "hero_image_id": "missouri-mountain",
+      "gallery_image_ids": [
+        "missouri-mountain",
+        "mount-belford",
+        "mount-oxford"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-106",
+      "hero_image_id": "mount-columbia",
+      "gallery_image_ids": [
+        "mount-columbia"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-107",
+      "hero_image_id": "mount-democrat",
+      "gallery_image_ids": [
+        "mount-democrat"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "pending",
+      "caption_note": "Democrat peak illustration only; requested West Ridge identity remains unresolved."
+    },
+    {
+      "route_id": "co14-108",
+      "hero_image_id": "mount-lindsey",
+      "gallery_image_ids": [
+        "mount-lindsey"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-109",
+      "hero_image_id": "mount-princeton",
+      "gallery_image_ids": [
+        "mount-princeton"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-110",
+      "hero_image_id": "mount-wilson",
+      "gallery_image_ids": [
+        "mount-wilson"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-111",
+      "hero_image_id": "snowmass-mountain",
+      "gallery_image_ids": [
+        "snowmass-mountain"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    },
+    {
+      "route_id": "co14-112",
+      "hero_image_id": "sunshine-peak",
+      "gallery_image_ids": [
+        "sunshine-peak"
+      ],
+      "match_type": "peak_overview",
+      "route_specific_image_ids": [],
+      "identity_status": "verified",
+      "caption_note": "Peak overview reused for this itinerary; a dedicated route photo has not been verified."
+    }
+  ]
+}

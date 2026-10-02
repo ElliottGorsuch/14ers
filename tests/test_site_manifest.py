@@ -72,6 +72,32 @@ class SiteManifestTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             exporter.reference_score(row, model, {'High':3})
 
+    def test_photo_catalog_coverage_licenses_and_binary_integrity(self):
+        import hashlib
+        catalog = json.loads((ROOT/'assets/photo_manifest.json').read_text())
+        routes = json.loads((ROOT/'outputs/site_route_manifest.json').read_text())
+        photos = {p['image_id']:p for p in catalog['photos']}
+        self.assertEqual(len(photos), len(catalog['photos']))
+        self.assertEqual({r['route_id'] for r in catalog['routes']}, {r['route_id'] for r in routes})
+        self.assertEqual(len(catalog['routes']), 109)
+        self.assertEqual({p['peak'] for p in catalog['peaks']}, {p for r in routes for p in r['summits']})
+        for row in catalog['routes']:
+            self.assertIn(row['hero_image_id'], photos)
+            self.assertTrue(set(row['gallery_image_ids']) <= set(photos))
+            self.assertTrue(set(row['route_specific_image_ids']) <= set(row['gallery_image_ids']))
+        for photo in photos.values():
+            path = ROOT/photo['path']
+            self.assertEqual(path.parent, ROOT/'assets/photos')
+            data = path.read_bytes()
+            self.assertTrue(data.startswith(bytes.fromhex('ffd8ff')))
+            self.assertEqual(len(data), photo['bytes'])
+            self.assertEqual(hashlib.sha256(data).hexdigest(), photo['sha256'])
+            self.assertTrue(photo['author'] and photo['attribution'])
+            self.assertTrue(photo['license'].startswith(('CC BY', 'CC0', 'Public domain')))
+            self.assertTrue(photo['source_page'].startswith('https://commons.wikimedia.org/wiki/File:'))
+        self.assertEqual({p.name for p in (ROOT/'assets/photos').glob('*.jpg')},
+                         {Path(p['path']).name for p in photos.values()})
+
     def test_published_manifest_contract(self):
         records = json.loads((ROOT/'outputs/site_route_manifest.json').read_text())
         ids = [r['route_id'] for r in records]
