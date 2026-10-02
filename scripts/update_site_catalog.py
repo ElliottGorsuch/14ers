@@ -62,7 +62,7 @@ def sha(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def profile_components(codes, params, receipts, source_hashes):
+def profile_components(codes, params, receipts, source_hashes, prefix=None):
     seqs = []
     for code in codes:
         path = ROOT / 'private_data/browser_downloads' / (code + '.gpx')
@@ -76,6 +76,11 @@ def profile_components(codes, params, receipts, source_hashes):
             return None
         ingestion.validate_gpx(path.read_bytes())
         seqs.extend(geometry.sequences(path.read_bytes()))
+    if prefix is not None:
+        segment, last_point = prefix
+        if segment < 0 or segment >= len(seqs) or last_point < 1 or last_point >= len(seqs[segment]):
+            raise ValueError('Invalid recorded ascent prefix')
+        seqs = seqs[:segment] + [seqs[segment][:last_point+1]]
     if not seqs:
         raise ValueError('No usable track sequences')
     profile, _, qa, _ = geometry.analyze_track(seqs, params)
@@ -167,11 +172,141 @@ def export_public_manifest(root=ROOT):
             writer.writerow(row)
     csv_temporary.replace(csv_destination)
     return {'routes' :len(records), 'plot_ready':sum(r['plot_ready'] for r in records),
+            'rank_ready':sum(r['rank_ready'] for r in records),
             'pending_ids':[r['route_id'] for r in records if not r['plot_ready']],
             'retired_ids':catalog['retired_ids']}
 
 
+MODEL_COLUMNS = ['gpx_distance_mi', 'gpx_gain_ft', 'crux_density_medium',
+                 'crux_density_extreme', 'yds_encoded', 'exposure', 'rockfall',
+                 'route_finding', 'commitment', 'longest_medium_section_mi',
+                 'longest_extreme_section_mi']
+
+
+def reference_score(row, model, risks):
+    """Project onto the saved Phase Five fit without fitting or filling defaults."""
+    values = [float(risks[row[f]]) if f in risks_fields() else float(row[f])
+              for f in MODEL_COLUMNS]
+    if not all(math.isfinite(v) for v in values):
+        raise ValueError('Nonfinite model input')
+    weights = model['BT_linear']['weights']
+    if not all(len(model[k]) == 11 for k in ('scaler_mean', 'scaler_scale')) or len(weights) != 11:
+        raise ValueError('Expected saved eleven-feature fit')
+    return sum((v-m)/scale*w for v,m,scale,w in zip(
+        values, model['scaler_mean'], model['scaler_scale'], weights))
+
+
+def rank_curated_existing_export():
+    """Backfill five documented estimates; preserve every previously saved score."""
+    load_analysis_runtime()
+    destination = ROOT/'site_export/route_features_full.csv'
+    before_hash = sha(destination)
+    rows = read_csv(destination)
+    if len(rows) != 109 or list(rows[0]) != HEADERS or len({r['route_id'] for r in rows}) != 109:
+        raise ValueError('Expected existing 109-row, 33-column export')
+    protected = {r['route_id']:r['provisional_score'] for r in rows if r['provisional_score']}
+    if len(protected) not in (103,108):
+        raise ValueError('Unexpected existing ranking cohort')
+    audit_path = ROOT/'private_data/site_export_analysis.json'
+    audit = json.loads(audit_path.read_text())
+    curations = audit['curated_backfill']
+    expected = {'co14-103','co14-104','co14-106','co14-109','co14-111'}
+    if set(curations) != expected:
+        raise ValueError('Unexpected curation cohort')
+    config = json.loads((ROOT/'outputs/project_config.json').read_text())
+    model_path = ROOT/'private_data/phase5/evaluation.json'
+    model_hash = sha(model_path)
+    model = json.loads(model_path.read_text())['final_models']['observed_segments_100']
+    receipts = json.loads((ROOT/'private_data/browser_downloads/download_ledger.json').read_text())
+    catalog_path = ROOT/'site_export/route_catalog.json'
+    catalog = json.loads(catalog_path.read_text())
+    entries = {e['route_id']:e for e in catalog['routes']}
+    source_hashes, profiles = {}, {}
+    for row in rows:
+        rid = row['route_id']
+        if rid in curations:
+            c = curations[rid]
+            row.update(c['inputs'])
+            row.update(c.get('published_metrics',{}))
+            flags = [f for f in row['quality_flags'].split(',') if f and
+                     f not in ('matching_gpx_pending','metadata_scope_pending')]
+            if 'geometry' in c:
+                spec = c['geometry']
+                result = profile_components([spec['code']], config['phase3']['parameters'],
+                    receipts, source_hashes, prefix=spec.get('prefix'))
+                if result is None:
+                    raise ValueError('No acquired recorded profile for '+rid)
+                flags.extend(apply_profile(row,result))
+                profiles[rid] = {'selection':spec, 'qa':result[1]}
+                entries[rid]['recorded_start'] = dict(lat=result[3][0][0][0],lon=result[3][0][0][1])
+                entries[rid]['geometry_scope'] = ('recorded_ascent_only' if spec.get('prefix')
+                                                 else 'recorded_source_track')
+            flags.extend(c['flags'])
+            row['quality_flags'] = ','.join(dict.fromkeys(flags))
+            predicted = reference_score(row, model, config['feature_contract']['risk_encoding'])
+            if rid not in protected:
+                row['provisional_score'] = repr(predicted)
+            elif abs(float(protected[rid])-predicted) > 1e-10:
+                raise ValueError('Curation changed an already saved score: '+rid)
+            entries[rid].update(rank_ready=True, catalog_status='curated_profile_rank_ready_plot_pending',
+                               scope_note=c['rationale'])
+        row['feature_version'] = '3.1.1'
+    ranked = sorted((r for r in rows if r['provisional_score']),
+                    key=lambda r:(-float(r['provisional_score']),r['route_id']))
+    if len(ranked) != 108:
+        raise ValueError('Expected 108 ranked routes')
+    for rank,row in enumerate(ranked,1):
+        row.update(provisional_rank=rank, provisional_scope='qualified_expanded_108_reference_fit',
+                   provisional_model='linear_btl', feature_set='eleven_features')
+    unresolved = next(r for r in rows if r['route_id']=='co14-107')
+    if any(unresolved[f] for f in MODEL_COLUMNS + ['provisional_score','provisional_rank']):
+        raise ValueError('Identity-pending Democrat must remain unpopulated')
+    if any(r['provisional_score'] != protected[r['route_id']] for r in rows if r['route_id'] in protected):
+        raise ValueError('Previously saved score changed')
+    if sha(model_path) != model_hash or any(sha(ROOT/p)!=h for p,h in source_hashes.items()):
+        raise ValueError('Source changed during export')
+    temporary = destination.with_suffix('.csv.tmp')
+    with temporary.open('w',newline='') as handle:
+        writer = csv.DictWriter(handle,fieldnames=HEADERS)
+        writer.writeheader(); writer.writerows(rows)
+    temporary.replace(destination)
+    catalog.update(feature_version='3.1.1',rank_count=108,rank_pending_ids=['co14-107'],
+                   plot_pending_ids=catalog['pending_ids'])
+    catalog_path.write_text(json.dumps(catalog,indent=2,allow_nan=False)+'\n')
+    stamp = datetime.now(timezone.utc).isoformat()
+    audit['ranking_update'] = dict(timestamp=stamp,source_csv_sha256=before_hash,
+        output_csv_sha256=sha(destination),model_sha256=model_hash,model_retrained=False,
+        protected_score_count=len(protected),protected_scores=protected,
+        rank_count=108,plot_count=103,identity_pending=['co14-107'],
+        source_hashes=source_hashes,profile_selection=profiles)
+    audit_path.write_text(json.dumps(audit,indent=2,allow_nan=False)+'\n')
+    (ROOT/'site_export/PROVENANCE.md').write_text(
+        f"Feature version 3.1.1, unchanged 33-column schema; exported {stamp}. The 109-route catalog "
+        "has 108 provisional rankings and the unchanged 103-route PCA/UMAP/t-SNE and cluster cohort "
+        "(seed 42); five newly ranked routes have blank embedding/cluster fields. Rankings use "
+        "linear_btl, eleven_features, qualified_expanded_108_reference_fit, projected onto the saved "
+        "Phase Five observed_segments_100 fit; no global refit occurred, and all 103 original score "
+        "strings are unchanged. Rank positions were re-sorted, 1 = hardest, larger score = harder. "
+        "Five additions carry curated_estimates and analyst_risk_estimates: ordinal ratings are "
+        "documented analyst estimates from source reports, not official route-page risk labels. "
+        "Columbia, Little Bear and Snowmass use recorded ascent prefixes, without invented returns; "
+        "Little Bear is a snowy-season geometry proxy, Columbia has a start variant and anomalous "
+        "summit elevation, and Snowmass omits the trailhead approach. Princeton selects the direct "
+        "Class 3 pitch variant. Source URLs, rationales, GPX hashes and segment selections are in "
+        "private_data/site_export_analysis.json. co14-107 remains identity-pending with blank model "
+        "inputs and rank. Community Elo is neutral: no votes yet. These scores are exploratory "
+        f"recorded-profile estimates, not verified whole-itinerary ratings. Model SHA256 {model_hash}; "
+        f"export SHA256 {sha(destination)}.\n")
+    summary = dict(rows=len(rows),columns=len(HEADERS),ranked=108,plotted=103,
+                   null_per_column={h:sum(r[h]==' ' or r[h]=='' for r in rows) for h in HEADERS})
+    summary['public_manifest'] = export_public_manifest()
+    print(json.dumps(summary,indent=2))
+
+
 def main():
+    current = ROOT/'site_export/route_features_full.csv'
+    if current.exists() and any(r['feature_version']=='3.1.1' for r in read_csv(current)):
+        raise ValueError('Curated 3.1.1 export exists; use --rank-curated or --manifest-only to preserve it')
     load_analysis_runtime()
     source_paths = [ROOT/p for p in ('outputs/research_route_manifest.csv', 'outputs/project_config.json',
                     'outputs/site_route_additions.json', 'private_data/routes_features.csv',
@@ -414,7 +549,9 @@ def risks_fields():
 if __name__=='__main__':
     if sys.argv[1:] == ['--manifest-only']:
         print(json.dumps(export_public_manifest(), indent=2))
+    elif sys.argv[1:] == ['--rank-curated']:
+        rank_curated_existing_export()
     elif sys.argv[1:]:
-        raise SystemExit('Usage: update_site_catalog.py [--manifest-only]')
+        raise SystemExit('Usage: update_site_catalog.py [--manifest-only | --rank-curated]')
     else:
         main()
