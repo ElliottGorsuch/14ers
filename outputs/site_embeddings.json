@@ -1,0 +1,5560 @@
+{
+  "schema_version": "1.0.0",
+  "embedding_version": "103-interpretation-1.0.0",
+  "catalog_version": "2.0.0",
+  "feature_version": "3.1.1",
+  "release_date": "2026-10-04",
+  "counts": {
+    "catalog": 109,
+    "embedded": 103,
+    "ranked": 108
+  },
+  "runtime": {
+    "numpy": "1.26.4",
+    "sklearn": "1.6.1",
+    "scipy": "1.13.1"
+  },
+  "source_feature_sha256": "a9fee066a380ff56cd3bc71a70bbd74fd3ff601739a611818298b23429ebdc39",
+  "reference_audit_sha256": "6a1c8e410d3c05693e16546028bfdfee69940a7f54ee1cf65b4001eff8e529af",
+  "cohort": "frozen_qualified_103",
+  "routes": [
+    {
+      "route_id": "co14-001",
+      "label": "Mt. Elbert - Northeast Ridge",
+      "primary_peak": "Mt. Elbert",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -3.54756766704844,
+          -0.2888843494996331
+        ],
+        "umap": [
+          15.041055679321289,
+          1.4161895513534546
+        ],
+        "tsne": [
+          28.73434066772461,
+          19.004287719726562
+        ]
+      },
+      "biplot": [
+        -1.5871586687754444,
+        -0.19012771508753454
+      ],
+      "pca_representation": 0.918895691323294,
+      "neighbors": [
+        {
+          "route_id": "co14-065",
+          "distance": 1.8814963731880374
+        },
+        {
+          "route_id": "co14-059",
+          "distance": 1.9578922517552697
+        },
+        {
+          "route_id": "co14-099",
+          "distance": 1.9596738541587084
+        },
+        {
+          "route_id": "co14-094",
+          "distance": 2.0115178538224048
+        },
+        {
+          "route_id": "co14-075",
+          "distance": 2.050530743942336
+        }
+      ]
+    },
+    {
+      "route_id": "co14-002",
+      "label": "Mt. Massive - East Slopes",
+      "primary_peak": "Mt. Massive",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.0063339131404865,
+          1.3706228570568808
+        ],
+        "umap": [
+          13.768836975097656,
+          0.7923009991645813
+        ],
+        "tsne": [
+          21.305166244506836,
+          24.921791076660156
+        ]
+      },
+      "biplot": [
+        -0.8976207253992896,
+        0.9020682238769027
+      ],
+      "pca_representation": 0.7503222432087526,
+      "neighbors": [
+        {
+          "route_id": "co14-010",
+          "distance": 1.2537950309306967
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 1.6183135040603287
+        },
+        {
+          "route_id": "co14-003",
+          "distance": 1.840164990785938
+        },
+        {
+          "route_id": "co14-025",
+          "distance": 2.0052201535596375
+        },
+        {
+          "route_id": "co14-099",
+          "distance": 2.0624559000930667
+        }
+      ]
+    },
+    {
+      "route_id": "co14-003",
+      "label": "Mt. Harvard - South Slopes",
+      "primary_peak": "Mt. Harvard",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.3264043414688684,
+          1.1287095201520823
+        ],
+        "umap": [
+          13.924351692199707,
+          0.12403005361557007
+        ],
+        "tsne": [
+          7.519974708557129,
+          8.808692932128906
+        ]
+      },
+      "biplot": [
+        -0.5934246634441874,
+        0.7428542336604895
+      ],
+      "pca_representation": 0.6390839320057019,
+      "neighbors": [
+        {
+          "route_id": "co14-100",
+          "distance": 1.4575589938953482
+        },
+        {
+          "route_id": "co14-035",
+          "distance": 1.4617717467166953
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 1.5196713398235477
+        },
+        {
+          "route_id": "co14-010",
+          "distance": 1.6093082135669659
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 1.8011332628442476
+        }
+      ]
+    },
+    {
+      "route_id": "co14-004",
+      "label": "Blanca Peak - Northwest Ridge",
+      "primary_peak": "Blanca Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 0.6,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          0.26894425751565315,
+          -1.2236815180806409
+        ],
+        "umap": [
+          12.751384735107422,
+          -3.0826354026794434
+        ],
+        "tsne": [
+          0.8278265595436096,
+          -10.102697372436523
+        ]
+      },
+      "biplot": [
+        0.12032390916689271,
+        -0.8053595545431558
+      ],
+      "pca_representation": 0.34495108789138657,
+      "neighbors": [
+        {
+          "route_id": "co14-012",
+          "distance": 1.1693186172658707
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.1769505110592968
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.5098217021357472
+        },
+        {
+          "route_id": "co14-057",
+          "distance": 1.6858083668968242
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.7037982395108222
+        }
+      ]
+    },
+    {
+      "route_id": "co14-005",
+      "label": "La Plata Peak - Northwest Ridge",
+      "primary_peak": "La Plata Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.0425978744114963,
+          -0.6307298284661326
+        ],
+        "umap": [
+          14.097150802612305,
+          1.918145775794983
+        ],
+        "tsne": [
+          18.934057235717773,
+          14.275524139404297
+        ]
+      },
+      "biplot": [
+        -0.9138449854831859,
+        -0.4151115189574113
+      ],
+      "pca_representation": 0.624476285366691,
+      "neighbors": [
+        {
+          "route_id": "co14-021",
+          "distance": 0.679229432857656
+        },
+        {
+          "route_id": "co14-017",
+          "distance": 1.2532731242956168
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 1.4567776278122997
+        },
+        {
+          "route_id": "co14-052",
+          "distance": 1.5241538553285348
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 1.831129586085554
+        }
+      ]
+    },
+    {
+      "route_id": "co14-006",
+      "label": "Uncompahgre Peak - South Ridge",
+      "primary_peak": "Uncompahgre Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.6224577268173913,
+          -0.5902650441367161
+        ],
+        "umap": [
+          13.219584465026855,
+          -1.6994906663894653
+        ],
+        "tsne": [
+          4.010293960571289,
+          -3.8438704013824463
+        ]
+      },
+      "biplot": [
+        -0.2784835328839387,
+        -0.38847983399632763
+      ],
+      "pca_representation": 0.20002400789488375,
+      "neighbors": [
+        {
+          "route_id": "co14-057",
+          "distance": 1.249915012292952
+        },
+        {
+          "route_id": "co14-035",
+          "distance": 1.4955870180583068
+        },
+        {
+          "route_id": "co14-004",
+          "distance": 1.7159437226752376
+        },
+        {
+          "route_id": "co14-072",
+          "distance": 1.8062223146538146
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 1.8320681664825633
+        }
+      ]
+    },
+    {
+      "route_id": "co14-007",
+      "label": "Crestone Peak - South Face",
+      "primary_peak": "Crestone Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          2.5618398698112532,
+          -0.9529498151899747
+        ],
+        "umap": [
+          11.159002304077148,
+          -3.28086519241333
+        ],
+        "tsne": [
+          -9.507440567016602,
+          -20.988033294677734
+        ]
+      },
+      "biplot": [
+        1.1461504723794087,
+        -0.6271789083381452
+      ],
+      "pca_representation": 0.6483409611191489,
+      "neighbors": [
+        {
+          "route_id": "co14-023",
+          "distance": 1.8407915050996684
+        },
+        {
+          "route_id": "co14-068",
+          "distance": 1.9869610672177456
+        },
+        {
+          "route_id": "co14-020",
+          "distance": 2.076925536672491
+        },
+        {
+          "route_id": "co14-097",
+          "distance": 2.3163632114431665
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.3278630657842867
+        }
+      ]
+    },
+    {
+      "route_id": "co14-009",
+      "label": "Grays Peak - North Slopes",
+      "primary_peak": "Grays Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -3.148204176227183,
+          -1.4737251920502599
+        ],
+        "umap": [
+          15.379340171813965,
+          1.776559829711914
+        ],
+        "tsne": [
+          28.54627227783203,
+          14.449257850646973
+        ]
+      },
+      "biplot": [
+        -1.4084860440537468,
+        -0.9699244833330957
+      ],
+      "pca_representation": 0.8906405926242082,
+      "neighbors": [
+        {
+          "route_id": "co14-011",
+          "distance": 0.6152526791556379
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 1.2252512619025742
+        },
+        {
+          "route_id": "co14-040",
+          "distance": 1.3965814132888936
+        },
+        {
+          "route_id": "co14-038",
+          "distance": 1.5931306963102676
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.81971867574212
+        }
+      ]
+    },
+    {
+      "route_id": "co14-010",
+      "label": "Mt. Antero - West Slopes",
+      "primary_peak": "Mt. Antero",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.177223202321964,
+          1.6441058685430567
+        ],
+        "umap": [
+          14.057510375976562,
+          0.5623257756233215
+        ],
+        "tsne": [
+          21.283227920532227,
+          23.335834503173828
+        ]
+      },
+      "biplot": [
+        -0.9740754803697325,
+        1.0820596293621267
+      ],
+      "pca_representation": 0.852935411399933,
+      "neighbors": [
+        {
+          "route_id": "co14-002",
+          "distance": 1.2537950309306967
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 1.3944927358424293
+        },
+        {
+          "route_id": "co14-003",
+          "distance": 1.6093082135669659
+        },
+        {
+          "route_id": "co14-059",
+          "distance": 2.070967827493931
+        },
+        {
+          "route_id": "co14-025",
+          "distance": 2.168845535757323
+        }
+      ]
+    },
+    {
+      "route_id": "co14-011",
+      "label": "Torreys Peak - South Slopes",
+      "primary_peak": "Torreys Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.8719886307965297,
+          -1.572045881347195
+        ],
+        "umap": [
+          15.51380443572998,
+          1.6251698732376099
+        ],
+        "tsne": [
+          27.168975830078125,
+          13.673194885253906
+        ]
+      },
+      "biplot": [
+        -1.2849090080318957,
+        -1.034633727825695
+      ],
+      "pca_representation": 0.8277815977368527,
+      "neighbors": [
+        {
+          "route_id": "co14-009",
+          "distance": 0.6152526791556379
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 1.3447467965200577
+        },
+        {
+          "route_id": "co14-040",
+          "distance": 1.4756409288945387
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.7420908466238894
+        },
+        {
+          "route_id": "co14-038",
+          "distance": 1.896279078930958
+        }
+      ]
+    },
+    {
+      "route_id": "co14-012",
+      "label": "Castle Peak - Northeast Ridge",
+      "primary_peak": "Castle Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          0.7138586907426911,
+          -0.7556708129639556
+        ],
+        "umap": [
+          12.524535179138184,
+          -3.1571061611175537
+        ],
+        "tsne": [
+          -1.7351365089416504,
+          -10.810120582580566
+        ]
+      },
+      "biplot": [
+        0.3193757288456761,
+        -0.4973407707133559
+      ],
+      "pca_representation": 0.3320349097898606,
+      "neighbors": [
+        {
+          "route_id": "co14-088",
+          "distance": 0.816991038022605
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 0.9116075306130738
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 0.9199569772638863
+        },
+        {
+          "route_id": "co14-004",
+          "distance": 1.1693186172658707
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.314211814029822
+        }
+      ]
+    },
+    {
+      "route_id": "co14-013",
+      "label": "Quandary Peak - East Ridge",
+      "primary_peak": "Quandary Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.713776321904888,
+          -1.58492287618419
+        ],
+        "umap": [
+          15.757308959960938,
+          1.3072816133499146
+        ],
+        "tsne": [
+          26.2702579498291,
+          9.913397789001465
+        ]
+      },
+      "biplot": [
+        -1.2141258514774027,
+        -1.0431086542444932
+      ],
+      "pca_representation": 0.7886649266709762,
+      "neighbors": [
+        {
+          "route_id": "co14-040",
+          "distance": 1.9282221463436535
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.9765013658989228
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 2.0199292300408396
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 2.086248382909794
+        },
+        {
+          "route_id": "co14-085",
+          "distance": 2.1009445629270926
+        }
+      ]
+    },
+    {
+      "route_id": "co14-014",
+      "label": "Mt. Blue Sky - West Ridge from Summit Lake",
+      "primary_peak": "Mt. Blue Sky",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.1318829357353144,
+          -1.4797181633272072
+        ],
+        "umap": [
+          14.142149925231934,
+          -0.8240309357643127
+        ],
+        "tsne": [
+          15.188974380493164,
+          1.6056400537490845
+        ]
+      },
+      "biplot": [
+        -0.5063970534453454,
+        -0.9738687258559064
+      ],
+      "pca_representation": 0.5839521718649543,
+      "neighbors": [
+        {
+          "route_id": "co14-018",
+          "distance": 1.91404076825991
+        },
+        {
+          "route_id": "co14-006",
+          "distance": 2.071473224600897
+        },
+        {
+          "route_id": "co14-038",
+          "distance": 2.0785843843735754
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 2.1022008272970467
+        },
+        {
+          "route_id": "co14-058",
+          "distance": 2.150082062523253
+        }
+      ]
+    },
+    {
+      "route_id": "co14-015",
+      "label": "Longs Peak - Keyhole Route",
+      "primary_peak": "Longs Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          1.5419062411032316,
+          2.17995162563325
+        ],
+        "umap": [
+          10.503600120544434,
+          -1.9673577547073364
+        ],
+        "tsne": [
+          -19.48602294921875,
+          -8.75599479675293
+        ]
+      },
+      "biplot": [
+        0.6898388097673861,
+        1.4347236958349836
+      ],
+      "pca_representation": 0.7392838846246835,
+      "neighbors": [
+        {
+          "route_id": "co14-067",
+          "distance": 1.5033850076546256
+        },
+        {
+          "route_id": "co14-074",
+          "distance": 1.6182895694783468
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 1.8003621791961641
+        },
+        {
+          "route_id": "co14-056",
+          "distance": 1.9379372701583337
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 1.9795045776156581
+        }
+      ]
+    },
+    {
+      "route_id": "co14-016",
+      "label": "Mt. Wilson - Southwest Slopes",
+      "primary_peak": "Mt. Wilson",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.2063038045477454,
+          0.8961208683711721
+        ],
+        "umap": [
+          10.853565216064453,
+          -2.243316888809204
+        ],
+        "tsne": [
+          -15.232542991638184,
+          -8.096367835998535
+        ]
+      },
+      "biplot": [
+        0.5396924654456814,
+        0.5897772359103914
+      ],
+      "pca_representation": 0.4194338240935747,
+      "neighbors": [
+        {
+          "route_id": "co14-048",
+          "distance": 1.4198427327579426
+        },
+        {
+          "route_id": "co14-015",
+          "distance": 1.8003621791961641
+        },
+        {
+          "route_id": "co14-074",
+          "distance": 1.8306614242487516
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 1.9830231039949409
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 1.9847013376659668
+        }
+      ]
+    },
+    {
+      "route_id": "co14-017",
+      "label": "Mt. Shavano - East Slopes",
+      "primary_peak": "Mt. Shavano",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters,gain_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.7195705124424498,
+          -0.32024811202898884
+        ],
+        "umap": [
+          14.346070289611816,
+          1.6876498460769653
+        ],
+        "tsne": [
+          21.30392074584961,
+          15.803276062011719
+        ]
+      },
+      "biplot": [
+        -0.7693246476294493,
+        -0.21076961042240466
+      ],
+      "pca_representation": 0.5751117323128389,
+      "neighbors": [
+        {
+          "route_id": "co14-021",
+          "distance": 0.9635882054166149
+        },
+        {
+          "route_id": "co14-005",
+          "distance": 1.2532731242956168
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.328230199391796
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 1.5141098600315195
+        },
+        {
+          "route_id": "co14-094",
+          "distance": 1.6498407179655887
+        }
+      ]
+    },
+    {
+      "route_id": "co14-018",
+      "label": "Mt. Princeton - East Slopes",
+      "primary_peak": "Mt. Princeton",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.9927643154660359,
+          -0.7083965608241187
+        ],
+        "umap": [
+          13.92619514465332,
+          -0.7506378889083862
+        ],
+        "tsne": [
+          12.659112930297852,
+          2.797515392303467
+        ]
+      },
+      "biplot": [
+        -0.4441562888224753,
+        -0.4662274703307392
+      ],
+      "pca_representation": 0.5808292813370481,
+      "neighbors": [
+        {
+          "route_id": "co14-078",
+          "distance": 1.5142668090952145
+        },
+        {
+          "route_id": "co14-086",
+          "distance": 1.5166956122160218
+        },
+        {
+          "route_id": "co14-014",
+          "distance": 1.91404076825991
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 1.9198651361885248
+        },
+        {
+          "route_id": "co14-101",
+          "distance": 1.9319612456853763
+        }
+      ]
+    },
+    {
+      "route_id": "co14-019",
+      "label": "Mt. Belford - Northwest Ridge",
+      "primary_peak": "Mt. Belford",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.8927354071659215,
+          -0.8075107115399627
+        ],
+        "umap": [
+          13.858555793762207,
+          1.9806134700775146
+        ],
+        "tsne": [
+          14.337058067321777,
+          25.276586532592773
+        ]
+      },
+      "biplot": [
+        -1.294190980654907,
+        -0.5314589272825759
+      ],
+      "pca_representation": 0.5015595635442954,
+      "neighbors": [
+        {
+          "route_id": "co14-026",
+          "distance": 1.9450635853029232
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.1416251110209314
+        },
+        {
+          "route_id": "co14-052",
+          "distance": 2.256496501878377
+        },
+        {
+          "route_id": "co14-005",
+          "distance": 2.271968255637043
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 2.414565693620969
+        }
+      ]
+    },
+    {
+      "route_id": "co14-020",
+      "label": "Crestone Needle - South Face",
+      "primary_peak": "Crestone Needle",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          3.735979489304856,
+          -1.9154225396942035
+        ],
+        "umap": [
+          10.972028732299805,
+          -3.610121250152588
+        ],
+        "tsne": [
+          -10.773032188415527,
+          -23.762954711914062
+        ]
+      },
+      "biplot": [
+        1.671452890918599,
+        -1.260625269350832
+      ],
+      "pca_representation": 0.856600373251571,
+      "neighbors": [
+        {
+          "route_id": "co14-044",
+          "distance": 1.764372855832996
+        },
+        {
+          "route_id": "co14-007",
+          "distance": 2.076925536672491
+        },
+        {
+          "route_id": "co14-102",
+          "distance": 2.290002228274123
+        },
+        {
+          "route_id": "co14-023",
+          "distance": 2.4156203275734547
+        },
+        {
+          "route_id": "co14-068",
+          "distance": 2.5905823819056493
+        }
+      ]
+    },
+    {
+      "route_id": "co14-021",
+      "label": "Mt. Yale - Southwest Slopes",
+      "primary_peak": "Mt. Yale",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.0235143174397408,
+          -0.4991685977347852
+        ],
+        "umap": [
+          14.386998176574707,
+          2.0495474338531494
+        ],
+        "tsne": [
+          19.47649574279785,
+          15.720471382141113
+        ]
+      },
+      "biplot": [
+        -0.9053071263860576,
+        -0.3285251869654585
+      ],
+      "pca_representation": 0.7531221916008314,
+      "neighbors": [
+        {
+          "route_id": "co14-005",
+          "distance": 0.679229432857656
+        },
+        {
+          "route_id": "co14-017",
+          "distance": 0.9635882054166149
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 1.41942215215238
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 1.4242406317232374
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.5060576636937217
+        }
+      ]
+    },
+    {
+      "route_id": "co14-022",
+      "label": "Mt. Bross - West Slopes",
+      "primary_peak": "Mt. Bross",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.6040691147803947,
+          -2.9236959661795963
+        ],
+        "umap": [
+          14.79295539855957,
+          -0.662617564201355
+        ],
+        "tsne": [
+          22.304975509643555,
+          1.4174519777297974
+        ]
+      },
+      "biplot": [
+        -0.27025658762441424,
+        -1.9242151214600995
+      ],
+      "pca_representation": 0.6219303151528345,
+      "neighbors": [
+        {
+          "route_id": "co14-085",
+          "distance": 1.9636248769971016
+        },
+        {
+          "route_id": "co14-041",
+          "distance": 2.921676536802919
+        },
+        {
+          "route_id": "co14-034",
+          "distance": 2.925002579710263
+        },
+        {
+          "route_id": "co14-028",
+          "distance": 2.953476535919866
+        },
+        {
+          "route_id": "co14-013",
+          "distance": 2.980909373044588
+        }
+      ]
+    },
+    {
+      "route_id": "co14-023",
+      "label": "Kit Carson Peak - Via Challenger Point",
+      "primary_peak": "Kit Carson Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.7574662185023824,
+          -1.4093830633078615
+        ],
+        "umap": [
+          11.580727577209473,
+          -3.3098385334014893
+        ],
+        "tsne": [
+          -6.967259883880615,
+          -19.48685646057129
+        ]
+      },
+      "biplot": [
+        0.7862789397042865,
+        -0.9275780497417677
+      ],
+      "pca_representation": 0.7087465896335087,
+      "neighbors": [
+        {
+          "route_id": "co14-034",
+          "distance": 1.418357934317733
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.7958612996175018
+        },
+        {
+          "route_id": "co14-007",
+          "distance": 1.8407915050996686
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.8418280050172984
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.9078565213863357
+        }
+      ]
+    },
+    {
+      "route_id": "co14-024",
+      "label": "Maroon Peak - South Ridge",
+      "primary_peak": "Maroon Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          3.7654884602460887,
+          2.1924817148399853
+        ],
+        "umap": [
+          10.09020709991455,
+          -2.5818331241607666
+        ],
+        "tsne": [
+          -24.705419540405273,
+          -16.989561080932617
+        ]
+      },
+      "biplot": [
+        1.6846550123244997,
+        1.4429703081379552
+      ],
+      "pca_representation": 0.8934438005335514,
+      "neighbors": [
+        {
+          "route_id": "co14-067",
+          "distance": 2.0757093697496005
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 2.2746899316393954
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.3978165253533272
+        },
+        {
+          "route_id": "co14-055",
+          "distance": 2.415821856042142
+        },
+        {
+          "route_id": "co14-096",
+          "distance": 2.448645270103447
+        }
+      ]
+    },
+    {
+      "route_id": "co14-025",
+      "label": "Tabeguache Peak - Via Mt. Shavano",
+      "primary_peak": "Tabeguache Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters,gain_sensitive_to_parameters,component_assembly,return_geometry_unverified",
+      "coordinates": {
+        "pca": [
+          -1.402005843146284,
+          0.766625977147325
+        ],
+        "umap": [
+          13.749611854553223,
+          1.208461880683899
+        ],
+        "tsne": [
+          16.425785064697266,
+          18.892345428466797
+        ]
+      },
+      "biplot": [
+        -0.6272482828988047,
+        0.5045508543963253
+      ],
+      "pca_representation": 0.642426260842048,
+      "neighbors": [
+        {
+          "route_id": "co14-051",
+          "distance": 0.8234030559846262
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 1.2568939747234444
+        },
+        {
+          "route_id": "co14-091",
+          "distance": 1.3712966200917047
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 1.6446270077059355
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.7060794144566493
+        }
+      ]
+    },
+    {
+      "route_id": "co14-026",
+      "label": "Mt. Oxford - Via Mt. Belford",
+      "primary_peak": "Mt. Oxford",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.9559998126718403,
+          0.45815140234710194
+        ],
+        "umap": [
+          13.74505615234375,
+          1.9544968605041504
+        ],
+        "tsne": [
+          14.761833190917969,
+          23.15000343322754
+        ]
+      },
+      "biplot": [
+        -0.8751015766777956,
+        0.30152993557206537
+      ],
+      "pca_representation": 0.3663621050052603,
+      "neighbors": [
+        {
+          "route_id": "co14-051",
+          "distance": 1.870408641090875
+        },
+        {
+          "route_id": "co14-019",
+          "distance": 1.9450635853029232
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.0113973650270602
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 2.047092193546775
+        },
+        {
+          "route_id": "co14-005",
+          "distance": 2.0966614895637616
+        }
+      ]
+    },
+    {
+      "route_id": "co14-027",
+      "label": "Mt. Sneffels - South Slopes",
+      "primary_peak": "Mt. Sneffels",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 0.59,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.31715876601037607,
+          -0.8775235765338555
+        ],
+        "umap": [
+          12.794221878051758,
+          -2.0066475868225098
+        ],
+        "tsne": [
+          0.5540756583213806,
+          -4.428332805633545
+        ]
+      },
+      "biplot": [
+        0.14189476624424804,
+        -0.5775375261096727
+      ],
+      "pca_representation": 0.33997859995919366,
+      "neighbors": [
+        {
+          "route_id": "co14-057",
+          "distance": 1.4087321646984794
+        },
+        {
+          "route_id": "co14-042",
+          "distance": 1.690510319294372
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.749747749310973
+        },
+        {
+          "route_id": "co14-070",
+          "distance": 1.822569278048447
+        },
+        {
+          "route_id": "co14-006",
+          "distance": 1.8320681664825633
+        }
+      ]
+    },
+    {
+      "route_id": "co14-028",
+      "label": "Mt. Democrat - East Slope",
+      "primary_peak": "Mt. Democrat",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.9993115910635781,
+          -2.31954727180144
+        ],
+        "umap": [
+          14.96608829498291,
+          -0.14702767133712769
+        ],
+        "tsne": [
+          21.726211547851562,
+          5.01563024520874
+        ]
+      },
+      "biplot": [
+        -0.8944789842387695,
+        -1.5265978360855594
+      ],
+      "pca_representation": 0.7953294123191127,
+      "neighbors": [
+        {
+          "route_id": "co14-085",
+          "distance": 1.5550254470010998
+        },
+        {
+          "route_id": "co14-052",
+          "distance": 1.9767584764289334
+        },
+        {
+          "route_id": "co14-045",
+          "distance": 2.0702362510506216
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.112761551472115
+        },
+        {
+          "route_id": "co14-075",
+          "distance": 2.186405742666849
+        }
+      ]
+    },
+    {
+      "route_id": "co14-029",
+      "label": "Capitol Peak - Northeast Ridge",
+      "primary_peak": "Capitol Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          2.5206117457817743,
+          3.0637270993268877
+        ],
+        "umap": [
+          9.959928512573242,
+          -1.973708987236023
+        ],
+        "tsne": [
+          -25.3560791015625,
+          -11.076520919799805
+        ]
+      },
+      "biplot": [
+        1.1277052782091816,
+        2.0163758751753016
+      ],
+      "pca_representation": 0.7468734612045124,
+      "neighbors": [
+        {
+          "route_id": "co14-110",
+          "distance": 2.4397403167088405
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 2.6803388163428634
+        },
+        {
+          "route_id": "co14-055",
+          "distance": 2.907000389575877
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 3.0391766570761156
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 3.041846118174678
+        }
+      ]
+    },
+    {
+      "route_id": "co14-030",
+      "label": "Pikes Peak - East Slopes",
+      "primary_peak": "Pikes Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.962112570547263,
+          3.4863773044123056
+        ],
+        "umap": [
+          14.346939086914062,
+          0.4905075132846832
+        ],
+        "tsne": [
+          10.283687591552734,
+          12.0413179397583
+        ]
+      },
+      "biplot": [
+        -1.3252298716952446,
+        2.294540884506376
+      ],
+      "pca_representation": 0.527069067236418,
+      "neighbors": [
+        {
+          "route_id": "co14-100",
+          "distance": 3.40277926786563
+        },
+        {
+          "route_id": "co14-003",
+          "distance": 4.357008874626245
+        },
+        {
+          "route_id": "co14-050",
+          "distance": 4.444171625862803
+        },
+        {
+          "route_id": "co14-010",
+          "distance": 4.551817139137376
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 4.919980685060636
+        }
+      ]
+    },
+    {
+      "route_id": "co14-031",
+      "label": "Snowmass Mountain - East Slopes",
+      "primary_peak": "Snowmass Mountain",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          1.1853084580658102,
+          3.7675147885815923
+        ],
+        "umap": [
+          10.456095695495605,
+          -1.704650640487671
+        ],
+        "tsne": [
+          -21.31758689880371,
+          -7.1789326667785645
+        ]
+      },
+      "biplot": [
+        0.5302992841732668,
+        2.4795700409253576
+      ],
+      "pca_representation": 0.8911685818104076,
+      "neighbors": [
+        {
+          "route_id": "co14-015",
+          "distance": 1.9795045776156581
+        },
+        {
+          "route_id": "co14-074",
+          "distance": 2.3824235852563436
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 2.6667270114228083
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 2.969914320245904
+        },
+        {
+          "route_id": "co14-110",
+          "distance": 2.9756672703731346
+        }
+      ]
+    },
+    {
+      "route_id": "co14-032",
+      "label": "Windom Peak - West Ridge",
+      "primary_peak": "Windom Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          0.9397185472813859,
+          -1.0916468283781187
+        ],
+        "umap": [
+          12.530232429504395,
+          -3.517599105834961
+        ],
+        "tsne": [
+          -5.425778865814209,
+          -10.396023750305176
+        ]
+      },
+      "biplot": [
+        0.4204239576260503,
+        -0.7184616180197247
+      ],
+      "pca_representation": 0.6485800904835738,
+      "neighbors": [
+        {
+          "route_id": "co14-083",
+          "distance": 1.2346189783083636
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.2551005613998767
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 1.314211814029822
+        },
+        {
+          "route_id": "co14-061",
+          "distance": 1.501316043006776
+        },
+        {
+          "route_id": "co14-033",
+          "distance": 1.5189578251601918
+        }
+      ]
+    },
+    {
+      "route_id": "co14-033",
+      "label": "Mt. Eolus - Northeast Ridge",
+      "primary_peak": "Mt. Eolus",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.2874433742682476,
+          -0.7382651794163397
+        ],
+        "umap": [
+          12.837756156921387,
+          -3.730962038040161
+        ],
+        "tsne": [
+          -7.728392124176025,
+          -9.692493438720703
+        ]
+      },
+      "biplot": [
+        0.5759937804730979,
+        -0.48588534454786464
+      ],
+      "pca_representation": 0.3366526315926449,
+      "neighbors": [
+        {
+          "route_id": "co14-032",
+          "distance": 1.5189578251601918
+        },
+        {
+          "route_id": "co14-061",
+          "distance": 1.6005489278690779
+        },
+        {
+          "route_id": "co14-049",
+          "distance": 1.6127341345340116
+        },
+        {
+          "route_id": "co14-048",
+          "distance": 1.9187211810035156
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 2.0874129929095004
+        }
+      ]
+    },
+    {
+      "route_id": "co14-034",
+      "label": "Challenger Point - North Slope",
+      "primary_peak": "Challenger Point",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.188930721345256,
+          -1.8760129321531536
+        ],
+        "umap": [
+          11.868354797363281,
+          -3.1500284671783447
+        ],
+        "tsne": [
+          -5.644373893737793,
+          -18.5498046875
+        ]
+      },
+      "biplot": [
+        0.5319198611725305,
+        -1.2346880434427678
+      ],
+      "pca_representation": 0.6360292162411838,
+      "neighbors": [
+        {
+          "route_id": "co14-023",
+          "distance": 1.418357934317733
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.9508495175836291
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 2.0188424643429586
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 2.096386941297056
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 2.12785578525511
+        }
+      ]
+    },
+    {
+      "route_id": "co14-035",
+      "label": "Mt. Columbia - West Slopes",
+      "primary_peak": "Mt. Columbia",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,insufficient_valid_profile_coverage,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          -0.7058422408211865,
+          0.6686102737793491
+        ],
+        "umap": [
+          13.62978458404541,
+          -1.2809293270111084
+        ],
+        "tsne": [
+          5.760008811950684,
+          5.645379066467285
+        ]
+      },
+      "biplot": [
+        -0.31578922136228105,
+        0.4400423347886404
+      ],
+      "pca_representation": 0.3171227062151221,
+      "neighbors": [
+        {
+          "route_id": "co14-003",
+          "distance": 1.4617717467166953
+        },
+        {
+          "route_id": "co14-006",
+          "distance": 1.4955870180583068
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 1.6979154848473603
+        },
+        {
+          "route_id": "co14-057",
+          "distance": 1.7403340165198642
+        },
+        {
+          "route_id": "co14-072",
+          "distance": 2.0103448301330387
+        }
+      ]
+    },
+    {
+      "route_id": "co14-036",
+      "label": "Missouri Mountain - Northwest Ridge",
+      "primary_peak": "Missouri Mountain",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.459002294584357,
+          0.5646040398320152
+        ],
+        "umap": [
+          13.3263578414917,
+          1.0327709913253784
+        ],
+        "tsne": [
+          9.087113380432129,
+          23.421213150024414
+        ]
+      },
+      "biplot": [
+        -0.6527481240518394,
+        0.3715911789904237
+      ],
+      "pca_representation": 0.37622480447732526,
+      "neighbors": [
+        {
+          "route_id": "co14-075",
+          "distance": 1.794428659945229
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.022937722692927
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 2.198079355691963
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 2.3073393947814496
+        },
+        {
+          "route_id": "co14-112",
+          "distance": 2.3102002385755975
+        }
+      ]
+    },
+    {
+      "route_id": "co14-037",
+      "label": "Humboldt Peak - West Ridge",
+      "primary_peak": "Humboldt Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.3036743258169308,
+          0.27476681520323676
+        ],
+        "umap": [
+          13.77672290802002,
+          -0.34117379784584045
+        ],
+        "tsne": [
+          7.6611647605896,
+          6.747939586639404
+        ]
+      },
+      "biplot": [
+        -0.5832554024830878,
+        0.180836334148782
+      ],
+      "pca_representation": 0.3711784705917052,
+      "neighbors": [
+        {
+          "route_id": "co14-003",
+          "distance": 1.5196713398235477
+        },
+        {
+          "route_id": "co14-035",
+          "distance": 1.6979154848473603
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 1.9198651361885248
+        },
+        {
+          "route_id": "co14-101",
+          "distance": 1.9438153340472901
+        },
+        {
+          "route_id": "co14-089",
+          "distance": 1.9836751313887429
+        }
+      ]
+    },
+    {
+      "route_id": "co14-038",
+      "label": "Mt. Bierstadt - West Slopes",
+      "primary_peak": "Mt. Bierstadt",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.6638723732290823,
+          -1.317907522530223
+        ],
+        "umap": [
+          15.49325942993164,
+          1.8847600221633911
+        ],
+        "tsne": [
+          31.451711654663086,
+          15.200082778930664
+        ]
+      },
+      "biplot": [
+        -1.191799149866428,
+        -0.8673739037415683
+      ],
+      "pca_representation": 0.8406937578098997,
+      "neighbors": [
+        {
+          "route_id": "co14-099",
+          "distance": 1.5848444035627032
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 1.5931306963102676
+        },
+        {
+          "route_id": "co14-045",
+          "distance": 1.704387985284264
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.896279078930958
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.978107951692308
+        }
+      ]
+    },
+    {
+      "route_id": "co14-039",
+      "label": "Sunlight Peak - South Face",
+      "primary_peak": "Sunlight Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          2.4764461989926416,
+          -0.8774715943550202
+        ],
+        "umap": [
+          12.709975242614746,
+          -3.8159379959106445
+        ],
+        "tsne": [
+          -10.45948600769043,
+          -12.057538032531738
+        ]
+      },
+      "biplot": [
+        1.1079459002278438,
+        -0.5775033143120994
+      ],
+      "pca_representation": 0.5320922104127054,
+      "neighbors": [
+        {
+          "route_id": "co14-049",
+          "distance": 2.1854284641099224
+        },
+        {
+          "route_id": "co14-061",
+          "distance": 2.338570015249784
+        },
+        {
+          "route_id": "co14-033",
+          "distance": 2.442174445423983
+        },
+        {
+          "route_id": "co14-048",
+          "distance": 2.5338610961201584
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 2.562020399410847
+        }
+      ]
+    },
+    {
+      "route_id": "co14-040",
+      "label": "Handies Peak - Southwest Slopes",
+      "primary_peak": "Handies Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.624260161001198,
+          -2.249650637833916
+        ],
+        "umap": [
+          15.763259887695312,
+          1.7324508428573608
+        ],
+        "tsne": [
+          28.59998321533203,
+          11.53287410736084
+        ]
+      },
+      "biplot": [
+        -1.1740769041117292,
+        -1.4805957340970899
+      ],
+      "pca_representation": 0.9255222546940326,
+      "neighbors": [
+        {
+          "route_id": "co14-009",
+          "distance": 1.3965814132888936
+        },
+        {
+          "route_id": "co14-045",
+          "distance": 1.405881087217051
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.4756409288945387
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 1.8023078564487185
+        },
+        {
+          "route_id": "co14-013",
+          "distance": 1.9282221463436535
+        }
+      ]
+    },
+    {
+      "route_id": "co14-041",
+      "label": "Culebra Peak - Northwest Ridge",
+      "primary_peak": "Culebra Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "metadata_scope_pending,complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.8775354254738833,
+          -1.6332676725216697
+        ],
+        "umap": [
+          14.676098823547363,
+          -0.33599308133125305
+        ],
+        "tsne": [
+          18.974483489990234,
+          3.2923858165740967
+        ]
+      },
+      "biplot": [
+        -0.392603633930743,
+        -1.074926527659712
+      ],
+      "pca_representation": 0.34086899775250595,
+      "neighbors": [
+        {
+          "route_id": "co14-085",
+          "distance": 2.0051429715672895
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 2.1543268182937263
+        },
+        {
+          "route_id": "co14-028",
+          "distance": 2.3238605329623336
+        },
+        {
+          "route_id": "co14-078",
+          "distance": 2.64563797198694
+        },
+        {
+          "route_id": "co14-013",
+          "distance": 2.7191190343772385
+        }
+      ]
+    },
+    {
+      "route_id": "co14-042",
+      "label": "Mt. Lindsey - Northwest Gully",
+      "primary_peak": "Mt. Lindsey",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.9331682441964839,
+          -0.2219772307558537
+        ],
+        "umap": [
+          12.505854606628418,
+          -2.3677759170532227
+        ],
+        "tsne": [
+          -3.0073115825653076,
+          -4.036940097808838
+        ]
+      },
+      "biplot": [
+        0.41749339468827323,
+        -0.14609314681867788
+      ],
+      "pca_representation": 0.36824829754646765,
+      "neighbors": [
+        {
+          "route_id": "co14-070",
+          "distance": 1.59202790601417
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 1.690510319294372
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.7590811588234552
+        },
+        {
+          "route_id": "co14-108",
+          "distance": 1.8803066689764478
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.9561058651395997
+        }
+      ]
+    },
+    {
+      "route_id": "co14-043",
+      "label": "Ellingwood Point - South Face",
+      "primary_peak": "Ellingwood Point",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.7439662744316278,
+          -0.9711526798621333
+        ],
+        "umap": [
+          12.887374877929688,
+          -2.960911750793457
+        ],
+        "tsne": [
+          -0.9483388066291809,
+          -8.936084747314453
+        ]
+      },
+      "biplot": [
+        0.3328456656961084,
+        -0.6391590279748075
+      ],
+      "pca_representation": 0.4034321591871406,
+      "neighbors": [
+        {
+          "route_id": "co14-012",
+          "distance": 0.9116075306130738
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.1222226636346382
+        },
+        {
+          "route_id": "co14-004",
+          "distance": 1.1769505110592968
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.4617081140521035
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.5901485763216592
+        }
+      ]
+    },
+    {
+      "route_id": "co14-044",
+      "label": "Little Bear Peak - West Ridge and Hourglass",
+      "primary_peak": "Little Bear Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          4.504926286818255,
+          -1.3215714034715071
+        ],
+        "umap": [
+          10.802762031555176,
+          -3.52054762840271
+        ],
+        "tsne": [
+          -12.557968139648438,
+          -23.69046974182129
+        ]
+      },
+      "biplot": [
+        2.0154746799422627,
+        -0.8697852677110102
+      ],
+      "pca_representation": 0.9400091321229791,
+      "neighbors": [
+        {
+          "route_id": "co14-020",
+          "distance": 1.764372855832996
+        },
+        {
+          "route_id": "co14-007",
+          "distance": 2.4723749808170026
+        },
+        {
+          "route_id": "co14-102",
+          "distance": 2.614650618587347
+        },
+        {
+          "route_id": "co14-095",
+          "distance": 2.616243094402363
+        },
+        {
+          "route_id": "co14-068",
+          "distance": 2.7025123973801297
+        }
+      ]
+    },
+    {
+      "route_id": "co14-045",
+      "label": "Mt. Sherman - Southwest Ridge",
+      "primary_peak": "Mt. Sherman",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.4119240627774703,
+          -2.1836777837098253
+        ],
+        "umap": [
+          15.457183837890625,
+          2.1667022705078125
+        ],
+        "tsne": [
+          30.574111938476562,
+          11.406500816345215
+        ]
+      },
+      "biplot": [
+        -1.0790791167206468,
+        -1.4371760471734403
+      ],
+      "pca_representation": 0.8714046559381269,
+      "neighbors": [
+        {
+          "route_id": "co14-040",
+          "distance": 1.405881087217051
+        },
+        {
+          "route_id": "co14-038",
+          "distance": 1.704387985284264
+        },
+        {
+          "route_id": "co14-052",
+          "distance": 1.7659018209862065
+        },
+        {
+          "route_id": "co14-046",
+          "distance": 1.8664095613853866
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 1.9689369228098628
+        }
+      ]
+    },
+    {
+      "route_id": "co14-046",
+      "label": "Redcloud Peak - Northeast Ridge",
+      "primary_peak": "Redcloud Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.104490334336548,
+          -0.9687112340644398
+        ],
+        "umap": [
+          15.070242881774902,
+          2.053332805633545
+        ],
+        "tsne": [
+          23.057453155517578,
+          14.397677421569824
+        ]
+      },
+      "biplot": [
+        -0.9415352689453805,
+        -0.6375522032650942
+      ],
+      "pca_representation": 0.7007491516502155,
+      "neighbors": [
+        {
+          "route_id": "co14-017",
+          "distance": 1.328230199391796
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.5060576636937217
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.7420908466238894
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 1.81971867574212
+        },
+        {
+          "route_id": "co14-045",
+          "distance": 1.8664095613853866
+        }
+      ]
+    },
+    {
+      "route_id": "co14-047",
+      "label": "Pyramid Peak - Northeast Ridge",
+      "primary_peak": "Pyramid Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          3.675985285744342,
+          0.8680260244678419
+        ],
+        "umap": [
+          9.944564819335938,
+          -3.0591537952423096
+        ],
+        "tsne": [
+          -21.08327865600586,
+          -18.36290168762207
+        ]
+      },
+      "biplot": [
+        1.644611874990474,
+        0.5712867621746803
+      ],
+      "pca_representation": 0.8702130136682353,
+      "neighbors": [
+        {
+          "route_id": "co14-055",
+          "distance": 1.3873007711518277
+        },
+        {
+          "route_id": "co14-096",
+          "distance": 1.8915920313009453
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 1.9947860272441917
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.278848586269245
+        },
+        {
+          "route_id": "co14-077",
+          "distance": 2.543745715905655
+        }
+      ]
+    },
+    {
+      "route_id": "co14-048",
+      "label": "Wilson Peak - Southwest Ridge",
+      "primary_peak": "Wilson Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          0.8217455876173785,
+          0.28013649560055043
+        ],
+        "umap": [
+          12.86078929901123,
+          -3.3628876209259033
+        ],
+        "tsne": [
+          -11.701904296875,
+          -8.327912330627441
+        ]
+      },
+      "biplot": [
+        0.36764362383537497,
+        0.18437036105768134
+      ],
+      "pca_representation": 0.2073385479102214,
+      "neighbors": [
+        {
+          "route_id": "co14-049",
+          "distance": 1.1637766968322316
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 1.4198427327579426
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 1.719916396226124
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.722441837566352
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.8319082348814495
+        }
+      ]
+    },
+    {
+      "route_id": "co14-049",
+      "label": "Wetterhorn Peak - Southeast Ridge",
+      "primary_peak": "Wetterhorn Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.9883747951884708,
+          -0.45227606642391566
+        ],
+        "umap": [
+          13.025870323181152,
+          -3.4201266765594482
+        ],
+        "tsne": [
+          -9.886551856994629,
+          -9.021629333496094
+        ]
+      },
+      "biplot": [
+        0.4421924460394281,
+        -0.29766311413856916
+      ],
+      "pca_representation": 0.3124370979746194,
+      "neighbors": [
+        {
+          "route_id": "co14-048",
+          "distance": 1.1637766968322316
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.5437112887112494
+        },
+        {
+          "route_id": "co14-061",
+          "distance": 1.593934073203339
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.599561068855977
+        },
+        {
+          "route_id": "co14-033",
+          "distance": 1.6127341345340116
+        }
+      ]
+    },
+    {
+      "route_id": "co14-050",
+      "label": "San Luis Peak - Northeast Ridge",
+      "primary_peak": "San Luis Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -3.1648662272968715,
+          0.02421263472345241
+        ],
+        "umap": [
+          15.266983032226562,
+          1.2596498727798462
+        ],
+        "tsne": [
+          27.62302017211914,
+          22.858856201171875
+        ]
+      },
+      "biplot": [
+        -1.4159405371816634,
+        0.015935418184447787
+      ],
+      "pca_representation": 0.6127014897926392,
+      "neighbors": [
+        {
+          "route_id": "co14-059",
+          "distance": 1.7742899951153128
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 2.112219832708802
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 2.120130323143115
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 2.3693280567214163
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 2.497862771409798
+        }
+      ]
+    },
+    {
+      "route_id": "co14-051",
+      "label": "Mt. of the Holy Cross - North Ridge",
+      "primary_peak": "Mt. of the Holy Cross",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.3007858444088805,
+          0.7046533504987732
+        ],
+        "umap": [
+          13.303672790527344,
+          1.4452985525131226
+        ],
+        "tsne": [
+          15.115220069885254,
+          19.79079818725586
+        ]
+      },
+      "biplot": [
+        -0.5819631147139306,
+        0.46376389614444946
+      ],
+      "pca_representation": 0.5855057532220413,
+      "neighbors": [
+        {
+          "route_id": "co14-025",
+          "distance": 0.8234030559846262
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 1.5001314355122461
+        },
+        {
+          "route_id": "co14-091",
+          "distance": 1.5613396959637642
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 1.7744559112873548
+        },
+        {
+          "route_id": "co14-075",
+          "distance": 1.806844145278189
+        }
+      ]
+    },
+    {
+      "route_id": "co14-052",
+      "label": "Huron Peak - Northwest Slopes",
+      "primary_peak": "Huron Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.422700326398861,
+          -1.6068258377628801
+        ],
+        "umap": [
+          14.555974960327148,
+          1.9554654359817505
+        ],
+        "tsne": [
+          20.075294494628906,
+          11.589920997619629
+        ]
+      },
+      "biplot": [
+        -1.0839003468785846,
+        -1.0575239731976287
+      ],
+      "pca_representation": 0.7566033237515649,
+      "neighbors": [
+        {
+          "route_id": "co14-005",
+          "distance": 1.5241538553285348
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.7126209565629096
+        },
+        {
+          "route_id": "co14-045",
+          "distance": 1.7659018209862065
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 1.8279766693607085
+        },
+        {
+          "route_id": "co14-028",
+          "distance": 1.9767584764289334
+        }
+      ]
+    },
+    {
+      "route_id": "co14-053",
+      "label": "Sunshine Peak - Via Redcloud Peak",
+      "primary_peak": "Sunshine Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.6926909530659995,
+          0.309989193385297
+        ],
+        "umap": [
+          14.176833152770996,
+          1.4131892919540405
+        ],
+        "tsne": [
+          19.088674545288086,
+          18.825557708740234
+        ]
+      },
+      "biplot": [
+        -0.7572989078321612,
+        0.2040177570791111
+      ],
+      "pca_representation": 0.5727312899083248,
+      "neighbors": [
+        {
+          "route_id": "co14-025",
+          "distance": 1.2568939747234444
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.4242406317232374
+        },
+        {
+          "route_id": "co14-017",
+          "distance": 1.5141098600315195
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 1.6384117168046186
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 1.7744559112873548
+        }
+      ]
+    },
+    {
+      "route_id": "co14-055",
+      "label": "North Maroon Peak - Northeast Ridge",
+      "primary_peak": "North Maroon Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          3.184888266301636,
+          1.0751752482359183
+        ],
+        "umap": [
+          9.794486999511719,
+          -2.640585422515869
+        ],
+        "tsne": [
+          -21.69952964782715,
+          -16.57137680053711
+        ]
+      },
+      "biplot": [
+        1.4248982670279877,
+        0.7076209341898729
+      ],
+      "pca_representation": 0.9142558570002054,
+      "neighbors": [
+        {
+          "route_id": "co14-047",
+          "distance": 1.3873007711518277
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 1.5509804480634053
+        },
+        {
+          "route_id": "co14-096",
+          "distance": 1.7679406372662076
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.048384272588698
+        },
+        {
+          "route_id": "co14-077",
+          "distance": 2.2194026396994326
+        }
+      ]
+    },
+    {
+      "route_id": "co14-056",
+      "label": "El Diente Peak - South Slopes",
+      "primary_peak": "El Diente Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.6206767955633112,
+          1.2691678436116796
+        ],
+        "umap": [
+          10.77702808380127,
+          -2.359618902206421
+        ],
+        "tsne": [
+          -17.474573135375977,
+          -10.634325981140137
+        ]
+      },
+      "biplot": [
+        0.7250802427967892,
+        0.8352961404327098
+      ],
+      "pca_representation": 0.5927189626055153,
+      "neighbors": [
+        {
+          "route_id": "co14-067",
+          "distance": 1.8202559853824223
+        },
+        {
+          "route_id": "co14-015",
+          "distance": 1.9379372701583337
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 2.0294495799194796
+        },
+        {
+          "route_id": "co14-042",
+          "distance": 2.1040881919195353
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.136572503332065
+        }
+      ]
+    },
+    {
+      "route_id": "co14-057",
+      "label": "Conundrum Peak - South Ridge",
+      "primary_peak": "Conundrum Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 0.73,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.024319494866549905,
+          -0.415657012353281
+        ],
+        "umap": [
+          13.007883071899414,
+          -2.3010003566741943
+        ],
+        "tsne": [
+          2.528705596923828,
+          -4.90816068649292
+        ]
+      },
+      "biplot": [
+        0.010880383609369394,
+        -0.2735624763187091
+      ],
+      "pca_representation": 0.052884195262151774,
+      "neighbors": [
+        {
+          "route_id": "co14-006",
+          "distance": 1.249915012292952
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 1.4087321646984794
+        },
+        {
+          "route_id": "co14-004",
+          "distance": 1.6858083668968242
+        },
+        {
+          "route_id": "co14-035",
+          "distance": 1.7403340165198642
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.7893137935741492
+        }
+      ]
+    },
+    {
+      "route_id": "co14-058",
+      "label": "North Eolus - South Ridge",
+      "primary_peak": "North Eolus",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "metadata_scope_pending,complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.6299308817483263,
+          -1.5251352517218097
+        ],
+        "umap": [
+          14.343505859375,
+          -0.6327649354934692
+        ],
+        "tsne": [
+          15.36348819732666,
+          6.231586933135986
+        ]
+      },
+      "biplot": [
+        -0.281826973727057,
+        -1.0037597436883048
+      ],
+      "pca_representation": 0.6899013116837404,
+      "neighbors": [
+        {
+          "route_id": "co14-032",
+          "distance": 2.033662971330585
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 2.039171911979006
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.0650054110845564
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 2.066220088304175
+        },
+        {
+          "route_id": "co14-014",
+          "distance": 2.150082062523253
+        }
+      ]
+    },
+    {
+      "route_id": "co14-059",
+      "label": "Mt. Elbert - East Ridge",
+      "primary_peak": "Mt. Elbert",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -3.1134509002717046,
+          0.33068124051052417
+        ],
+        "umap": [
+          14.76878547668457,
+          1.1753009557724
+        ],
+        "tsne": [
+          25.543804168701172,
+          22.153926849365234
+        ]
+      },
+      "biplot": [
+        -1.3929376547408583,
+        0.21763611905412675
+      ],
+      "pca_representation": 0.7977817307387964,
+      "neighbors": [
+        {
+          "route_id": "co14-073",
+          "distance": 1.466357748892278
+        },
+        {
+          "route_id": "co14-050",
+          "distance": 1.7742899951153128
+        },
+        {
+          "route_id": "co14-065",
+          "distance": 1.8664225803100238
+        },
+        {
+          "route_id": "co14-094",
+          "distance": 1.952470236315614
+        },
+        {
+          "route_id": "co14-001",
+          "distance": 1.9578922517552697
+        }
+      ]
+    },
+    {
+      "route_id": "co14-060",
+      "label": "Mt. Elbert - Southeast Ridge",
+      "primary_peak": "Mt. Elbert",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.0259732983165115,
+          0.28775442007281576
+        ],
+        "umap": [
+          13.575699806213379,
+          1.713201642036438
+        ],
+        "tsne": [
+          13.525407791137695,
+          18.39386558532715
+        ]
+      },
+      "biplot": [
+        -0.906407258414876,
+        0.18938405797871488
+      ],
+      "pca_representation": 0.6054874515936051,
+      "neighbors": [
+        {
+          "route_id": "co14-051",
+          "distance": 1.5001314355122461
+        },
+        {
+          "route_id": "co14-091",
+          "distance": 1.5421332519054862
+        },
+        {
+          "route_id": "co14-025",
+          "distance": 1.6446270077059357
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 1.798963510846024
+        },
+        {
+          "route_id": "co14-005",
+          "distance": 1.831129586085554
+        }
+      ]
+    },
+    {
+      "route_id": "co14-061",
+      "label": "Quandary Peak - West Ridge",
+      "primary_peak": "Quandary Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.498745159775591,
+          -1.1567743997373017
+        ],
+        "umap": [
+          12.911887168884277,
+          -3.873241901397705
+        ],
+        "tsne": [
+          -7.522663116455078,
+          -11.877767562866211
+        ]
+      },
+      "biplot": [
+        0.670528823091393,
+        -0.7613249865378494
+      ],
+      "pca_representation": 0.4646987388950954,
+      "neighbors": [
+        {
+          "route_id": "co14-032",
+          "distance": 1.501316043006776
+        },
+        {
+          "route_id": "co14-049",
+          "distance": 1.593934073203339
+        },
+        {
+          "route_id": "co14-033",
+          "distance": 1.6005489278690779
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 1.8893583441148418
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 1.9177837433202565
+        }
+      ]
+    },
+    {
+      "route_id": "co14-062",
+      "label": "Torreys Peak - Kelso Ridge",
+      "primary_peak": "Torreys Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          1.637141167330112,
+          -0.9854122701580666
+        ],
+        "umap": [
+          12.198204040527344,
+          -3.61708664894104
+        ],
+        "tsne": [
+          -3.1880600452423096,
+          -13.805545806884766
+        ]
+      },
+      "biplot": [
+        0.7324462954920881,
+        -0.6485439023224351
+      ],
+      "pca_representation": 0.5412859766250365,
+      "neighbors": [
+        {
+          "route_id": "co14-012",
+          "distance": 1.413604697402821
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.431773042676072
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.6270053105783095
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.7938902664279854
+        },
+        {
+          "route_id": "co14-049",
+          "distance": 1.8074787715942569
+        }
+      ]
+    },
+    {
+      "route_id": "co14-063",
+      "label": "Bierstadt+Sawtooth+Blue Sky",
+      "primary_peak": "Mt. Blue Sky",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 0.88,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.7298767756916442,
+          2.843002772818419
+        ],
+        "umap": [
+          11.831605911254883,
+          -0.45561692118644714
+        ],
+        "tsne": [
+          -4.324575424194336,
+          11.391230583190918
+        ]
+      },
+      "biplot": [
+        0.3265421157253575,
+        1.8711073206967468
+      ],
+      "pca_representation": 0.6747228104275844,
+      "neighbors": [
+        {
+          "route_id": "co14-092",
+          "distance": 2.0682721536477087
+        },
+        {
+          "route_id": "co14-098",
+          "distance": 2.5008872372896422
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 2.997772300608828
+        },
+        {
+          "route_id": "co14-077",
+          "distance": 3.068093121327065
+        },
+        {
+          "route_id": "co14-071",
+          "distance": 3.132547227499708
+        }
+      ]
+    },
+    {
+      "route_id": "co14-064",
+      "label": "Mt. Massive - Southwest Slopes",
+      "primary_peak": "Mt. Massive",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.085256498965881,
+          -0.6925555503702917
+        ],
+        "umap": [
+          13.921271324157715,
+          1.6867971420288086
+        ],
+        "tsne": [
+          11.837984085083008,
+          21.606033325195312
+        ]
+      },
+      "biplot": [
+        -0.9329301762713479,
+        -0.4558017926244858
+      ],
+      "pca_representation": 0.6742005031003752,
+      "neighbors": [
+        {
+          "route_id": "co14-075",
+          "distance": 1.1201671210357669
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.41942215215238
+        },
+        {
+          "route_id": "co14-005",
+          "distance": 1.4567776278122997
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 1.798963510846024
+        },
+        {
+          "route_id": "co14-052",
+          "distance": 1.8279766693607085
+        }
+      ]
+    },
+    {
+      "route_id": "co14-065",
+      "label": "Grays and Torreys",
+      "primary_peak": "Torreys Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.8531208308953917,
+          -0.9625113778566993
+        ],
+        "umap": [
+          15.30794620513916,
+          1.6835277080535889
+        ],
+        "tsne": [
+          26.804508209228516,
+          16.447492599487305
+        ]
+      },
+      "biplot": [
+        -1.276467677242925,
+        -0.633471800513299
+      ],
+      "pca_representation": 0.8452816838495761,
+      "neighbors": [
+        {
+          "route_id": "co14-094",
+          "distance": 1.0572376759051065
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 1.2252512619025742
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.3447467965200577
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.747092439020713
+        },
+        {
+          "route_id": "co14-040",
+          "distance": 1.8023078564487185
+        }
+      ]
+    },
+    {
+      "route_id": "co14-066",
+      "label": "Decalibron",
+      "primary_peak": "Mt. Bross",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.6768888813308804,
+          0.29413897190626503
+        ],
+        "umap": [
+          13.009355545043945,
+          0.9148809313774109
+        ],
+        "tsne": [
+          9.032946586608887,
+          19.268156051635742
+        ]
+      },
+      "biplot": [
+        -0.7502291638574471,
+        0.1935860171850688
+      ],
+      "pca_representation": 0.5068946713468271,
+      "neighbors": [
+        {
+          "route_id": "co14-075",
+          "distance": 1.8063805056080873
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 1.9560235762458744
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 2.098951612743297
+        },
+        {
+          "route_id": "co14-064",
+          "distance": 2.167119562982288
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 2.2091787949045463
+        }
+      ]
+    },
+    {
+      "route_id": "co14-067",
+      "label": "Longs Peak - Loft Route",
+      "primary_peak": "Longs Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          2.1668031142511226,
+          1.7962985212298093
+        ],
+        "umap": [
+          10.369608879089355,
+          -2.4101390838623047
+        ],
+        "tsne": [
+          -19.644392013549805,
+          -11.016352653503418
+        ]
+      },
+      "biplot": [
+        0.9694136008333241,
+        1.1822244231924661
+      ],
+      "pca_representation": 0.820157388007981,
+      "neighbors": [
+        {
+          "route_id": "co14-015",
+          "distance": 1.5033850076546256
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 1.6846126397187327
+        },
+        {
+          "route_id": "co14-056",
+          "distance": 1.8202559853824223
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 1.9830231039949409
+        },
+        {
+          "route_id": "co14-024",
+          "distance": 2.075709369749601
+        }
+      ]
+    },
+    {
+      "route_id": "co14-068",
+      "label": "Mt. Bierstadt - East Ridge",
+      "primary_peak": "Mt. Bierstadt",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          2.4000139542824055,
+          -1.537086833054343
+        ],
+        "umap": [
+          11.2373685836792,
+          -3.225651502609253
+        ],
+        "tsne": [
+          -10.959695816040039,
+          -19.445518493652344
+        ]
+      },
+      "biplot": [
+        1.073750611751007,
+        -1.0116256140768292
+      ],
+      "pca_representation": 0.644732772899998,
+      "neighbors": [
+        {
+          "route_id": "co14-007",
+          "distance": 1.9869610672177456
+        },
+        {
+          "route_id": "co14-097",
+          "distance": 2.0294757606838925
+        },
+        {
+          "route_id": "co14-034",
+          "distance": 2.229247985817153
+        },
+        {
+          "route_id": "co14-023",
+          "distance": 2.3026860766840254
+        },
+        {
+          "route_id": "co14-070",
+          "distance": 2.3520522094299583
+        }
+      ]
+    },
+    {
+      "route_id": "co14-070",
+      "label": "Mt. Sneffels - Southwest Ridge",
+      "primary_peak": "Mt. Sneffels",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          1.3624149666469345,
+          -0.29920217896615364
+        ],
+        "umap": [
+          12.315865516662598,
+          -2.1501212120056152
+        ],
+        "tsne": [
+          -2.3387770652770996,
+          -2.283905029296875
+        ]
+      },
+      "biplot": [
+        0.6095355826100907,
+        -0.19691834027899674
+      ],
+      "pca_representation": 0.42478852511554455,
+      "neighbors": [
+        {
+          "route_id": "co14-042",
+          "distance": 1.59202790601417
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 1.7352377320861223
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 1.822569278048447
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.8927069464611086
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.9258033355318223
+        }
+      ]
+    },
+    {
+      "route_id": "co14-071",
+      "label": "Mt. Yale - East Ridge",
+      "primary_peak": "Mt. Yale",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.5516570618155964,
+          1.4508099179487222
+        ],
+        "umap": [
+          12.66119384765625,
+          0.1607518345117569
+        ],
+        "tsne": [
+          -0.16736486554145813,
+          16.546314239501953
+        ]
+      },
+      "biplot": [
+        -0.24680777648993643,
+        0.9548429162178245
+      ],
+      "pca_representation": 0.2942252276826214,
+      "neighbors": [
+        {
+          "route_id": "co14-076",
+          "distance": 1.4102974589621227
+        },
+        {
+          "route_id": "co14-112",
+          "distance": 2.018214691208054
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 2.2462199619900622
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 2.575417610757768
+        },
+        {
+          "route_id": "co14-036",
+          "distance": 2.6716781229823896
+        }
+      ]
+    },
+    {
+      "route_id": "co14-072",
+      "label": "La Plata Peak - Southwest Ridge",
+      "primary_peak": "La Plata Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.38307724051549447,
+          -0.5306864765071003
+        ],
+        "umap": [
+          13.423418045043945,
+          -1.8244925737380981
+        ],
+        "tsne": [
+          3.6337883472442627,
+          0.5283559560775757
+        ]
+      },
+      "biplot": [
+        -0.17138626240795593,
+        -0.34926851309498164
+      ],
+      "pca_representation": 0.1699540414188116,
+      "neighbors": [
+        {
+          "route_id": "co14-112",
+          "distance": 1.6903880203560613
+        },
+        {
+          "route_id": "co14-101",
+          "distance": 1.69057469752406
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.7584643150614638
+        },
+        {
+          "route_id": "co14-012",
+          "distance": 1.7647840052912123
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.7671691517897423
+        }
+      ]
+    },
+    {
+      "route_id": "co14-073",
+      "label": "Pikes Peak - Northwest Slopes",
+      "primary_peak": "Pikes Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.4999958143020256,
+          0.7167920776601854
+        ],
+        "umap": [
+          14.34040641784668,
+          1.0149933099746704
+        ],
+        "tsne": [
+          23.270971298217773,
+          22.599130630493164
+        ]
+      },
+      "biplot": [
+        -1.1184818447375962,
+        0.4717529355758611
+      ],
+      "pca_representation": 0.8650570729555581,
+      "neighbors": [
+        {
+          "route_id": "co14-010",
+          "distance": 1.3944927358424293
+        },
+        {
+          "route_id": "co14-059",
+          "distance": 1.466357748892278
+        },
+        {
+          "route_id": "co14-002",
+          "distance": 1.6183135040603287
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 1.6384117168046186
+        },
+        {
+          "route_id": "co14-003",
+          "distance": 1.8011332628442476
+        }
+      ]
+    },
+    {
+      "route_id": "co14-074",
+      "label": "Mt. of the Holy Cross - Halo Ridge",
+      "primary_peak": "Mt. of the Holy Cross",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          0.7823486060839243,
+          2.044618805918215
+        ],
+        "umap": [
+          10.78435230255127,
+          -1.987831473350525
+        ],
+        "tsne": [
+          -18.267318725585938,
+          -7.12640905380249
+        ]
+      },
+      "biplot": [
+        0.35001767089155666,
+        1.3456551123920264
+      ],
+      "pca_representation": 0.5414788824905243,
+      "neighbors": [
+        {
+          "route_id": "co14-015",
+          "distance": 1.6182895694783468
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 1.8306614242487516
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 2.2107111300835527
+        },
+        {
+          "route_id": "co14-056",
+          "distance": 2.29612648600966
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 2.3824235852563436
+        }
+      ]
+    },
+    {
+      "route_id": "co14-075",
+      "label": "Handies Peak - East Slopes",
+      "primary_peak": "Handies Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.048365635350296,
+          -0.34662597088717045
+        ],
+        "umap": [
+          13.565656661987305,
+          1.3183282613754272
+        ],
+        "tsne": [
+          10.337569236755371,
+          21.3930606842041
+        ]
+      },
+      "biplot": [
+        -0.9164254441615294,
+        -0.22813005948201645
+      ],
+      "pca_representation": 0.7246855160337592,
+      "neighbors": [
+        {
+          "route_id": "co14-064",
+          "distance": 1.1201671210357669
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.7623071958453966
+        },
+        {
+          "route_id": "co14-036",
+          "distance": 1.794428659945229
+        },
+        {
+          "route_id": "co14-066",
+          "distance": 1.8063805056080873
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 1.806844145278189
+        }
+      ]
+    },
+    {
+      "route_id": "co14-076",
+      "label": "Tabeguache Peak - West Ridge",
+      "primary_peak": "Tabeguache Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.638095403574179,
+          0.5592949965141225
+        ],
+        "umap": [
+          13.02722454071045,
+          0.3051435053348541
+        ],
+        "tsne": [
+          0.1897958219051361,
+          17.912498474121094
+        ]
+      },
+      "biplot": [
+        -0.2854797276160593,
+        0.36809706005639375
+      ],
+      "pca_representation": 0.06701684447190476,
+      "neighbors": [
+        {
+          "route_id": "co14-071",
+          "distance": 1.4102974589621227
+        },
+        {
+          "route_id": "co14-112",
+          "distance": 2.0391790085534294
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 2.71202199331546
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 2.851392253138542
+        },
+        {
+          "route_id": "co14-075",
+          "distance": 2.9081427030187834
+        }
+      ]
+    },
+    {
+      "route_id": "co14-077",
+      "label": "La Plata Peak - Ellingwood Ridge",
+      "primary_peak": "La Plata Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          2.253272038704579,
+          1.8732379620341508
+        ],
+        "umap": [
+          9.734136581420898,
+          -2.6452391147613525
+        ],
+        "tsne": [
+          -20.07281494140625,
+          -15.050248146057129
+        ]
+      },
+      "biplot": [
+        1.0080992344579465,
+        1.2328617114553262
+      ],
+      "pca_representation": 0.6759575379336735,
+      "neighbors": [
+        {
+          "route_id": "co14-055",
+          "distance": 2.2194026396994326
+        },
+        {
+          "route_id": "co14-096",
+          "distance": 2.3123202289884595
+        },
+        {
+          "route_id": "co14-047",
+          "distance": 2.543745715905655
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 2.623922878620322
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.682746929201314
+        }
+      ]
+    },
+    {
+      "route_id": "co14-078",
+      "label": "Grays Peak - South Ridge",
+      "primary_peak": "Grays Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.5080449235724336,
+          -0.5118608269436525
+        ],
+        "umap": [
+          13.382824897766113,
+          -0.8186681270599365
+        ],
+        "tsne": [
+          10.58914852142334,
+          3.1829347610473633
+        ]
+      },
+      "biplot": [
+        -0.22729598988769312,
+        -0.336878510857974
+      ],
+      "pca_representation": 0.11203955196177229,
+      "neighbors": [
+        {
+          "route_id": "co14-086",
+          "distance": 1.3110411224258494
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 1.5142668090952145
+        },
+        {
+          "route_id": "co14-089",
+          "distance": 1.8444457179734226
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 2.1006409326474973
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 2.1155121819827127
+        }
+      ]
+    },
+    {
+      "route_id": "co14-079",
+      "label": "Crestones Traverse",
+      "primary_peak": "Crestone Needle",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          6.1167162340310535,
+          0.3547585032282343
+        ],
+        "umap": [
+          10.389598846435547,
+          -3.395907163619995
+        ],
+        "tsne": [
+          -17.51579475402832,
+          -22.86530113220215
+        ]
+      },
+      "biplot": [
+        2.7365790046674623,
+        0.23348244286505504
+      ],
+      "pca_representation": 0.6207599692019228,
+      "neighbors": [
+        {
+          "route_id": "co14-047",
+          "distance": 4.76374424597872
+        },
+        {
+          "route_id": "co14-044",
+          "distance": 4.964444419510979
+        },
+        {
+          "route_id": "co14-020",
+          "distance": 5.176178201282382
+        },
+        {
+          "route_id": "co14-007",
+          "distance": 5.6362248560907435
+        },
+        {
+          "route_id": "co14-081",
+          "distance": 5.751532998748072
+        }
+      ]
+    },
+    {
+      "route_id": "co14-080",
+      "label": "Little Bear + Blanca Traverse",
+      "primary_peak": "Blanca Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters,gain_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          5.216131989552619,
+          -2.5965268654376135
+        ],
+        "umap": [
+          11.334632873535156,
+          -3.8739516735076904
+        ],
+        "tsne": [
+          -8.463582038879395,
+          -28.875457763671875
+        ]
+      },
+      "biplot": [
+        2.3336634792320403,
+        -1.7088904987207338
+      ],
+      "pca_representation": 0.7745516914611278,
+      "neighbors": [
+        {
+          "route_id": "co14-082",
+          "distance": 1.9976092734322357
+        },
+        {
+          "route_id": "co14-102",
+          "distance": 3.021572308710401
+        },
+        {
+          "route_id": "co14-095",
+          "distance": 3.8776705524401236
+        },
+        {
+          "route_id": "co14-044",
+          "distance": 4.137664134607928
+        },
+        {
+          "route_id": "co14-020",
+          "distance": 4.227582568284899
+        }
+      ]
+    },
+    {
+      "route_id": "co14-081",
+      "label": "Mt. Wilson + El Diente Traverse",
+      "primary_peak": "Mt. Wilson",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          3.206015804103646,
+          2.2148421973138155
+        ],
+        "umap": [
+          9.834859848022461,
+          -2.3503100872039795
+        ],
+        "tsne": [
+          -23.09633445739746,
+          -14.760635375976562
+        ]
+      },
+      "biplot": [
+        1.4343505898360378,
+        1.4576867420616606
+      ],
+      "pca_representation": 0.9390656396904516,
+      "neighbors": [
+        {
+          "route_id": "co14-055",
+          "distance": 1.5509804480634053
+        },
+        {
+          "route_id": "co14-047",
+          "distance": 1.9947860272441917
+        },
+        {
+          "route_id": "co14-110",
+          "distance": 2.106953976320097
+        },
+        {
+          "route_id": "co14-024",
+          "distance": 2.2746899316393954
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 2.2957660787312797
+        }
+      ]
+    },
+    {
+      "route_id": "co14-082",
+      "label": "Bells Traverse",
+      "primary_peak": "North Maroon Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters,gain_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          6.503590110586944,
+          -2.970393799670463
+        ],
+        "umap": [
+          11.295581817626953,
+          -3.9556679725646973
+        ],
+        "tsne": [
+          -9.280508995056152,
+          -30.061445236206055
+        ]
+      },
+      "biplot": [
+        2.9096638573122346,
+        -1.954949054940866
+      ],
+      "pca_representation": 0.8673115522127608,
+      "neighbors": [
+        {
+          "route_id": "co14-080",
+          "distance": 1.9976092734322357
+        },
+        {
+          "route_id": "co14-102",
+          "distance": 3.552595951130614
+        },
+        {
+          "route_id": "co14-044",
+          "distance": 4.290835839250588
+        },
+        {
+          "route_id": "co14-020",
+          "distance": 4.589883788437976
+        },
+        {
+          "route_id": "co14-095",
+          "distance": 4.824160348645355
+        }
+      ]
+    },
+    {
+      "route_id": "co14-083",
+      "label": "Blanca and Ellingwood",
+      "primary_peak": "Ellingwood Point",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          1.1175336385875059,
+          -0.6553238734412257
+        ],
+        "umap": [
+          12.28414249420166,
+          -3.1208012104034424
+        ],
+        "tsne": [
+          -3.2765331268310547,
+          -9.203765869140625
+        ]
+      },
+      "biplot": [
+        0.4999772713590093,
+        -0.4312979602927537
+      ],
+      "pca_representation": 0.6907208221300422,
+      "neighbors": [
+        {
+          "route_id": "co14-012",
+          "distance": 0.9199569772638863
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.0232546449087758
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.1222226636346382
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.2346189783083636
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 1.431773042676072
+        }
+      ]
+    },
+    {
+      "route_id": "co14-084",
+      "label": "Mt. Blue Sky - West Ridge from Guanella Pass",
+      "primary_peak": "Mt. Blue Sky",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 0.6,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.2021655744440263,
+          0.32631728120005826
+        ],
+        "umap": [
+          12.844627380371094,
+          -1.272354245185852
+        ],
+        "tsne": [
+          -0.7229318618774414,
+          0.25810304284095764
+        ]
+      },
+      "biplot": [
+        0.09044756129310537,
+        0.21476400218842995
+      ],
+      "pca_representation": 0.045836453035893385,
+      "neighbors": [
+        {
+          "route_id": "co14-070",
+          "distance": 1.7352377320861223
+        },
+        {
+          "route_id": "co14-112",
+          "distance": 1.773364970595907
+        },
+        {
+          "route_id": "co14-027",
+          "distance": 2.028966131093705
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 2.0776280743900837
+        },
+        {
+          "route_id": "co14-006",
+          "distance": 2.1140780076854333
+        }
+      ]
+    },
+    {
+      "route_id": "co14-085",
+      "label": "Mt. Sherman - West Slopes",
+      "primary_peak": "Mt. Sherman",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.526248064852238,
+          -2.016515030582144
+        ],
+        "umap": [
+          14.993319511413574,
+          -0.46167710423469543
+        ],
+        "tsne": [
+          21.38066864013672,
+          3.2713890075683594
+        ]
+      },
+      "biplot": [
+        -0.6828334436950727,
+        -1.3271587604808373
+      ],
+      "pca_representation": 0.6624981949258018,
+      "neighbors": [
+        {
+          "route_id": "co14-028",
+          "distance": 1.5550254470010998
+        },
+        {
+          "route_id": "co14-022",
+          "distance": 1.9636248769971016
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 2.0047709831091565
+        },
+        {
+          "route_id": "co14-041",
+          "distance": 2.0051429715672895
+        },
+        {
+          "route_id": "co14-013",
+          "distance": 2.1009445629270926
+        }
+      ]
+    },
+    {
+      "route_id": "co14-086",
+      "label": "Huron Peak - North Ridge from Lulu Gulch",
+      "primary_peak": "Huron Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,insufficient_valid_profile_coverage,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.2804684673969404,
+          0.029348072441644002
+        ],
+        "umap": [
+          13.483424186706543,
+          -0.6537548303604126
+        ],
+        "tsne": [
+          10.93922233581543,
+          1.682143211364746
+        ]
+      },
+      "biplot": [
+        -0.1254797656101033,
+        0.019315279506202813
+      ],
+      "pca_representation": 0.02332215604955598,
+      "neighbors": [
+        {
+          "route_id": "co14-078",
+          "distance": 1.3110411224258494
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 1.5166956122160218
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 2.165553096163706
+        },
+        {
+          "route_id": "co14-042",
+          "distance": 2.2548224205010268
+        },
+        {
+          "route_id": "co14-089",
+          "distance": 2.2757722546515566
+        }
+      ]
+    },
+    {
+      "route_id": "co14-087",
+      "label": "Missouri Mountain - West Ridge",
+      "primary_peak": "Missouri Mountain",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 0.77,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          0.08693323949505369,
+          1.5547540888582718
+        ],
+        "umap": [
+          12.890941619873047,
+          -0.4743504226207733
+        ],
+        "tsne": [
+          0.0771886557340622,
+          7.542260646820068
+        ]
+      },
+      "biplot": [
+        0.03889336515012878,
+        1.0232532255541757
+      ],
+      "pca_representation": 0.20509075012112504,
+      "neighbors": [
+        {
+          "route_id": "co14-089",
+          "distance": 2.5957911792518393
+        },
+        {
+          "route_id": "co14-078",
+          "distance": 2.7294085110669877
+        },
+        {
+          "route_id": "co14-098",
+          "distance": 2.773998190778776
+        },
+        {
+          "route_id": "co14-086",
+          "distance": 2.9400641936809357
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 2.9738835671238757
+        }
+      ]
+    },
+    {
+      "route_id": "co14-088",
+      "label": "Castle and Conundrum",
+      "primary_peak": "Conundrum Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          0.8153350755593098,
+          -0.43580901687227613
+        ],
+        "umap": [
+          12.392663955688477,
+          -3.307326316833496
+        ],
+        "tsne": [
+          -3.3993685245513916,
+          -11.255006790161133
+        ]
+      },
+      "biplot": [
+        0.3647756024925375,
+        -0.2868254120930649
+      ],
+      "pca_representation": 0.3333043839782495,
+      "neighbors": [
+        {
+          "route_id": "co14-012",
+          "distance": 0.816991038022605
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.0232546449087758
+        },
+        {
+          "route_id": "co14-032",
+          "distance": 1.2551005613998767
+        },
+        {
+          "route_id": "co14-043",
+          "distance": 1.4617081140521035
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 1.6270053105783095
+        }
+      ]
+    },
+    {
+      "route_id": "co14-089",
+      "label": "Grays Peak - Southwest Ridge",
+      "primary_peak": "Grays Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          -1.088647535146633,
+          0.7759933828456596
+        ],
+        "umap": [
+          13.21939468383789,
+          -0.3457556962966919
+        ],
+        "tsne": [
+          2.532148838043213,
+          9.00119400024414
+        ]
+      },
+      "biplot": [
+        -0.4870538168160074,
+        0.5107159631840018
+      ],
+      "pca_representation": 0.3238410495448541,
+      "neighbors": [
+        {
+          "route_id": "co14-078",
+          "distance": 1.8444457179734226
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 1.9836751313887429
+        },
+        {
+          "route_id": "co14-003",
+          "distance": 2.0010268264796114
+        },
+        {
+          "route_id": "co14-098",
+          "distance": 2.0788910243343555
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 2.161263205086119
+        }
+      ]
+    },
+    {
+      "route_id": "co14-090",
+      "label": "Torreys Peak - West Ridge",
+      "primary_peak": "Torreys Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -0.812082902957578,
+          0.7504901245326786
+        ],
+        "umap": [
+          13.128494262695312,
+          -0.04612482339143753
+        ],
+        "tsne": [
+          3.991093158721924,
+          16.010196685791016
+        ]
+      },
+      "biplot": [
+        -0.3633206016520651,
+        0.49393112787280236
+      ],
+      "pca_representation": 0.05251885295150831,
+      "neighbors": [
+        {
+          "route_id": "co14-041",
+          "distance": 3.4259341481722827
+        },
+        {
+          "route_id": "co14-071",
+          "distance": 3.7289378935509236
+        },
+        {
+          "route_id": "co14-087",
+          "distance": 3.8059713729004647
+        },
+        {
+          "route_id": "co14-076",
+          "distance": 3.8397496702566083
+        },
+        {
+          "route_id": "co14-066",
+          "distance": 3.926538680647735
+        }
+      ]
+    },
+    {
+      "route_id": "co14-091",
+      "label": "Mt. Columbia - Southeast Ridge",
+      "primary_peak": "Mt. Columbia",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.2748725804213845,
+          0.5199620538742672
+        ],
+        "umap": [
+          13.404701232910156,
+          1.223222255706787
+        ],
+        "tsne": [
+          14.86473560333252,
+          16.840389251708984
+        ]
+      },
+      "biplot": [
+        -0.5703696891801366,
+        0.3422102907497918
+      ],
+      "pca_representation": 0.493611428701081,
+      "neighbors": [
+        {
+          "route_id": "co14-025",
+          "distance": 1.3712966200917047
+        },
+        {
+          "route_id": "co14-060",
+          "distance": 1.5421332519054862
+        },
+        {
+          "route_id": "co14-051",
+          "distance": 1.5613396959637642
+        },
+        {
+          "route_id": "co14-072",
+          "distance": 1.8987973076589288
+        },
+        {
+          "route_id": "co14-101",
+          "distance": 1.9467268607333197
+        }
+      ]
+    },
+    {
+      "route_id": "co14-092",
+      "label": "Harvard and Columbia Traverse",
+      "primary_peak": "Mt. Columbia",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 0.69,
+      "quality_flags": "complete_dry_itinerary_unverified,insufficient_valid_profile_coverage,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          0.34228759133039793,
+          3.6604190484232384
+        ],
+        "umap": [
+          11.853776931762695,
+          -0.26239389181137085
+        ],
+        "tsne": [
+          -5.349753379821777,
+          12.390613555908203
+        ]
+      },
+      "biplot": [
+        0.15313723902729814,
+        2.4090855428652036
+      ],
+      "pca_representation": 0.7486299759406652,
+      "neighbors": [
+        {
+          "route_id": "co14-063",
+          "distance": 2.0682721536477087
+        },
+        {
+          "route_id": "co14-071",
+          "distance": 3.0744819066076507
+        },
+        {
+          "route_id": "co14-098",
+          "distance": 3.0807774931980565
+        },
+        {
+          "route_id": "co14-077",
+          "distance": 3.2537619580203874
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 3.3346837281263895
+        }
+      ]
+    },
+    {
+      "route_id": "co14-093",
+      "label": "Kit Carson Peak - East Ridge",
+      "primary_peak": "Kit Carson Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          2.5636283670968134,
+          0.49550974247642976
+        ],
+        "umap": [
+          10.446501731872559,
+          -2.908923387527466
+        ],
+        "tsne": [
+          -17.285356521606445,
+          -16.542036056518555
+        ]
+      },
+      "biplot": [
+        1.1469506344164084,
+        0.3261171306227998
+      ],
+      "pca_representation": 0.8402098766924588,
+      "neighbors": [
+        {
+          "route_id": "co14-096",
+          "distance": 1.378547543473983
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 1.6846126397187327
+        },
+        {
+          "route_id": "co14-055",
+          "distance": 2.048384272588698
+        },
+        {
+          "route_id": "co14-108",
+          "distance": 2.070709967577847
+        },
+        {
+          "route_id": "co14-097",
+          "distance": 2.131524586210297
+        }
+      ]
+    },
+    {
+      "route_id": "co14-094",
+      "label": "Mt. Belford - Southwest Slopes",
+      "primary_peak": "Mt. Belford",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -2.8265456967904825,
+          -0.26439230089395677
+        ],
+        "umap": [
+          14.957027435302734,
+          1.6412159204483032
+        ],
+        "tsne": [
+          25.42235565185547,
+          17.476123809814453
+        ]
+      },
+      "biplot": [
+        -1.264578135329389,
+        -0.17400840212621851
+      ],
+      "pca_representation": 0.7235067306589119,
+      "neighbors": [
+        {
+          "route_id": "co14-065",
+          "distance": 1.0572376759051065
+        },
+        {
+          "route_id": "co14-017",
+          "distance": 1.649840717965589
+        },
+        {
+          "route_id": "co14-021",
+          "distance": 1.7499617125885538
+        },
+        {
+          "route_id": "co14-009",
+          "distance": 1.8752995913974781
+        },
+        {
+          "route_id": "co14-011",
+          "distance": 1.89656435533237
+        }
+      ]
+    },
+    {
+      "route_id": "co14-095",
+      "label": "Kit Carson Peak - North Ridge",
+      "primary_peak": "Challenger Point",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          2.886602150189478,
+          -0.973270582848775
+        ],
+        "umap": [
+          11.476717948913574,
+          -3.698871374130249
+        ],
+        "tsne": [
+          -12.631596565246582,
+          -27.011356353759766
+        ]
+      },
+      "biplot": [
+        1.2914470014298147,
+        -0.6405529146852665
+      ],
+      "pca_representation": 0.8516574110946641,
+      "neighbors": [
+        {
+          "route_id": "co14-083",
+          "distance": 2.2235009231908034
+        },
+        {
+          "route_id": "co14-062",
+          "distance": 2.2360591542462545
+        },
+        {
+          "route_id": "co14-102",
+          "distance": 2.285700829926347
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.440178357835364
+        },
+        {
+          "route_id": "co14-070",
+          "distance": 2.5285538955941593
+        }
+      ]
+    },
+    {
+      "route_id": "co14-096",
+      "label": "Snowmass Mountain - West Slope",
+      "primary_peak": "Snowmass Mountain",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,insufficient_valid_profile_coverage,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          3.0180615621405904,
+          0.4222171925355567
+        ],
+        "umap": [
+          10.039846420288086,
+          -3.0041441917419434
+        ],
+        "tsne": [
+          -18.695463180541992,
+          -17.31405258178711
+        ]
+      },
+      "biplot": [
+        1.3502610861358928,
+        0.27788002439903553
+      ],
+      "pca_representation": 0.8084053008931931,
+      "neighbors": [
+        {
+          "route_id": "co14-093",
+          "distance": 1.378547543473983
+        },
+        {
+          "route_id": "co14-055",
+          "distance": 1.7679406372662076
+        },
+        {
+          "route_id": "co14-047",
+          "distance": 1.8915920313009453
+        },
+        {
+          "route_id": "co14-077",
+          "distance": 2.3123202289884595
+        },
+        {
+          "route_id": "co14-067",
+          "distance": 2.435109178908046
+        }
+      ]
+    },
+    {
+      "route_id": "co14-097",
+      "label": "Mt. Bierstadt & Mt. Blue Sky - Tour de Abyss Loop",
+      "primary_peak": "Mt. Blue Sky",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          2.3663126407050283,
+          0.27366868388177423
+        ],
+        "umap": [
+          10.894664764404297,
+          -3.0210585594177246
+        ],
+        "tsne": [
+          -12.930808067321777,
+          -18.428211212158203
+        ]
+      },
+      "biplot": [
+        1.0586728635546052,
+        0.1801136047957473
+      ],
+      "pca_representation": 0.562926961743768,
+      "neighbors": [
+        {
+          "route_id": "co14-068",
+          "distance": 2.0294757606838925
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.131524586210297
+        },
+        {
+          "route_id": "co14-070",
+          "distance": 2.240788951860077
+        },
+        {
+          "route_id": "co14-007",
+          "distance": 2.3163632114431665
+        },
+        {
+          "route_id": "co14-056",
+          "distance": 2.4995852907437484
+        }
+      ]
+    },
+    {
+      "route_id": "co14-098",
+      "label": "Mt. Blue Sky - West Ridge from Echo Lake",
+      "primary_peak": "Mt. Blue Sky",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -1.2077215628382518,
+          2.513738343955683
+        ],
+        "umap": [
+          12.57944107055664,
+          -0.16245697438716888
+        ],
+        "tsne": [
+          -0.1300441175699234,
+          10.62045669555664
+        ]
+      },
+      "biplot": [
+        -0.5403267612709319,
+        1.654403668776162
+      ],
+      "pca_representation": 0.6596163595334645,
+      "neighbors": [
+        {
+          "route_id": "co14-089",
+          "distance": 2.0788910243343555
+        },
+        {
+          "route_id": "co14-010",
+          "distance": 2.386147576972339
+        },
+        {
+          "route_id": "co14-063",
+          "distance": 2.5008872372896422
+        },
+        {
+          "route_id": "co14-002",
+          "distance": 2.5593294311817285
+        },
+        {
+          "route_id": "co14-087",
+          "distance": 2.773998190778776
+        }
+      ]
+    },
+    {
+      "route_id": "co14-099",
+      "label": "San Luis Peak - South Ridge",
+      "primary_peak": "San Luis Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          -2.759701590695246,
+          -0.17197235399380428
+        ],
+        "umap": [
+          14.867263793945312,
+          1.070582628250122
+        ],
+        "tsne": [
+          31.818580627441406,
+          17.289905548095703
+        ]
+      },
+      "biplot": [
+        -1.2346725176209417,
+        -0.113182700204075
+      ],
+      "pca_representation": 0.7733535703502953,
+      "neighbors": [
+        {
+          "route_id": "co14-038",
+          "distance": 1.5848444035627032
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 1.8726485062039675
+        },
+        {
+          "route_id": "co14-001",
+          "distance": 1.9596738541587084
+        },
+        {
+          "route_id": "co14-075",
+          "distance": 1.9923220596771654
+        },
+        {
+          "route_id": "co14-002",
+          "distance": 2.0624559000930667
+        }
+      ]
+    },
+    {
+      "route_id": "co14-100",
+      "label": "Mt. Antero - Via Little Browns Creek",
+      "primary_peak": "Mt. Antero",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.615110397536724,
+          1.6423577424616087
+        ],
+        "umap": [
+          14.311346054077148,
+          0.37182527780532837
+        ],
+        "tsne": [
+          8.691425323486328,
+          10.448264122009277
+        ]
+      },
+      "biplot": [
+        -0.7225898725738846,
+        1.0809091093767884
+      ],
+      "pca_representation": 0.5401134405797301,
+      "neighbors": [
+        {
+          "route_id": "co14-003",
+          "distance": 1.4575589938953482
+        },
+        {
+          "route_id": "co14-010",
+          "distance": 2.258897009834166
+        },
+        {
+          "route_id": "co14-035",
+          "distance": 2.2936443307029304
+        },
+        {
+          "route_id": "co14-073",
+          "distance": 2.436404019843495
+        },
+        {
+          "route_id": "co14-053",
+          "distance": 2.4495772567361644
+        }
+      ]
+    },
+    {
+      "route_id": "co14-101",
+      "label": "Huron Peak - Southwest Slopes",
+      "primary_peak": "Huron Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.48848020766568634,
+          -0.46288030074992154
+        ],
+        "umap": [
+          13.698662757873535,
+          -1.6238105297088623
+        ],
+        "tsne": [
+          5.692835807800293,
+          0.7266973257064819
+        ]
+      },
+      "biplot": [
+        -0.21854286341685691,
+        -0.30464223518181177
+      ],
+      "pca_representation": 0.1700809126521764,
+      "neighbors": [
+        {
+          "route_id": "co14-072",
+          "distance": 1.69057469752406
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 1.8895588648922337
+        },
+        {
+          "route_id": "co14-018",
+          "distance": 1.9319612456853763
+        },
+        {
+          "route_id": "co14-037",
+          "distance": 1.9438153340472901
+        },
+        {
+          "route_id": "co14-091",
+          "distance": 1.9467268607333197
+        }
+      ]
+    },
+    {
+      "route_id": "co14-102",
+      "label": "Little Bear Peak - West Ridge Indirect",
+      "primary_peak": "Little Bear Peak",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters,gain_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          3.9232601898557546,
+          -2.2256625526468463
+        ],
+        "umap": [
+          11.163626670837402,
+          -3.8722708225250244
+        ],
+        "tsne": [
+          -10.56897258758545,
+          -26.401508331298828
+        ]
+      },
+      "biplot": [
+        1.7552410565777483,
+        -1.464808102008878
+      ],
+      "pca_representation": 0.9018810519810097,
+      "neighbors": [
+        {
+          "route_id": "co14-095",
+          "distance": 2.285700829926347
+        },
+        {
+          "route_id": "co14-020",
+          "distance": 2.290002228274123
+        },
+        {
+          "route_id": "co14-044",
+          "distance": 2.614650618587347
+        },
+        {
+          "route_id": "co14-080",
+          "distance": 3.021572308710402
+        },
+        {
+          "route_id": "co14-023",
+          "distance": 3.0528688697504553
+        }
+      ]
+    },
+    {
+      "route_id": "co14-105",
+      "label": "Belford, Oxford and Missouri",
+      "primary_peak": "Missouri Mountain",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -1.9895232789033277,
+          4.884982895839713
+        ],
+        "umap": [
+          11.945845603942871,
+          -0.10641998052597046
+        ],
+        "tsne": [
+          -6.764771938323975,
+          14.3228120803833
+        ]
+      },
+      "biplot": [
+        -0.8900997571299714,
+        3.2150257978196732
+      ],
+      "pca_representation": 0.7142691001017564,
+      "neighbors": [
+        {
+          "route_id": "co14-092",
+          "distance": 4.327777281227493
+        },
+        {
+          "route_id": "co14-063",
+          "distance": 4.803580159008887
+        },
+        {
+          "route_id": "co14-010",
+          "distance": 4.913631360689942
+        },
+        {
+          "route_id": "co14-098",
+          "distance": 4.999245976920733
+        },
+        {
+          "route_id": "co14-031",
+          "distance": 4.9992727198323275
+        }
+      ]
+    },
+    {
+      "route_id": "co14-108",
+      "label": "Mt. Lindsey - Northwest Ridge",
+      "primary_peak": "Mt. Lindsey",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified",
+      "coordinates": {
+        "pca": [
+          1.0330745481799877,
+          -0.18346326135890723
+        ],
+        "umap": [
+          12.269667625427246,
+          -2.729321002960205
+        ],
+        "tsne": [
+          -5.680136680603027,
+          -5.3004584312438965
+        ]
+      },
+      "biplot": [
+        0.4621908243964032,
+        -0.12074538044408673
+      ],
+      "pca_representation": 0.37541414103682735,
+      "neighbors": [
+        {
+          "route_id": "co14-042",
+          "distance": 1.8803066689764478
+        },
+        {
+          "route_id": "co14-083",
+          "distance": 1.914138571556106
+        },
+        {
+          "route_id": "co14-049",
+          "distance": 2.0004037531648335
+        },
+        {
+          "route_id": "co14-093",
+          "distance": 2.070709967577847
+        },
+        {
+          "route_id": "co14-088",
+          "distance": 2.079864136517798
+        }
+      ]
+    },
+    {
+      "route_id": "co14-110",
+      "label": "Mt. Wilson - North Slopes from Navajo Basin trailhead",
+      "primary_peak": "Mt. Wilson",
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,profile_edges_excluded",
+      "coordinates": {
+        "pca": [
+          2.2595513116335266,
+          2.112878161875351
+        ],
+        "umap": [
+          10.100481986999512,
+          -2.0496506690979004
+        ],
+        "tsne": [
+          -23.509239196777344,
+          -12.034276962280273
+        ]
+      },
+      "biplot": [
+        1.0109085402691822,
+        1.390579648470065
+      ],
+      "pca_representation": 0.6448305111231712,
+      "neighbors": [
+        {
+          "route_id": "co14-081",
+          "distance": 2.106953976320097
+        },
+        {
+          "route_id": "co14-016",
+          "distance": 2.332321721243612
+        },
+        {
+          "route_id": "co14-029",
+          "distance": 2.4397403167088405
+        },
+        {
+          "route_id": "co14-055",
+          "distance": 2.4608522916293
+        },
+        {
+          "route_id": "co14-015",
+          "distance": 2.577491779516932
+        }
+      ]
+    },
+    {
+      "route_id": "co14-112",
+      "label": "Sunshine Peak - Northwest Face",
+      "primary_peak": "Sunshine Peak",
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_stability": 1.0,
+      "quality_flags": "complete_dry_itinerary_unverified,density_sensitive_to_parameters",
+      "coordinates": {
+        "pca": [
+          -0.6978471848349554,
+          0.04102442307455511
+        ],
+        "umap": [
+          13.042776107788086,
+          -1.1712676286697388
+        ],
+        "tsne": [
+          1.4057016372680664,
+          1.5711385011672974
+        ]
+      },
+      "biplot": [
+        -0.3122122853861882,
+        0.027000008257488505
+      ],
+      "pca_representation": 0.1352353473710124,
+      "neighbors": [
+        {
+          "route_id": "co14-072",
+          "distance": 1.6903880203560613
+        },
+        {
+          "route_id": "co14-084",
+          "distance": 1.773364970595907
+        },
+        {
+          "route_id": "co14-071",
+          "distance": 2.018214691208054
+        },
+        {
+          "route_id": "co14-076",
+          "distance": 2.0391790085534294
+        },
+        {
+          "route_id": "co14-091",
+          "distance": 2.15108463012492
+        }
+      ]
+    }
+  ],
+  "pending": [
+    {
+      "route_id": "co14-103",
+      "label": "Little Bear Peak - Southwest Ridge",
+      "reason": "outside_frozen_103_embedding_fit"
+    },
+    {
+      "route_id": "co14-104",
+      "label": "Longs Peak - Cables ascent / Keyhole descent",
+      "reason": "outside_frozen_103_embedding_fit"
+    },
+    {
+      "route_id": "co14-106",
+      "label": "Mt. Columbia - East Ridge via Three Elk Creek",
+      "reason": "outside_frozen_103_embedding_fit"
+    },
+    {
+      "route_id": "co14-107",
+      "label": "Mt. Democrat - West Ridge (identity pending)",
+      "reason": "identity_unresolved"
+    },
+    {
+      "route_id": "co14-109",
+      "label": "Mt. Princeton - Southwest Ridge via Grouse Canyon",
+      "reason": "outside_frozen_103_embedding_fit"
+    },
+    {
+      "route_id": "co14-111",
+      "label": "Snowmass Mountain - S Ridge",
+      "reason": "outside_frozen_103_embedding_fit"
+    }
+  ],
+  "features": [
+    {
+      "key": "gpx_distance_mi",
+      "label": "Recorded distance",
+      "arrow": [
+        -0.25411992780094866,
+        0.9091103539922656
+      ],
+      "representation": 0.8910585734415019,
+      "contribution_pct": [
+        1.292578004790783,
+        35.79942386711011
+      ],
+      "bootstrap_low": [
+        -0.49982795952727266,
+        0.7888895701531484
+      ],
+      "bootstrap_high": [
+        0.027567386500715267,
+        0.9584554838851217
+      ]
+    },
+    {
+      "key": "gpx_gain_ft",
+      "label": "Recorded ascent",
+      "arrow": [
+        -0.23349777305748018,
+        0.8837423784278359
+      ],
+      "representation": 0.8355218014520908,
+      "contribution_pct": [
+        1.0913016221267235,
+        33.829391972084515
+      ],
+      "bootstrap_low": [
+        -0.5052030180009043,
+        0.7498718556393738
+      ],
+      "bootstrap_high": [
+        0.1060443602017933,
+        0.9268482557586234
+      ]
+    },
+    {
+      "key": "crux_density_medium",
+      "label": "20\u201335% grade density",
+      "arrow": [
+        -0.4410064251075749,
+        -0.37501068731771453
+      ],
+      "representation": 0.3351196825886677,
+      "contribution_pct": [
+        3.892863255882483,
+        6.091582338403586
+      ],
+      "bootstrap_low": [
+        -0.6215175685151979,
+        -0.6011915127590151
+      ],
+      "bootstrap_high": [
+        -0.25721086345516847,
+        -0.04043886922257338
+      ]
+    },
+    {
+      "key": "crux_density_extreme",
+      "label": ">35% grade density",
+      "arrow": [
+        0.7461172736312126,
+        -0.3227194395826122
+      ],
+      "representation": 0.660838822695389,
+      "contribution_pct": [
+        11.142778669125438,
+        4.51121039972235
+      ],
+      "bootstrap_low": [
+        0.5904639831783159,
+        -0.5278856750677237
+      ],
+      "bootstrap_high": [
+        0.8426461485785453,
+        -0.08351946176103879
+      ]
+    },
+    {
+      "key": "yds_encoded",
+      "label": "Climbing class (encoded)",
+      "arrow": [
+        0.8356169070424232,
+        -0.0875362309542707
+      ],
+      "representation": 0.7059182070648251,
+      "contribution_pct": [
+        13.976349485927445,
+        0.33190860799603894
+      ],
+      "bootstrap_low": [
+        0.7912806876092648,
+        -0.23039327158650905
+      ],
+      "bootstrap_high": [
+        0.8795893475923333,
+        0.06925702027034474
+      ]
+    },
+    {
+      "key": "exposure",
+      "label": "Exposure",
+      "arrow": [
+        0.9143753633786357,
+        0.045493247524155796
+      ],
+      "representation": 0.8381519407241061,
+      "contribution_pct": [
+        16.735101357145286,
+        0.08964719580905356
+      ],
+      "bootstrap_low": [
+        0.875300403205154,
+        -0.14816221107119723
+      ],
+      "bootstrap_high": [
+        0.938345531253887,
+        0.18200908402765784
+      ]
+    },
+    {
+      "key": "rockfall",
+      "label": "Rockfall",
+      "arrow": [
+        0.8343842704793112,
+        0.21212439729382349
+      ],
+      "representation": 0.7411938707505601,
+      "contribution_pct": [
+        13.935146267730318,
+        1.9490548992639922
+      ],
+      "bootstrap_low": [
+        0.7662258635457115,
+        -0.0013312553005513882
+      ],
+      "bootstrap_high": [
+        0.8895351538855073,
+        0.36148802301203353
+      ]
+    },
+    {
+      "key": "route_finding",
+      "label": "Route finding",
+      "arrow": [
+        0.8996912114406302,
+        0.20015567907146928
+      ],
+      "representation": 0.8495065718080699,
+      "contribution_pct": [
+        16.201912081351427,
+        1.7353163684851858
+      ],
+      "bootstrap_low": [
+        0.8586330181920214,
+        0.0636742229780305
+      ],
+      "bootstrap_high": [
+        0.92808147425715,
+        0.30314348452043866
+      ]
+    },
+    {
+      "key": "commitment",
+      "label": "Commitment",
+      "arrow": [
+        0.8318404383886495,
+        0.3259417939085704
+      ],
+      "representation": 0.7981965679549576,
+      "contribution_pct": [
+        13.850306137393018,
+        4.601749060475785
+      ],
+      "bootstrap_low": [
+        0.7588474455259582,
+        0.1948105875776767
+      ],
+      "bootstrap_high": [
+        0.8900002464430449,
+        0.44999912702698036
+      ]
+    },
+    {
+      "key": "longest_medium_section_mi",
+      "label": "Longest 20\u201335% section",
+      "arrow": [
+        -0.4872041580461152,
+        0.4109038118333538
+      ],
+      "representation": 0.4062098341966042,
+      "contribution_pct": [
+        4.751177845366168,
+        7.313464700950129
+      ],
+      "bootstrap_low": [
+        -0.6392967688182791,
+        0.06820858188206347
+      ],
+      "bootstrap_high": [
+        -0.29851900658860064,
+        0.6575400615873148
+      ]
+    },
+    {
+      "key": "longest_extreme_section_mi",
+      "label": "Longest >35% section",
+      "arrow": [
+        0.3954723959706346,
+        0.29412704085273383
+      ],
+      "representation": 0.24290913213554016,
+      "contribution_pct": [
+        3.1304852731609714,
+        3.747250589699383
+      ],
+      "bootstrap_low": [
+        0.12394489120246356,
+        -0.05981754726645741
+      ],
+      "bootstrap_high": [
+        0.6539576215867364,
+        0.5983071465687689
+      ]
+    }
+  ],
+  "clusters": [
+    {
+      "cluster_id": "lower_exposure_navigation",
+      "cluster_label": "Lower exposure and route-finding ratings",
+      "size": 59,
+      "stability": 0.9777966101694915,
+      "dominant_features": [
+        {
+          "feature": "exposure_encoded",
+          "mean_standardized_value": -0.7163599248552914,
+          "direction": "below_cohort_mean"
+        },
+        {
+          "feature": "route_finding_encoded",
+          "mean_standardized_value": -0.69789769196333,
+          "direction": "below_cohort_mean"
+        },
+        {
+          "feature": "commitment_encoded",
+          "mean_standardized_value": -0.6605972247539871,
+          "direction": "below_cohort_mean"
+        },
+        {
+          "feature": "rockfall_encoded",
+          "mean_standardized_value": -0.6294876145286067,
+          "direction": "below_cohort_mean"
+        }
+      ],
+      "display_label": "Lower exposure \u00b7 simpler navigation",
+      "color": "#0072B2"
+    },
+    {
+      "cluster_id": "higher_exposure_navigation",
+      "cluster_label": "Higher exposure and route-finding ratings",
+      "size": 44,
+      "stability": 0.9811363636363637,
+      "dominant_features": [
+        {
+          "feature": "exposure_encoded",
+          "mean_standardized_value": 0.9605735356014139,
+          "direction": "above_cohort_mean"
+        },
+        {
+          "feature": "route_finding_encoded",
+          "mean_standardized_value": 0.9358173596781009,
+          "direction": "above_cohort_mean"
+        },
+        {
+          "feature": "commitment_encoded",
+          "mean_standardized_value": 0.8858008241019371,
+          "direction": "above_cohort_mean"
+        },
+        {
+          "feature": "rockfall_encoded",
+          "mean_standardized_value": 0.8440856649360851,
+          "direction": "above_cohort_mean"
+        }
+      ],
+      "display_label": "Higher exposure \u00b7 more complex navigation",
+      "color": "#D55E00"
+    }
+  ],
+  "pca": {
+    "explained_variance_ratio": [
+      0.45417999368290457,
+      0.20987682493639567
+    ],
+    "full_scree_ratio": [
+      0.4541799936829049,
+      0.20987682493639537,
+      0.1122469389297394,
+      0.07532925313310355,
+      0.046701954091178804,
+      0.031682353709468716,
+      0.021919366162682023,
+      0.016375881060360725,
+      0.01253754709433324,
+      0.010060130082262341,
+      0.00908975711757091
+    ],
+    "axis_labels": [
+      "PC1 \u00b7 Exposure & technical terrain (45.4%)",
+      "PC2 \u00b7 Recorded distance & ascent (21.0%)"
+    ],
+    "population_score_sd": [
+      2.235168881877151,
+      1.5194226121459273
+    ],
+    "biplot_convention": "F=T/D; C=V*D; F C^T equals the rank-two standardized reconstruction. No arrow multiplier.",
+    "axis_note": "Biplot axes use unit-SD component scores; ordinary PCA uses original scores."
+  },
+  "methods": {
+    "pca": {
+      "domain": {
+        "x": [
+          -4.351660289259271,
+          7.307682732797774
+        ],
+        "y": [
+          -3.5988239353112768,
+          5.5134130314805265
+        ]
+      },
+      "metrics": {
+        "trustworthiness": 0.9246397547266224,
+        "mean_neighbor_overlap": 0.4194174757281553
+      }
+    },
+    "umap": {
+      "domain": {
+        "x": [
+          9.251806716918946,
+          16.245589752197265
+        ],
+        "y": [
+          -4.445457592010498,
+          2.6564918899536134
+        ]
+      },
+      "metrics": {
+        "trustworthiness": 0.9484108329075115,
+        "mean_neighbor_overlap": 0.5922330097087378
+      }
+    },
+    "tsne": {
+      "domain": {
+        "x": [
+          -29.93005187988281,
+          36.39255340576172
+        ],
+        "y": [
+          -34.48848777770996,
+          29.703629074096682
+        ]
+      },
+      "metrics": {
+        "trustworthiness": 0.962657128257537,
+        "mean_neighbor_overlap": 0.6194174757281552
+      }
+    },
+    "biplot": {
+      "domain": {
+        "x": [
+          -1.9469044708624588,
+          3.269409659399249
+        ],
+        "y": [
+          -2.3685470431617093,
+          3.6286237860405164
+        ]
+      },
+      "metrics": {
+        "trustworthiness": 0.9224527337761881,
+        "mean_neighbor_overlap": 0.41553398058252417
+      }
+    }
+  },
+  "cluster_candidates": [
+    {
+      "k": 2,
+      "silhouette": 0.2923248656055138,
+      "sizes": [
+        59,
+        44
+      ],
+      "eligible": true
+    },
+    {
+      "k": 3,
+      "silhouette": 0.2640227009195061,
+      "sizes": [
+        42,
+        55,
+        6
+      ],
+      "eligible": true
+    },
+    {
+      "k": 4,
+      "silhouette": 0.2314088160829922,
+      "sizes": [
+        27,
+        54,
+        16,
+        6
+      ],
+      "eligible": true
+    },
+    {
+      "k": 5,
+      "silhouette": 0.19479665698767307,
+      "sizes": [
+        18,
+        27,
+        24,
+        26,
+        8
+      ],
+      "eligible": true
+    },
+    {
+      "k": 6,
+      "silhouette": 0.19644898639879416,
+      "sizes": [
+        23,
+        21,
+        7,
+        16,
+        28,
+        8
+      ],
+      "eligible": true
+    }
+  ],
+  "sensitivity": {
+    "linear_class_neighbor_overlap": 0.9087378640776699,
+    "without_longest_sections_neighbor_overlap": 0.6873786407766989
+  },
+  "methodology": {
+    "neighbor_k": 5,
+    "neighbor_space": "Euclidean distance in all eleven reference-standardized features",
+    "bootstrap": "200 route resamples, scaler/PCA refitted, axes aligned; seed 20261004; shared-path dependence not corrected",
+    "cluster_stability": "Saved 100-resample membership agreement conditional on fixed k=2 and feature representation; not a probability of a true category",
+    "scope": "Recorded profiles, including partial itineraries and QA flags. Similarity is not validated difficulty or safety.",
+    "nonlinear": "UMAP/t-SNE axes have no physical meaning; islands and between-island distances are not calibrated categories."
+  }
+}

@@ -159,3 +159,65 @@ python tests/test_block3.py
 The module uses the ignored local `work/phase4_runtime` package target when present. Else install the recorded versions into your chosen research environment. Official PyPI wheel downloads and hashes are retained under `work/phase4_wheels`; runtime versions and source/config/code/feature hashes are stored in `analysis.json`. Nothing relies on a remote plotting CDN.
 
 Methods: [scikit-learn PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html), [StandardScaler](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.StandardScaler.html), [trustworthiness](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.trustworthiness.html), [UMAP parameters](https://umap-learn.readthedocs.io/en/latest/parameters.html), [UMAP reproducibility](https://umap-learn.readthedocs.io/en/latest/reproducibility.html), [t-SNE parameters and cautions](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html).
+
+## October 4, 2026: website interpretation and biplot delivery
+
+This section supersedes the historical presentation guidance above for the live site. The original research cohorts and ranking outputs remain unchanged. The website audit found 103 plotted profiles and two groups totaling 103, despite a header/footer claiming 100 and manifest 1.2.0. Its “terrain geometry” description omitted class and risk ratings; its “dominant terrain-difficulty gradient” and “spread = real difference” captions overclaimed what PCA establishes. UMAP's forced-zero domain wasted most of the chart. The page explicitly lacked loading data.
+
+### Completed plan and deliverables
+
+1. Audit the live page, identity manifest, saved scaler/components and current CSV. Reconstruct the frozen 103-route PCA to numerical tolerance before deriving anything.
+2. Preserve all original PCA/UMAP/t-SNE coordinates, cluster assignments, feature rows, scores and ranks. Ship a separate versioned interpretation bundle, avoiding a silent cohort change.
+3. Calculate exact correlation biplot points/arrows, component variance, feature contributions, representation quality, 200 aligned route-bootstrap loading intervals, full-feature neighbors and projection diagnostics. Reuse `block3_embeddings.py` numerical functions.
+4. Audit encoding and correlated-feature sensitivity. Use descriptive labels supported by measured correlations and keep nonlinear axes unnamed physically.
+5. Publish `site_embeddings.json`, the reproducible `scripts/build_site_embeddings.py`, numerical tests, `site_embeddings_biplot.png`, and `base44_embeddings_prompt.md`. This narrowly scoped public derived visualization bundle contains coordinates and interpretation statistics; raw tracks, full feature tables, source receipts and ranking models remain private.
+6. Base44 renders the contract, then verifies counts, arrow scaling, joins, interactions and accessibility. A future separately versioned 108-profile refit should compare cohort and estimate sensitivity before replacing this stable map.
+
+### Population and scope
+
+There are 109 active catalog routes, 108 provisional scores and 103 frozen mapped profiles. IDs co14-103, 104, 106, 109 and 111 have curated ranking inputs but were never part of this embedding fit; their absence from the plots is not a missing ranking. Co14-107 remains identity-unresolved. The bundle lists all six explicitly. Rankings and the 109-row feature CSV are byte-preserved. Feature version stays 3.1.1; the independent embedding interpretation version is `103-interpretation-1.0.0`.
+
+These are **recorded profiles**, often with incomplete approach/return scope, not comparable verified round trips. Four source risk ratings are ordinal, equally spaced numerically for this model; climbing class uses 1/2/4/8/16. These are assumptions, not measured interval scales. All eleven variables are population-standardized. Strongly related inputs receive separate variance weight.
+
+### Evidence-based labels
+
+PC1 captures **45.4%** of variance and is labeled **Exposure & technical terrain**: correlations are exposure +0.914, route finding +0.900, class encoding +0.836, rockfall +0.834 and commitment +0.832. PC2 captures **21.0%**, labeled **Recorded distance & ascent**, with correlations +0.909 and +0.884. The pair captures **66.4%**, leaving **33.6%** outside the display. Neither axis is a fitted or validated difficulty score.
+
+The fixed groups are **Lower exposure · simpler navigation** (59) and **Higher exposure · more complex navigation** (44), relative to this cohort. Existing k-means was fitted in standardized eleven-feature space, not in map coordinates. k=2 had the best tested silhouette (0.292 versus 0.264 at k=3), but this is modest separation and not proof of discrete natural categories. Saved bootstrap agreement near 0.98 is conditional on fixed k and representation, not independent validation or a probability of true membership. We preserve IDs and memberships and improve display labels only.
+
+### Exact biplot contract
+
+Let Z be the centered, population-standardized n×11 matrix, V the saved 11×2 component vectors, T=ZV the saved raw scores, and D the diagonal population SD of those scores. Feature arrows are C=VD, equal to correlations of each input with each component. Route biplot positions are F=TD⁻¹. Consequently **FCᵀ=TVᵀ**, exactly the rank-two standardized reconstruction. There is no decorative arrow multiplier. Raw-score PCA and the unit-SD biplot are different displays and have separate exported coordinates and diagnostics.
+
+Use equal units per screen pixel. A companion correlation circle enlarges the same arrow endpoints for legibility, not their numeric values. Feature representation is C₁²+C₂²; a feature's contribution to an axis is 100V². These quantities are not interchangeable. Route representation is (T₁²+T₂²)/||Zᵢ||², measuring the fraction of that route's squared standardized deviation represented in the plane. It is not source-data quality or certainty.
+
+Longest extreme sections have only **24.3%** representation in these two PCs; medium density **33.5%**, longest medium sections **40.6%**. Short arrows therefore do not mean irrelevant inputs. Their variation often lies outside the plotted plane. Arrow angles approximate feature relationships only when the projection represents those features well. Bootstrap intervals use 200 route resamples with scaler/PCA refitted and component identity/sign aligned (seed 20261004). Shared approaches make observations dependent; these exploratory intervals do not correct that dependence.
+
+### Projection diagnostics and sensitivity
+
+All neighbor diagnostics use k=5 against the original eleven-dimensional standardized space. Trustworthiness penalizes false neighbors introduced by projection. Exact neighbor overlap measures retained members; neither measures predictive accuracy.
+
+| View | Trustworthiness | Exact five-neighbor overlap |
+|---|---:|---:|
+| Original-score PCA | 0.925 | 41.9% |
+| Correlation biplot | 0.922 | 41.6% |
+| UMAP | 0.948 | 59.2% |
+| t-SNE | 0.963 | 61.9% |
+
+The site should identify similar routes from the exported **full-feature neighbors**, not whichever dots happen to touch. Larger t-SNE fidelity on this cohort does not establish universal superiority. Saved nonlinear parameters remain seed 42, UMAP 15 neighbors/min_dist 0.1, t-SNE perplexity 10/PCA initialization/1,500 iterations; no nonlinear refit occurred in this delivery. Historical seed/parameter studies above belong to their stated research cohorts and should not be presented as new 103-route sensitivity results.
+
+Replacing exponential class coding with linear 1–5 retains **90.9%** of input-space neighbors. Removing the two longest-section inputs retains **68.7%**. Feature definition/weighting materially affects similarity; don't market these neighborhoods as model-independent truth. A family-balanced feature sensitivity and an expanded-cohort comparison are sensible next research steps, not prerequisites to displaying this honest frozen fit.
+
+### Concrete comparisons
+
+- Capitol Northeast Ridge: nearest profiles include Mount Wilson North Slopes from Navajo Basin, Mount Wilson–El Diente Traverse, and North Maroon Northeast Ridge.
+- Quandary East Ridge: Handies Southwest Slopes, Torreys South Slopes, and Grays–Torreys combo.
+- La Plata Northwest Ridge: Yale Southwest Slopes, Shavano East Slopes, and Massive Southwest Slopes.
+
+These neighbors reflect the eleven recorded attributes; they are not claims of interchangeable hazards, outing lengths or required skills. Route selection should expose QA flags and route identity alongside similarity.
+
+### Reproduce and verify
+
+Run `python3 scripts/build_site_embeddings.py`, then `python3 -m unittest discover -s tests -p 'test_site_embeddings.py'`. The script requires the existing private CSV and audit, refuses mismatched saved PCA reconstruction, and never writes to them. The public contract records their hashes, runtime versions, and full cohort IDs. Unit tests verify exact biplot reconstruction, correlation arrows, coordinate preservation, coverage, bounds and neighbors. The static PNG is a reference preview; Base44 owns interaction and responsive styling according to the supplied prompt.
+
+Primary methods references: [scikit-learn PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html), [trustworthiness](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.trustworthiness.html), and [UMAP FAQ on clustering limitations](https://umap-learn.readthedocs.io/en/latest/faq.html).
